@@ -1,0 +1,236 @@
+cabal: Entering directory '/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/cabal-tmp-1021/hlint-2.1.10'
+Configuring hlint-2.1.10...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for hlint-2.1.10..
+Building library for hlint-2.1.10..
+[ 1 of 53] Compiling HSE.Type         ( src/HSE/Type.hs, dist/dist-sandbox-4e7c043e/build/HSE/Type.o )
+[ 2 of 53] Compiling HSE.Util         ( src/HSE/Util.hs, dist/dist-sandbox-4e7c043e/build/HSE/Util.o )
+[ 3 of 53] Compiling HSE.Scope        ( src/HSE/Scope.hs, dist/dist-sandbox-4e7c043e/build/HSE/Scope.o )
+[ 4 of 53] Compiling HSE.Match        ( src/HSE/Match.hs, dist/dist-sandbox-4e7c043e/build/HSE/Match.o )
+[ 5 of 53] Compiling HSE.Reduce       ( src/HSE/Reduce.hs, dist/dist-sandbox-4e7c043e/build/HSE/Reduce.o )
+[ 6 of 53] Compiling HsColour         ( src/HsColour.hs, dist/dist-sandbox-4e7c043e/build/HsColour.o )
+[ 7 of 53] Compiling Parallel         ( src/Parallel.hs, dist/dist-sandbox-4e7c043e/build/Parallel.o )
+[ 8 of 53] Compiling Paths_hlint      ( dist/dist-sandbox-4e7c043e/build/autogen/Paths_hlint.hs, dist/dist-sandbox-4e7c043e/build/Paths_hlint.o )
+[ 9 of 53] Compiling Test.Util        ( src/Test/Util.hs, dist/dist-sandbox-4e7c043e/build/Test/Util.o )
+[10 of 53] Compiling Test.InputOutput ( src/Test/InputOutput.hs, dist/dist-sandbox-4e7c043e/build/Test/InputOutput.o )
+[11 of 53] Compiling Timing           ( src/Timing.hs, dist/dist-sandbox-4e7c043e/build/Timing.o )
+[12 of 53] Compiling Util             ( src/Util.hs, dist/dist-sandbox-4e7c043e/build/Util.o )
+[13 of 53] Compiling HSE.All          ( src/HSE/All.hs, dist/dist-sandbox-4e7c043e/build/HSE/All.o )
+[14 of 53] Compiling Refact           ( src/Refact.hs, dist/dist-sandbox-4e7c043e/build/Refact.o )
+[15 of 53] Compiling Hint.Util        ( src/Hint/Util.hs, dist/dist-sandbox-4e7c043e/build/Hint/Util.o )
+[16 of 53] Compiling Config.Type      ( src/Config/Type.hs, dist/dist-sandbox-4e7c043e/build/Config/Type.o )
+[17 of 53] Compiling Test.Translate   ( src/Test/Translate.hs, dist/dist-sandbox-4e7c043e/build/Test/Translate.o )
+[18 of 53] Compiling Test.Proof       ( src/Test/Proof.hs, dist/dist-sandbox-4e7c043e/build/Test/Proof.o )
+[19 of 53] Compiling Idea             ( src/Idea.hs, dist/dist-sandbox-4e7c043e/build/Idea.o )
+[20 of 53] Compiling Report           ( src/Report.hs, dist/dist-sandbox-4e7c043e/build/Report.o )
+[21 of 53] Compiling CC               ( src/CC.hs, dist/dist-sandbox-4e7c043e/build/CC.o )
+[22 of 53] Compiling Hint.Type        ( src/Hint/Type.hs, dist/dist-sandbox-4e7c043e/build/Hint/Type.o )
+[23 of 53] Compiling Hint.Unsafe      ( src/Hint/Unsafe.hs, dist/dist-sandbox-4e7c043e/build/Hint/Unsafe.o )
+[24 of 53] Compiling Hint.Pragma      ( src/Hint/Pragma.hs, dist/dist-sandbox-4e7c043e/build/Hint/Pragma.o )
+[25 of 53] Compiling Hint.Pattern     ( src/Hint/Pattern.hs, dist/dist-sandbox-4e7c043e/build/Hint/Pattern.o )
+[26 of 53] Compiling Hint.NewType     ( src/Hint/NewType.hs, dist/dist-sandbox-4e7c043e/build/Hint/NewType.o )
+[27 of 53] Compiling Hint.Naming      ( src/Hint/Naming.hs, dist/dist-sandbox-4e7c043e/build/Hint/Naming.o )
+[28 of 53] Compiling Hint.Monad       ( src/Hint/Monad.hs, dist/dist-sandbox-4e7c043e/build/Hint/Monad.o )
+[29 of 53] Compiling Hint.ListRec     ( src/Hint/ListRec.hs, dist/dist-sandbox-4e7c043e/build/Hint/ListRec.o )
+[30 of 53] Compiling Hint.List        ( src/Hint/List.hs, dist/dist-sandbox-4e7c043e/build/Hint/List.o )
+[31 of 53] Compiling Hint.Lambda      ( src/Hint/Lambda.hs, dist/dist-sandbox-4e7c043e/build/Hint/Lambda.o )
+[32 of 53] Compiling Hint.Import      ( src/Hint/Import.hs, dist/dist-sandbox-4e7c043e/build/Hint/Import.o )
+[33 of 53] Compiling Hint.Extensions  ( src/Hint/Extensions.hs, dist/dist-sandbox-4e7c043e/build/Hint/Extensions.o )
+[34 of 53] Compiling Hint.Export      ( src/Hint/Export.hs, dist/dist-sandbox-4e7c043e/build/Hint/Export.o )
+[35 of 53] Compiling Hint.Duplicate   ( src/Hint/Duplicate.hs, dist/dist-sandbox-4e7c043e/build/Hint/Duplicate.o )
+[36 of 53] Compiling Hint.Comment     ( src/Hint/Comment.hs, dist/dist-sandbox-4e7c043e/build/Hint/Comment.o )
+[37 of 53] Compiling Hint.Bracket     ( src/Hint/Bracket.hs, dist/dist-sandbox-4e7c043e/build/Hint/Bracket.o )
+[38 of 53] Compiling Hint.Restrict    ( src/Hint/Restrict.hs, dist/dist-sandbox-4e7c043e/build/Hint/Restrict.o )
+[39 of 53] Compiling HSE.Unify        ( src/HSE/Unify.hs, dist/dist-sandbox-4e7c043e/build/HSE/Unify.o )
+[40 of 53] Compiling Hint.Match       ( src/Hint/Match.hs, dist/dist-sandbox-4e7c043e/build/Hint/Match.o )
+[41 of 53] Compiling Hint.All         ( src/Hint/All.hs, dist/dist-sandbox-4e7c043e/build/Hint/All.o )
+[42 of 53] Compiling Config.Yaml      ( src/Config/Yaml.hs, dist/dist-sandbox-4e7c043e/build/Config/Yaml.o )
+[43 of 53] Compiling Config.Haskell   ( src/Config/Haskell.hs, dist/dist-sandbox-4e7c043e/build/Config/Haskell.o )
+[44 of 53] Compiling Config.Read      ( src/Config/Read.hs, dist/dist-sandbox-4e7c043e/build/Config/Read.o )
+[45 of 53] Compiling Config.Compute   ( src/Config/Compute.hs, dist/dist-sandbox-4e7c043e/build/Config/Compute.o )
+[46 of 53] Compiling Apply            ( src/Apply.hs, dist/dist-sandbox-4e7c043e/build/Apply.o )
+[47 of 53] Compiling Test.Annotations ( src/Test/Annotations.hs, dist/dist-sandbox-4e7c043e/build/Test/Annotations.o )
+[48 of 53] Compiling Grep             ( src/Grep.hs, dist/dist-sandbox-4e7c043e/build/Grep.o )
+[49 of 53] Compiling CmdLine          ( src/CmdLine.hs, dist/dist-sandbox-4e7c043e/build/CmdLine.o )
+[50 of 53] Compiling Test.All         ( src/Test/All.hs, dist/dist-sandbox-4e7c043e/build/Test/All.o )
+[51 of 53] Compiling HLint            ( src/HLint.hs, dist/dist-sandbox-4e7c043e/build/HLint.o )
+[52 of 53] Compiling Language.Haskell.HLint3 ( src/Language/Haskell/HLint3.hs, dist/dist-sandbox-4e7c043e/build/Language/Haskell/HLint3.o )
+[53 of 53] Compiling Language.Haskell.HLint ( src/Language/Haskell/HLint.hs, dist/dist-sandbox-4e7c043e/build/Language/Haskell/HLint.o )
+[ 1 of 53] Compiling HSE.Type         ( src/HSE/Type.hs, dist/dist-sandbox-4e7c043e/build/HSE/Type.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 2 of 53] Compiling HSE.Util         ( src/HSE/Util.hs, dist/dist-sandbox-4e7c043e/build/HSE/Util.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 3 of 53] Compiling HSE.Scope        ( src/HSE/Scope.hs, dist/dist-sandbox-4e7c043e/build/HSE/Scope.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 4 of 53] Compiling HSE.Match        ( src/HSE/Match.hs, dist/dist-sandbox-4e7c043e/build/HSE/Match.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 5 of 53] Compiling HSE.Reduce       ( src/HSE/Reduce.hs, dist/dist-sandbox-4e7c043e/build/HSE/Reduce.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 6 of 53] Compiling HsColour         ( src/HsColour.hs, dist/dist-sandbox-4e7c043e/build/HsColour.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 7 of 53] Compiling Parallel         ( src/Parallel.hs, dist/dist-sandbox-4e7c043e/build/Parallel.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 8 of 53] Compiling Paths_hlint      ( dist/dist-sandbox-4e7c043e/build/autogen/Paths_hlint.hs, dist/dist-sandbox-4e7c043e/build/Paths_hlint.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 9 of 53] Compiling Test.Util        ( src/Test/Util.hs, dist/dist-sandbox-4e7c043e/build/Test/Util.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[10 of 53] Compiling Test.InputOutput ( src/Test/InputOutput.hs, dist/dist-sandbox-4e7c043e/build/Test/InputOutput.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[11 of 53] Compiling Timing           ( src/Timing.hs, dist/dist-sandbox-4e7c043e/build/Timing.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[12 of 53] Compiling Util             ( src/Util.hs, dist/dist-sandbox-4e7c043e/build/Util.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[13 of 53] Compiling HSE.All          ( src/HSE/All.hs, dist/dist-sandbox-4e7c043e/build/HSE/All.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[14 of 53] Compiling Refact           ( src/Refact.hs, dist/dist-sandbox-4e7c043e/build/Refact.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[15 of 53] Compiling Hint.Util        ( src/Hint/Util.hs, dist/dist-sandbox-4e7c043e/build/Hint/Util.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[16 of 53] Compiling Config.Type      ( src/Config/Type.hs, dist/dist-sandbox-4e7c043e/build/Config/Type.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[17 of 53] Compiling Test.Translate   ( src/Test/Translate.hs, dist/dist-sandbox-4e7c043e/build/Test/Translate.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[18 of 53] Compiling Test.Proof       ( src/Test/Proof.hs, dist/dist-sandbox-4e7c043e/build/Test/Proof.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[19 of 53] Compiling Idea             ( src/Idea.hs, dist/dist-sandbox-4e7c043e/build/Idea.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[20 of 53] Compiling Report           ( src/Report.hs, dist/dist-sandbox-4e7c043e/build/Report.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[21 of 53] Compiling CC               ( src/CC.hs, dist/dist-sandbox-4e7c043e/build/CC.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[22 of 53] Compiling Hint.Type        ( src/Hint/Type.hs, dist/dist-sandbox-4e7c043e/build/Hint/Type.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[23 of 53] Compiling Hint.Unsafe      ( src/Hint/Unsafe.hs, dist/dist-sandbox-4e7c043e/build/Hint/Unsafe.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[24 of 53] Compiling Hint.Pragma      ( src/Hint/Pragma.hs, dist/dist-sandbox-4e7c043e/build/Hint/Pragma.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[25 of 53] Compiling Hint.Pattern     ( src/Hint/Pattern.hs, dist/dist-sandbox-4e7c043e/build/Hint/Pattern.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[26 of 53] Compiling Hint.NewType     ( src/Hint/NewType.hs, dist/dist-sandbox-4e7c043e/build/Hint/NewType.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[27 of 53] Compiling Hint.Naming      ( src/Hint/Naming.hs, dist/dist-sandbox-4e7c043e/build/Hint/Naming.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[28 of 53] Compiling Hint.Monad       ( src/Hint/Monad.hs, dist/dist-sandbox-4e7c043e/build/Hint/Monad.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[29 of 53] Compiling Hint.ListRec     ( src/Hint/ListRec.hs, dist/dist-sandbox-4e7c043e/build/Hint/ListRec.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[30 of 53] Compiling Hint.List        ( src/Hint/List.hs, dist/dist-sandbox-4e7c043e/build/Hint/List.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[31 of 53] Compiling Hint.Lambda      ( src/Hint/Lambda.hs, dist/dist-sandbox-4e7c043e/build/Hint/Lambda.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[32 of 53] Compiling Hint.Import      ( src/Hint/Import.hs, dist/dist-sandbox-4e7c043e/build/Hint/Import.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[33 of 53] Compiling Hint.Extensions  ( src/Hint/Extensions.hs, dist/dist-sandbox-4e7c043e/build/Hint/Extensions.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[34 of 53] Compiling Hint.Export      ( src/Hint/Export.hs, dist/dist-sandbox-4e7c043e/build/Hint/Export.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[35 of 53] Compiling Hint.Duplicate   ( src/Hint/Duplicate.hs, dist/dist-sandbox-4e7c043e/build/Hint/Duplicate.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[36 of 53] Compiling Hint.Comment     ( src/Hint/Comment.hs, dist/dist-sandbox-4e7c043e/build/Hint/Comment.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[37 of 53] Compiling Hint.Bracket     ( src/Hint/Bracket.hs, dist/dist-sandbox-4e7c043e/build/Hint/Bracket.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[38 of 53] Compiling Hint.Restrict    ( src/Hint/Restrict.hs, dist/dist-sandbox-4e7c043e/build/Hint/Restrict.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[39 of 53] Compiling HSE.Unify        ( src/HSE/Unify.hs, dist/dist-sandbox-4e7c043e/build/HSE/Unify.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[40 of 53] Compiling Hint.Match       ( src/Hint/Match.hs, dist/dist-sandbox-4e7c043e/build/Hint/Match.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[41 of 53] Compiling Hint.All         ( src/Hint/All.hs, dist/dist-sandbox-4e7c043e/build/Hint/All.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[42 of 53] Compiling Config.Yaml      ( src/Config/Yaml.hs, dist/dist-sandbox-4e7c043e/build/Config/Yaml.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[43 of 53] Compiling Config.Haskell   ( src/Config/Haskell.hs, dist/dist-sandbox-4e7c043e/build/Config/Haskell.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[44 of 53] Compiling Config.Read      ( src/Config/Read.hs, dist/dist-sandbox-4e7c043e/build/Config/Read.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[45 of 53] Compiling Config.Compute   ( src/Config/Compute.hs, dist/dist-sandbox-4e7c043e/build/Config/Compute.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[46 of 53] Compiling Apply            ( src/Apply.hs, dist/dist-sandbox-4e7c043e/build/Apply.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[47 of 53] Compiling Test.Annotations ( src/Test/Annotations.hs, dist/dist-sandbox-4e7c043e/build/Test/Annotations.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[48 of 53] Compiling Grep             ( src/Grep.hs, dist/dist-sandbox-4e7c043e/build/Grep.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[49 of 53] Compiling CmdLine          ( src/CmdLine.hs, dist/dist-sandbox-4e7c043e/build/CmdLine.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[50 of 53] Compiling Test.All         ( src/Test/All.hs, dist/dist-sandbox-4e7c043e/build/Test/All.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[51 of 53] Compiling HLint            ( src/HLint.hs, dist/dist-sandbox-4e7c043e/build/HLint.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[52 of 53] Compiling Language.Haskell.HLint3 ( src/Language/Haskell/HLint3.hs, dist/dist-sandbox-4e7c043e/build/Language/Haskell/HLint3.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[53 of 53] Compiling Language.Haskell.HLint ( src/Language/Haskell/HLint.hs, dist/dist-sandbox-4e7c043e/build/Language/Haskell/HLint.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing executable 'hlint' for hlint-2.1.10..
+Building executable 'hlint' for hlint-2.1.10..
+[1 of 1] Compiling Main             ( src/Main.hs, dist/dist-sandbox-4e7c043e/build/hlint/hlint-tmp/Main.o )
+Linking dist/dist-sandbox-4e7c043e/build/hlint/hlint ...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for hlint-2.1.10..
+Running Haddock on library for hlint-2.1.10..
+Haddock coverage:
+ 100% ( 31 / 31) in 'Language.Haskell.HLint3'
+ 100% (  6 /  6) in 'Language.Haskell.HLint'
+Warning: Language.Haskell.HLint3: could not find link destinations for:
+    Setting S
+Documentation created: dist/dist-sandbox-4e7c043e/doc/html/hlint/index.html
+Preprocessing executable 'hlint' for hlint-2.1.10..
+Installing library in /Users/Bo/Documents/KI/Functioneel_Programmeren/Game/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/hlint-2.1.10-AWVm1LZAodz8oXfpW5EwVs
+Installing executable hlint in /Users/Bo/Documents/KI/Functioneel_Programmeren/Game/.cabal-sandbox/bin
+cabal: Leaving directory '/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/cabal-tmp-1021/hlint-2.1.10'

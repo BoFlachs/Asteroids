@@ -1,0 +1,414 @@
+cabal: Entering directory '/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/cabal-tmp-1023/polyparse-1.12'
+Configuring polyparse-1.12...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for polyparse-1.12..
+Building library for polyparse-1.12..
+[ 1 of 18] Compiling Text.ParserCombinators.HuttonMeijer ( src/Text/ParserCombinators/HuttonMeijer.hs, dist/dist-sandbox-4e7c043e/build/Text/ParserCombinators/HuttonMeijer.o )
+[ 2 of 18] Compiling Text.ParserCombinators.HuttonMeijerWallace ( src/Text/ParserCombinators/HuttonMeijerWallace.hs, dist/dist-sandbox-4e7c043e/build/Text/ParserCombinators/HuttonMeijerWallace.o )
+[ 3 of 18] Compiling Text.ParserCombinators.Poly.Base ( src/Text/ParserCombinators/Poly/Base.hs, dist/dist-sandbox-4e7c043e/build/Text/ParserCombinators/Poly/Base.o )
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc3319_0/ghc_7.hscpp:86:19: warning: [-Wtabs]
+    Tab character found here, and in 14 further locations.
+    Please use spaces instead.
+   |
+86 |     Commitment(..)      -- class of all two-level-error values
+   |                   ^^^^^^
+[ 4 of 18] Compiling Text.ParserCombinators.Poly.Result ( src/Text/ParserCombinators/Poly/Result.hs, dist/dist-sandbox-4e7c043e/build/Text/ParserCombinators/Poly/Result.o )
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc3319_0/ghc_9.hscpp:86:15: warning: [-Wtabs]
+    Tab character found here.
+    Please use spaces instead.
+   |
+86 |     Result(..)  -- A parsing result type, with Success, Failure, and Commitment.
+   |               ^^
+[ 5 of 18] Compiling Text.ParserCombinators.Poly.Parser ( src/Text/ParserCombinators/Poly/Parser.hs, dist/dist-sandbox-4e7c043e/build/Text/ParserCombinators/Poly/Parser.o )
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc3319_0/ghc_11.hscpp:90:14: warning: [-Wtabs]
+    Tab character found here, and in 8 further locations.
+    Please use spaces instead.
+   |
+90 |     Parser(P)   -- datatype, instance of: Functor, Monad, PolyParse
+   |              ^^^
+[ 6 of 18] Compiling Text.ParserCombinators.Poly.Plain ( src/Text/ParserCombinators/Poly/Plain.hs, dist/dist-sandbox-4e7c043e/build/Text/ParserCombinators/Poly/Plain.o )
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc3319_0/ghc_13.hscpp:86:14: warning: [-Wtabs]
+    Tab character found here, and in 9 further locations.
+    Please use spaces instead.
+   |
+86 |     Parser(P)   -- datatype, instance of: Functor, Monad, PolyParse
+   |              ^^^
+[ 7 of 18] Compiling Text.ParserCombinators.Poly ( src/Text/ParserCombinators/Poly.hs, dist/dist-sandbox-4e7c043e/build/Text/ParserCombinators/Poly.o )
+[ 8 of 18] Compiling Text.Parse       ( src/Text/Parse.hs, dist/dist-sandbox-4e7c043e/build/Text/Parse.o )
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc3319_0/ghc_25.hscpp:87:15: warning: [-Wtabs]
+    Tab character found here, and in 12 further locations.
+    Please use spaces instead.
+   |
+87 |     TextParser  -- synonym for Parser Char, i.e. string input, no state
+   |               ^^
+[ 9 of 18] Compiling Text.ParserCombinators.Poly.Lex ( src/Text/ParserCombinators/Poly/Lex.hs, dist/dist-sandbox-4e7c043e/build/Text/ParserCombinators/Poly/Lex.o )
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc3319_0/ghc_23.hscpp:172:18: warning: [-Wtabs]
+    Tab character found here.
+    Please use spaces instead.
+    |
+172 | infixl 6 `onFail`       -- not sure about precedence 6?
+    |                  ^^^^^^^
+[10 of 18] Compiling Text.ParserCombinators.Poly.Lazy ( src/Text/ParserCombinators/Poly/Lazy.hs, dist/dist-sandbox-4e7c043e/build/Text/ParserCombinators/Poly/Lazy.o )
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc3319_0/ghc_15.hscpp:87:14: warning: [-Wtabs]
+    Tab character found here, and in 8 further locations.
+    Please use spaces instead.
+   |
+87 |     Parser(P)   -- datatype, instance of: Functor, Monad, PolyParse
+   |              ^^^
+[11 of 18] Compiling Text.ParserCombinators.Poly.ByteStringChar ( src/Text/ParserCombinators/Poly/ByteStringChar.hs, dist/dist-sandbox-4e7c043e/build/Text/ParserCombinators/Poly/ByteStringChar.o )
+[12 of 18] Compiling Text.Parse.ByteString ( src/Text/Parse/ByteString.hs, dist/dist-sandbox-4e7c043e/build/Text/Parse/ByteString.o )
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc3319_0/ghc_31.hscpp:88:15: warning: [-Wtabs]
+    Tab character found here, and in 13 further locations.
+    Please use spaces instead.
+   |
+88 |     TextParser  -- synonym for Text.ParserCombinators.Poly.ByteString
+   |               ^^
+[13 of 18] Compiling Text.ParserCombinators.Poly.ByteString ( src/Text/ParserCombinators/Poly/ByteString.hs, dist/dist-sandbox-4e7c043e/build/Text/ParserCombinators/Poly/ByteString.o )
+[14 of 18] Compiling Text.ParserCombinators.Poly.StateParser ( src/Text/ParserCombinators/Poly/StateParser.hs, dist/dist-sandbox-4e7c043e/build/Text/ParserCombinators/Poly/StateParser.o )
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc3319_0/ghc_17.hscpp:90:14: warning: [-Wtabs]
+    Tab character found here, and in 7 further locations.
+    Please use spaces instead.
+   |
+90 |     Parser(P)   -- datatype, instance of: Functor, Monad, PolyParse
+   |              ^^^
+[15 of 18] Compiling Text.ParserCombinators.Poly.StateLazy ( src/Text/ParserCombinators/Poly/StateLazy.hs, dist/dist-sandbox-4e7c043e/build/Text/ParserCombinators/Poly/StateLazy.o )
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc3319_0/ghc_21.hscpp:87:14: warning: [-Wtabs]
+    Tab character found here, and in 8 further locations.
+    Please use spaces instead.
+   |
+87 |     Parser(P)   -- datatype, instance of: Functor, Monad, PolyParse
+   |              ^^^
+[16 of 18] Compiling Text.ParserCombinators.Poly.State ( src/Text/ParserCombinators/Poly/State.hs, dist/dist-sandbox-4e7c043e/build/Text/ParserCombinators/Poly/State.o )
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc3319_0/ghc_19.hscpp:86:14: warning: [-Wtabs]
+    Tab character found here, and in 8 further locations.
+    Please use spaces instead.
+   |
+86 |     Parser(P)   -- datatype, instance of: Functor, Monad, PolyParse
+   |              ^^^
+[17 of 18] Compiling Text.ParserCombinators.Poly.StateText ( src/Text/ParserCombinators/Poly/StateText.hs, dist/dist-sandbox-4e7c043e/build/Text/ParserCombinators/Poly/StateText.o )
+[18 of 18] Compiling Text.ParserCombinators.Poly.Text ( src/Text/ParserCombinators/Poly/Text.hs, dist/dist-sandbox-4e7c043e/build/Text/ParserCombinators/Poly/Text.o )
+[ 1 of 18] Compiling Text.ParserCombinators.HuttonMeijer ( src/Text/ParserCombinators/HuttonMeijer.hs, dist/dist-sandbox-4e7c043e/build/Text/ParserCombinators/HuttonMeijer.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 2 of 18] Compiling Text.ParserCombinators.HuttonMeijerWallace ( src/Text/ParserCombinators/HuttonMeijerWallace.hs, dist/dist-sandbox-4e7c043e/build/Text/ParserCombinators/HuttonMeijerWallace.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 3 of 18] Compiling Text.ParserCombinators.Poly.Base ( src/Text/ParserCombinators/Poly/Base.hs, dist/dist-sandbox-4e7c043e/build/Text/ParserCombinators/Poly/Base.p_o )
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4012_0/ghc_7.hscpp:86:19: warning: [-Wtabs]
+    Tab character found here, and in 14 further locations.
+    Please use spaces instead.
+   |
+86 |     Commitment(..)      -- class of all two-level-error values
+   |                   ^^^^^^
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 4 of 18] Compiling Text.ParserCombinators.Poly.Result ( src/Text/ParserCombinators/Poly/Result.hs, dist/dist-sandbox-4e7c043e/build/Text/ParserCombinators/Poly/Result.p_o )
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4012_0/ghc_9.hscpp:86:15: warning: [-Wtabs]
+    Tab character found here.
+    Please use spaces instead.
+   |
+86 |     Result(..)  -- A parsing result type, with Success, Failure, and Commitment.
+   |               ^^
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 5 of 18] Compiling Text.ParserCombinators.Poly.Parser ( src/Text/ParserCombinators/Poly/Parser.hs, dist/dist-sandbox-4e7c043e/build/Text/ParserCombinators/Poly/Parser.p_o )
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4012_0/ghc_11.hscpp:90:14: warning: [-Wtabs]
+    Tab character found here, and in 8 further locations.
+    Please use spaces instead.
+   |
+90 |     Parser(P)   -- datatype, instance of: Functor, Monad, PolyParse
+   |              ^^^
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 6 of 18] Compiling Text.ParserCombinators.Poly.Plain ( src/Text/ParserCombinators/Poly/Plain.hs, dist/dist-sandbox-4e7c043e/build/Text/ParserCombinators/Poly/Plain.p_o )
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4012_0/ghc_13.hscpp:86:14: warning: [-Wtabs]
+    Tab character found here, and in 9 further locations.
+    Please use spaces instead.
+   |
+86 |     Parser(P)   -- datatype, instance of: Functor, Monad, PolyParse
+   |              ^^^
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 7 of 18] Compiling Text.ParserCombinators.Poly ( src/Text/ParserCombinators/Poly.hs, dist/dist-sandbox-4e7c043e/build/Text/ParserCombinators/Poly.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 8 of 18] Compiling Text.Parse       ( src/Text/Parse.hs, dist/dist-sandbox-4e7c043e/build/Text/Parse.p_o )
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4012_0/ghc_25.hscpp:87:15: warning: [-Wtabs]
+    Tab character found here, and in 12 further locations.
+    Please use spaces instead.
+   |
+87 |     TextParser  -- synonym for Parser Char, i.e. string input, no state
+   |               ^^
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 9 of 18] Compiling Text.ParserCombinators.Poly.Lex ( src/Text/ParserCombinators/Poly/Lex.hs, dist/dist-sandbox-4e7c043e/build/Text/ParserCombinators/Poly/Lex.p_o )
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4012_0/ghc_23.hscpp:172:18: warning: [-Wtabs]
+    Tab character found here.
+    Please use spaces instead.
+    |
+172 | infixl 6 `onFail`       -- not sure about precedence 6?
+    |                  ^^^^^^^
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[10 of 18] Compiling Text.ParserCombinators.Poly.Lazy ( src/Text/ParserCombinators/Poly/Lazy.hs, dist/dist-sandbox-4e7c043e/build/Text/ParserCombinators/Poly/Lazy.p_o )
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4012_0/ghc_15.hscpp:87:14: warning: [-Wtabs]
+    Tab character found here, and in 8 further locations.
+    Please use spaces instead.
+   |
+87 |     Parser(P)   -- datatype, instance of: Functor, Monad, PolyParse
+   |              ^^^
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[11 of 18] Compiling Text.ParserCombinators.Poly.ByteStringChar ( src/Text/ParserCombinators/Poly/ByteStringChar.hs, dist/dist-sandbox-4e7c043e/build/Text/ParserCombinators/Poly/ByteStringChar.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[12 of 18] Compiling Text.Parse.ByteString ( src/Text/Parse/ByteString.hs, dist/dist-sandbox-4e7c043e/build/Text/Parse/ByteString.p_o )
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4012_0/ghc_31.hscpp:88:15: warning: [-Wtabs]
+    Tab character found here, and in 13 further locations.
+    Please use spaces instead.
+   |
+88 |     TextParser  -- synonym for Text.ParserCombinators.Poly.ByteString
+   |               ^^
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[13 of 18] Compiling Text.ParserCombinators.Poly.ByteString ( src/Text/ParserCombinators/Poly/ByteString.hs, dist/dist-sandbox-4e7c043e/build/Text/ParserCombinators/Poly/ByteString.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[14 of 18] Compiling Text.ParserCombinators.Poly.StateParser ( src/Text/ParserCombinators/Poly/StateParser.hs, dist/dist-sandbox-4e7c043e/build/Text/ParserCombinators/Poly/StateParser.p_o )
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4012_0/ghc_17.hscpp:90:14: warning: [-Wtabs]
+    Tab character found here, and in 7 further locations.
+    Please use spaces instead.
+   |
+90 |     Parser(P)   -- datatype, instance of: Functor, Monad, PolyParse
+   |              ^^^
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[15 of 18] Compiling Text.ParserCombinators.Poly.StateLazy ( src/Text/ParserCombinators/Poly/StateLazy.hs, dist/dist-sandbox-4e7c043e/build/Text/ParserCombinators/Poly/StateLazy.p_o )
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4012_0/ghc_21.hscpp:87:14: warning: [-Wtabs]
+    Tab character found here, and in 8 further locations.
+    Please use spaces instead.
+   |
+87 |     Parser(P)   -- datatype, instance of: Functor, Monad, PolyParse
+   |              ^^^
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[16 of 18] Compiling Text.ParserCombinators.Poly.State ( src/Text/ParserCombinators/Poly/State.hs, dist/dist-sandbox-4e7c043e/build/Text/ParserCombinators/Poly/State.p_o )
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4012_0/ghc_19.hscpp:86:14: warning: [-Wtabs]
+    Tab character found here, and in 8 further locations.
+    Please use spaces instead.
+   |
+86 |     Parser(P)   -- datatype, instance of: Functor, Monad, PolyParse
+   |              ^^^
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[17 of 18] Compiling Text.ParserCombinators.Poly.StateText ( src/Text/ParserCombinators/Poly/StateText.hs, dist/dist-sandbox-4e7c043e/build/Text/ParserCombinators/Poly/StateText.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[18 of 18] Compiling Text.ParserCombinators.Poly.Text ( src/Text/ParserCombinators/Poly/Text.hs, dist/dist-sandbox-4e7c043e/build/Text/ParserCombinators/Poly/Text.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for polyparse-1.12..
+Running Haddock on library for polyparse-1.12..
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_7.hscpp:86:19: warning: [-Wtabs]
+    Tab character found here, and in 14 further locations.
+    Please use spaces instead.
+   |
+86 |     Commitment(..)      -- class of all two-level-error values
+   |                   ^^^^^^
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_9.hscpp:86:15: warning: [-Wtabs]
+    Tab character found here.
+    Please use spaces instead.
+   |
+86 |     Result(..)  -- A parsing result type, with Success, Failure, and Commitment.
+   |               ^^
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_11.hscpp:90:14: warning: [-Wtabs]
+    Tab character found here, and in 8 further locations.
+    Please use spaces instead.
+   |
+90 |     Parser(P)   -- datatype, instance of: Functor, Monad, PolyParse
+   |              ^^^
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_13.hscpp:86:14: warning: [-Wtabs]
+    Tab character found here, and in 9 further locations.
+    Please use spaces instead.
+   |
+86 |     Parser(P)   -- datatype, instance of: Functor, Monad, PolyParse
+   |              ^^^
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_25.hscpp:87:15: warning: [-Wtabs]
+    Tab character found here, and in 12 further locations.
+    Please use spaces instead.
+   |
+87 |     TextParser  -- synonym for Parser Char, i.e. string input, no state
+   |               ^^
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_23.hscpp:172:18: warning: [-Wtabs]
+    Tab character found here.
+    Please use spaces instead.
+    |
+172 | infixl 6 `onFail`       -- not sure about precedence 6?
+    |                  ^^^^^^^
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_15.hscpp:87:14: warning: [-Wtabs]
+    Tab character found here, and in 8 further locations.
+    Please use spaces instead.
+   |
+87 |     Parser(P)   -- datatype, instance of: Functor, Monad, PolyParse
+   |              ^^^
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_31.hscpp:88:15: warning: [-Wtabs]
+    Tab character found here, and in 13 further locations.
+    Please use spaces instead.
+   |
+88 |     TextParser  -- synonym for Text.ParserCombinators.Poly.ByteString
+   |               ^^
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_17.hscpp:90:14: warning: [-Wtabs]
+    Tab character found here, and in 7 further locations.
+    Please use spaces instead.
+   |
+90 |     Parser(P)   -- datatype, instance of: Functor, Monad, PolyParse
+   |              ^^^
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_21.hscpp:87:14: warning: [-Wtabs]
+    Tab character found here, and in 8 further locations.
+    Please use spaces instead.
+   |
+87 |     Parser(P)   -- datatype, instance of: Functor, Monad, PolyParse
+   |              ^^^
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_19.hscpp:86:14: warning: [-Wtabs]
+    Tab character found here, and in 8 further locations.
+    Please use spaces instead.
+   |
+86 |     Parser(P)   -- datatype, instance of: Functor, Monad, PolyParse
+   |              ^^^
+Haddock coverage:
+   6% (  2 / 36) in 'Text.ParserCombinators.HuttonMeijer'
+  Missing documentation for:
+    item (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_1.hscpp:166)
+    first (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_1.hscpp:171)
+    papply (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_1.hscpp:176)
+    +++ (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_1.hscpp:183)
+    sat (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_1.hscpp:186)
+    many (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_1.hscpp:192)
+    many1 (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_1.hscpp:196)
+    sepby (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_1.hscpp:199)
+    sepby1 (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_1.hscpp:202)
+    chainl (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_1.hscpp:205)
+    chainl1 (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_1.hscpp:208)
+    chainr (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_1.hscpp:214)
+    chainr1 (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_1.hscpp:217)
+    ops (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_1.hscpp:223)
+    bracket (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_1.hscpp:226)
+    char (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_1.hscpp:233)
+    digit (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_1.hscpp:236)
+    lower (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_1.hscpp:239)
+    upper (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_1.hscpp:242)
+    letter (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_1.hscpp:245)
+    alphanum (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_1.hscpp:248)
+    string (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_1.hscpp:251)
+    ident (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_1.hscpp:255)
+    nat (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_1.hscpp:258)
+    int (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_1.hscpp:263)
+    spaces (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_1.hscpp:270)
+    comment (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_1.hscpp:273)
+    junk (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_1.hscpp:283)
+    skip (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_1.hscpp:286)
+    token (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_1.hscpp:289)
+    natural (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_1.hscpp:296)
+    integer (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_1.hscpp:299)
+    symbol (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_1.hscpp:302)
+    identifier (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_1.hscpp:305)
+  77% ( 24 / 31) in 'Text.ParserCombinators.HuttonMeijerWallace'
+  Missing documentation for:
+    Parser (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_3.hscpp:149)
+    chainl (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_3.hscpp:303)
+    chainl1 (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_3.hscpp:307)
+    chainr (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_3.hscpp:313)
+    chainr1 (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_3.hscpp:317)
+    ops (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_3.hscpp:326)
+    bracket (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_3.hscpp:329)
+  96% ( 23 / 24) in 'Text.ParserCombinators.Poly.Base'
+  Missing documentation for:
+    Module header
+  75% (  3 /  4) in 'Text.ParserCombinators.Poly.Result'
+  Missing documentation for:
+    Module header
+ 100% ( 12 / 12) in 'Text.ParserCombinators.Poly.Parser'
+  94% ( 15 / 16) in 'Text.ParserCombinators.Poly.Plain'
+  Missing documentation for:
+    Module header
+  50% (  1 /  2) in 'Text.ParserCombinators.Poly'
+  Missing documentation for:
+    Module header
+  77% ( 23 / 30) in 'Text.Parse'
+  Missing documentation for:
+    Module header
+    parseSigned (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_25.hscpp:312)
+    parseInt (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_25.hscpp:317)
+    parseDec (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_25.hscpp:325)
+    parseOct (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_25.hscpp:325)
+    parseHex (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_25.hscpp:325)
+    parseFloat (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_25.hscpp:330)
+ 100% ( 16 / 16) in 'Text.ParserCombinators.Poly.Lex'
+  94% ( 15 / 16) in 'Text.ParserCombinators.Poly.Lazy'
+  Missing documentation for:
+    Module header
+  94% ( 16 / 17) in 'Text.ParserCombinators.Poly.ByteStringChar'
+  Missing documentation for:
+    Module header
+  97% ( 31 / 32) in 'Text.Parse.ByteString'
+  Missing documentation for:
+    Module header
+  94% ( 16 / 17) in 'Text.ParserCombinators.Poly.ByteString'
+  Missing documentation for:
+    Module header
+ 100% ( 15 / 15) in 'Text.ParserCombinators.Poly.StateParser'
+  94% ( 33 / 35) in 'Text.ParserCombinators.Poly.StateLazy'
+  Missing documentation for:
+    Module header
+    manyFinally (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4520_0/ghc_21.hscpp:212)
+  95% ( 18 / 19) in 'Text.ParserCombinators.Poly.State'
+  Missing documentation for:
+    Module header
+  95% ( 21 / 22) in 'Text.ParserCombinators.Poly.StateText'
+  Missing documentation for:
+    Module header
+  94% ( 17 / 18) in 'Text.ParserCombinators.Poly.Text'
+  Missing documentation for:
+    Module header
+Warning: Text.ParserCombinators.HuttonMeijer: could not find link destinations for:
+    Token
+Warning: Text.ParserCombinators.HuttonMeijerWallace: could not find link destinations for:
+    ParseResult
+Documentation created:
+dist/dist-sandbox-4e7c043e/doc/html/polyparse/index.html
+Installing library in /Users/Bo/Documents/KI/Functioneel_Programmeren/Game/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/polyparse-1.12-AafkYPRdYin98WnFInxf9
+cabal: Leaving directory '/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/cabal-tmp-1023/polyparse-1.12'

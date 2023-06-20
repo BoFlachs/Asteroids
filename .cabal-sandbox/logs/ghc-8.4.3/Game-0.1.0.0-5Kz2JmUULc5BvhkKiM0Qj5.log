@@ -1,0 +1,14 @@
+cabal: Entering directory '.'
+Configuring Game-0.1.0.0...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing executable 'Game' for Game-0.1.0.0..
+Building executable 'Game' for Game-0.1.0.0..
+[1 of 1] Compiling Main             ( src/Main.hs, dist/dist-sandbox-4e7c043e/build/Game/Game-tmp/Main.o )
+Linking dist/dist-sandbox-4e7c043e/build/Game/Game ...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Warning: No documentation was generated as this package does not contain a
+library. Perhaps you want to use the --executables, --tests, --benchmarks or
+--foreign-libraries flags.
+Installing executable Game in /Users/Bo/Documents/KI/Functioneel_Programmeren/Game/.cabal-sandbox/bin
+cabal: Leaving directory '.'

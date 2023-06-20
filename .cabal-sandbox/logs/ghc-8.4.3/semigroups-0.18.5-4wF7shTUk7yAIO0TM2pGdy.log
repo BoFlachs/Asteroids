@@ -1,0 +1,23 @@
+cabal: Entering directory '/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/cabal-tmp-1022/semigroups-0.18.5'
+Configuring semigroups-0.18.5...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for semigroups-0.18.5..
+Building library for semigroups-0.18.5..
+[1 of 1] Compiling Data.Semigroup.Generic ( src/Data/Semigroup/Generic.hs, dist/dist-sandbox-4e7c043e/build/Data/Semigroup/Generic.o )
+[1 of 1] Compiling Data.Semigroup.Generic ( src/Data/Semigroup/Generic.hs, dist/dist-sandbox-4e7c043e/build/Data/Semigroup/Generic.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for semigroups-0.18.5..
+Running Haddock on library for semigroups-0.18.5..
+Haddock coverage:
+  60% (  3 /  5) in 'Data.Semigroup.Generic'
+  Missing documentation for:
+    GSemigroup (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4291_0/ghc_1.hscpp:111)
+    GMonoid (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc4291_0/ghc_1.hscpp:141)
+Warning: Data.Semigroup.Generic: could not find link destinations for:
+    gmappend' gmempty'
+Documentation created:
+dist/dist-sandbox-4e7c043e/doc/html/semigroups/index.html
+Installing library in /Users/Bo/Documents/KI/Functioneel_Programmeren/Game/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/semigroups-0.18.5-4wF7shTUk7yAIO0TM2pGdy
+cabal: Leaving directory '/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/cabal-tmp-1022/semigroups-0.18.5'

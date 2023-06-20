@@ -1,0 +1,84 @@
+cabal: Entering directory '/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/cabal-tmp-1023/cpphs-1.20.8'
+Configuring cpphs-1.20.8...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing executable 'cpphs' for cpphs-1.20.8..
+Building executable 'cpphs' for cpphs-1.20.8..
+[ 1 of 12] Compiling Language.Preprocessor.Cpphs.HashDefine ( Language/Preprocessor/Cpphs/HashDefine.hs, dist/dist-sandbox-4e7c043e/build/cpphs/cpphs-tmp/Language/Preprocessor/Cpphs/HashDefine.o )
+[ 2 of 12] Compiling Language.Preprocessor.Cpphs.Options ( Language/Preprocessor/Cpphs/Options.hs, dist/dist-sandbox-4e7c043e/build/cpphs/cpphs-tmp/Language/Preprocessor/Cpphs/Options.o )
+[ 3 of 12] Compiling Language.Preprocessor.Cpphs.Position ( Language/Preprocessor/Cpphs/Position.hs, dist/dist-sandbox-4e7c043e/build/cpphs/cpphs-tmp/Language/Preprocessor/Cpphs/Position.o )
+[ 4 of 12] Compiling Language.Preprocessor.Cpphs.ReadFirst ( Language/Preprocessor/Cpphs/ReadFirst.hs, dist/dist-sandbox-4e7c043e/build/cpphs/cpphs-tmp/Language/Preprocessor/Cpphs/ReadFirst.o )
+[ 5 of 12] Compiling Language.Preprocessor.Cpphs.SymTab ( Language/Preprocessor/Cpphs/SymTab.hs, dist/dist-sandbox-4e7c043e/build/cpphs/cpphs-tmp/Language/Preprocessor/Cpphs/SymTab.o )
+[ 6 of 12] Compiling Language.Preprocessor.Cpphs.Tokenise ( Language/Preprocessor/Cpphs/Tokenise.hs, dist/dist-sandbox-4e7c043e/build/cpphs/cpphs-tmp/Language/Preprocessor/Cpphs/Tokenise.o )
+[ 7 of 12] Compiling Language.Preprocessor.Cpphs.MacroPass ( Language/Preprocessor/Cpphs/MacroPass.hs, dist/dist-sandbox-4e7c043e/build/cpphs/cpphs-tmp/Language/Preprocessor/Cpphs/MacroPass.o )
+[ 8 of 12] Compiling Language.Preprocessor.Cpphs.CppIfdef ( Language/Preprocessor/Cpphs/CppIfdef.hs, dist/dist-sandbox-4e7c043e/build/cpphs/cpphs-tmp/Language/Preprocessor/Cpphs/CppIfdef.o )
+[ 9 of 12] Compiling Language.Preprocessor.Unlit ( Language/Preprocessor/Unlit.hs, dist/dist-sandbox-4e7c043e/build/cpphs/cpphs-tmp/Language/Preprocessor/Unlit.o )
+[10 of 12] Compiling Language.Preprocessor.Cpphs.RunCpphs ( Language/Preprocessor/Cpphs/RunCpphs.hs, dist/dist-sandbox-4e7c043e/build/cpphs/cpphs-tmp/Language/Preprocessor/Cpphs/RunCpphs.o )
+[11 of 12] Compiling Language.Preprocessor.Cpphs ( Language/Preprocessor/Cpphs.hs, dist/dist-sandbox-4e7c043e/build/cpphs/cpphs-tmp/Language/Preprocessor/Cpphs.o )
+[12 of 12] Compiling Main             ( cpphs.hs, dist/dist-sandbox-4e7c043e/build/cpphs/cpphs-tmp/Main.o )
+Linking dist/dist-sandbox-4e7c043e/build/cpphs/cpphs ...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for cpphs-1.20.8..
+Building library for cpphs-1.20.8..
+[ 1 of 11] Compiling Language.Preprocessor.Cpphs.HashDefine ( Language/Preprocessor/Cpphs/HashDefine.hs, dist/dist-sandbox-4e7c043e/build/Language/Preprocessor/Cpphs/HashDefine.o )
+[ 2 of 11] Compiling Language.Preprocessor.Cpphs.Options ( Language/Preprocessor/Cpphs/Options.hs, dist/dist-sandbox-4e7c043e/build/Language/Preprocessor/Cpphs/Options.o )
+[ 3 of 11] Compiling Language.Preprocessor.Cpphs.Position ( Language/Preprocessor/Cpphs/Position.hs, dist/dist-sandbox-4e7c043e/build/Language/Preprocessor/Cpphs/Position.o )
+[ 4 of 11] Compiling Language.Preprocessor.Cpphs.ReadFirst ( Language/Preprocessor/Cpphs/ReadFirst.hs, dist/dist-sandbox-4e7c043e/build/Language/Preprocessor/Cpphs/ReadFirst.o )
+[ 5 of 11] Compiling Language.Preprocessor.Cpphs.SymTab ( Language/Preprocessor/Cpphs/SymTab.hs, dist/dist-sandbox-4e7c043e/build/Language/Preprocessor/Cpphs/SymTab.o )
+[ 6 of 11] Compiling Language.Preprocessor.Cpphs.Tokenise ( Language/Preprocessor/Cpphs/Tokenise.hs, dist/dist-sandbox-4e7c043e/build/Language/Preprocessor/Cpphs/Tokenise.o )
+[ 7 of 11] Compiling Language.Preprocessor.Cpphs.MacroPass ( Language/Preprocessor/Cpphs/MacroPass.hs, dist/dist-sandbox-4e7c043e/build/Language/Preprocessor/Cpphs/MacroPass.o )
+[ 8 of 11] Compiling Language.Preprocessor.Cpphs.CppIfdef ( Language/Preprocessor/Cpphs/CppIfdef.hs, dist/dist-sandbox-4e7c043e/build/Language/Preprocessor/Cpphs/CppIfdef.o )
+[ 9 of 11] Compiling Language.Preprocessor.Unlit ( Language/Preprocessor/Unlit.hs, dist/dist-sandbox-4e7c043e/build/Language/Preprocessor/Unlit.o )
+[10 of 11] Compiling Language.Preprocessor.Cpphs.RunCpphs ( Language/Preprocessor/Cpphs/RunCpphs.hs, dist/dist-sandbox-4e7c043e/build/Language/Preprocessor/Cpphs/RunCpphs.o )
+[11 of 11] Compiling Language.Preprocessor.Cpphs ( Language/Preprocessor/Cpphs.hs, dist/dist-sandbox-4e7c043e/build/Language/Preprocessor/Cpphs.o )
+[ 1 of 11] Compiling Language.Preprocessor.Cpphs.HashDefine ( Language/Preprocessor/Cpphs/HashDefine.hs, dist/dist-sandbox-4e7c043e/build/Language/Preprocessor/Cpphs/HashDefine.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 2 of 11] Compiling Language.Preprocessor.Cpphs.Options ( Language/Preprocessor/Cpphs/Options.hs, dist/dist-sandbox-4e7c043e/build/Language/Preprocessor/Cpphs/Options.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 3 of 11] Compiling Language.Preprocessor.Cpphs.Position ( Language/Preprocessor/Cpphs/Position.hs, dist/dist-sandbox-4e7c043e/build/Language/Preprocessor/Cpphs/Position.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 4 of 11] Compiling Language.Preprocessor.Cpphs.ReadFirst ( Language/Preprocessor/Cpphs/ReadFirst.hs, dist/dist-sandbox-4e7c043e/build/Language/Preprocessor/Cpphs/ReadFirst.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 5 of 11] Compiling Language.Preprocessor.Cpphs.SymTab ( Language/Preprocessor/Cpphs/SymTab.hs, dist/dist-sandbox-4e7c043e/build/Language/Preprocessor/Cpphs/SymTab.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 6 of 11] Compiling Language.Preprocessor.Cpphs.Tokenise ( Language/Preprocessor/Cpphs/Tokenise.hs, dist/dist-sandbox-4e7c043e/build/Language/Preprocessor/Cpphs/Tokenise.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 7 of 11] Compiling Language.Preprocessor.Cpphs.MacroPass ( Language/Preprocessor/Cpphs/MacroPass.hs, dist/dist-sandbox-4e7c043e/build/Language/Preprocessor/Cpphs/MacroPass.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 8 of 11] Compiling Language.Preprocessor.Cpphs.CppIfdef ( Language/Preprocessor/Cpphs/CppIfdef.hs, dist/dist-sandbox-4e7c043e/build/Language/Preprocessor/Cpphs/CppIfdef.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 9 of 11] Compiling Language.Preprocessor.Unlit ( Language/Preprocessor/Unlit.hs, dist/dist-sandbox-4e7c043e/build/Language/Preprocessor/Unlit.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[10 of 11] Compiling Language.Preprocessor.Cpphs.RunCpphs ( Language/Preprocessor/Cpphs/RunCpphs.hs, dist/dist-sandbox-4e7c043e/build/Language/Preprocessor/Cpphs/RunCpphs.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[11 of 11] Compiling Language.Preprocessor.Cpphs ( Language/Preprocessor/Cpphs.hs, dist/dist-sandbox-4e7c043e/build/Language/Preprocessor/Cpphs.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing executable 'cpphs' for cpphs-1.20.8..
+Preprocessing library for cpphs-1.20.8..
+Running Haddock on library for cpphs-1.20.8..
+Haddock coverage:
+ 100% (  2 /  2) in 'Language.Preprocessor.Unlit'
+  86% ( 25 / 29) in 'Language.Preprocessor.Cpphs'
+  Missing documentation for:
+    runCpphs (Language/Preprocessor/Cpphs/RunCpphs.hs:22)
+    runCpphsPass1 (Language/Preprocessor/Cpphs/RunCpphs.hs:27)
+    runCpphsPass2 (Language/Preprocessor/Cpphs/RunCpphs.hs:40)
+    runCpphsReturningSymTab (Language/Preprocessor/Cpphs/RunCpphs.hs:53)
+Warning: Language.Preprocessor.Cpphs: could not find link destinations for:
+    HashDefine
+Documentation created: dist/dist-sandbox-4e7c043e/doc/html/cpphs/index.html
+Installing executable cpphs in /Users/Bo/Documents/KI/Functioneel_Programmeren/Game/.cabal-sandbox/bin
+Installing library in /Users/Bo/Documents/KI/Functioneel_Programmeren/Game/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/cpphs-1.20.8-ILLsGbXKfXt4zft3JyFXNe
+cabal: Leaving directory '/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/cabal-tmp-1023/cpphs-1.20.8'

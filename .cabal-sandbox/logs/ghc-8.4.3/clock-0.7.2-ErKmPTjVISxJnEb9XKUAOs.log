@@ -1,0 +1,43 @@
+cabal: Entering directory '/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/cabal-tmp-1021/clock-0.7.2'
+Configuring clock-0.7.2...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for clock-0.7.2..
+Clock.hsc:44:9: warning: 'hsc_alignment' macro redefined [-Wmacro-redefined]
+#define hsc_alignment(t ) hsc_printf ( "%lu", (unsigned long)offsetof(struct {char x__; t (y__); }, y__));
+        ^
+/Library/Frameworks/GHC.framework/Versions/8.4.3-x86_64/usr/lib/ghc-8.4.3/template-hsc.h:91:9: note: previous definition is here
+#define hsc_alignment(x...)                                           \
+        ^
+1 warning generated.
+Building library for clock-0.7.2..
+[1 of 1] Compiling System.Clock     ( dist/dist-sandbox-4e7c043e/build/System/Clock.hs, dist/dist-sandbox-4e7c043e/build/System/Clock.o )
+
+System/Clock.hsc:136:1: warning: [-Wincomplete-patterns]
+    Pattern match(es) are non-exhaustive
+    In an equation for ‘clockToConst’:
+        Patterns not matched: MonotonicRaw
+    |
+136 | clockToConst Monotonic = #const SYSTEM_CLOCK
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+[1 of 1] Compiling System.Clock     ( dist/dist-sandbox-4e7c043e/build/System/Clock.hs, dist/dist-sandbox-4e7c043e/build/System/Clock.p_o )
+
+System/Clock.hsc:136:1: warning: [-Wincomplete-patterns]
+    Pattern match(es) are non-exhaustive
+    In an equation for ‘clockToConst’:
+        Patterns not matched: MonotonicRaw
+    |
+136 | clockToConst Monotonic = #const SYSTEM_CLOCK
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for clock-0.7.2..
+Running Haddock on library for clock-0.7.2..
+Haddock coverage:
+ 100% (  9 /  9) in 'System.Clock'
+Documentation created: dist/dist-sandbox-4e7c043e/doc/html/clock/index.html
+Installing library in /Users/Bo/Documents/KI/Functioneel_Programmeren/Game/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/clock-0.7.2-ErKmPTjVISxJnEb9XKUAOs
+cabal: Leaving directory '/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/cabal-tmp-1021/clock-0.7.2'

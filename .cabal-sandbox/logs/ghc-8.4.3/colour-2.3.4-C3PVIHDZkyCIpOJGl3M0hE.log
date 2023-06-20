@@ -1,0 +1,242 @@
+cabal: Entering directory '/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/cabal-tmp-1023/colour-2.3.4'
+Configuring colour-2.3.4...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for colour-2.3.4..
+Building library for colour-2.3.4..
+[ 1 of 14] Compiling Data.Colour.CIE.Chromaticity ( Data/Colour/CIE/Chromaticity.hs, dist/dist-sandbox-4e7c043e/build/Data/Colour/CIE/Chromaticity.o )
+[ 2 of 14] Compiling Data.Colour.CIE.Illuminant ( Data/Colour/CIE/Illuminant.hs, dist/dist-sandbox-4e7c043e/build/Data/Colour/CIE/Illuminant.o )
+[ 3 of 14] Compiling Data.Colour.Chan ( Data/Colour/Chan.hs, dist/dist-sandbox-4e7c043e/build/Data/Colour/Chan.o )
+[ 4 of 14] Compiling Data.Colour.Internal ( Data/Colour/Internal.hs, dist/dist-sandbox-4e7c043e/build/Data/Colour/Internal.o )
+[ 5 of 14] Compiling Data.Colour.Matrix ( Data/Colour/Matrix.hs, dist/dist-sandbox-4e7c043e/build/Data/Colour/Matrix.o )
+[ 6 of 14] Compiling Data.Colour.RGB  ( Data/Colour/RGB.hs, dist/dist-sandbox-4e7c043e/build/Data/Colour/RGB.o )
+[ 7 of 14] Compiling Data.Colour.RGBSpace.HSL ( Data/Colour/RGBSpace/HSL.hs, dist/dist-sandbox-4e7c043e/build/Data/Colour/RGBSpace/HSL.o )
+[ 8 of 14] Compiling Data.Colour.RGBSpace.HSV ( Data/Colour/RGBSpace/HSV.hs, dist/dist-sandbox-4e7c043e/build/Data/Colour/RGBSpace/HSV.o )
+[ 9 of 14] Compiling Data.Colour.SRGB.Linear ( Data/Colour/SRGB/Linear.hs, dist/dist-sandbox-4e7c043e/build/Data/Colour/SRGB/Linear.o )
+[10 of 14] Compiling Data.Colour.RGBSpace ( Data/Colour/RGBSpace.hs, dist/dist-sandbox-4e7c043e/build/Data/Colour/RGBSpace.o )
+[11 of 14] Compiling Data.Colour.SRGB ( Data/Colour/SRGB.hs, dist/dist-sandbox-4e7c043e/build/Data/Colour/SRGB.o )
+[12 of 14] Compiling Data.Colour      ( Data/Colour.hs, dist/dist-sandbox-4e7c043e/build/Data/Colour.o )
+[13 of 14] Compiling Data.Colour.Names ( Data/Colour/Names.hs, dist/dist-sandbox-4e7c043e/build/Data/Colour/Names.o )
+[14 of 14] Compiling Data.Colour.CIE  ( Data/Colour/CIE.hs, dist/dist-sandbox-4e7c043e/build/Data/Colour/CIE.o )
+[ 1 of 14] Compiling Data.Colour.CIE.Chromaticity ( Data/Colour/CIE/Chromaticity.hs, dist/dist-sandbox-4e7c043e/build/Data/Colour/CIE/Chromaticity.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 2 of 14] Compiling Data.Colour.CIE.Illuminant ( Data/Colour/CIE/Illuminant.hs, dist/dist-sandbox-4e7c043e/build/Data/Colour/CIE/Illuminant.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 3 of 14] Compiling Data.Colour.Chan ( Data/Colour/Chan.hs, dist/dist-sandbox-4e7c043e/build/Data/Colour/Chan.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 4 of 14] Compiling Data.Colour.Internal ( Data/Colour/Internal.hs, dist/dist-sandbox-4e7c043e/build/Data/Colour/Internal.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 5 of 14] Compiling Data.Colour.Matrix ( Data/Colour/Matrix.hs, dist/dist-sandbox-4e7c043e/build/Data/Colour/Matrix.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 6 of 14] Compiling Data.Colour.RGB  ( Data/Colour/RGB.hs, dist/dist-sandbox-4e7c043e/build/Data/Colour/RGB.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 7 of 14] Compiling Data.Colour.RGBSpace.HSL ( Data/Colour/RGBSpace/HSL.hs, dist/dist-sandbox-4e7c043e/build/Data/Colour/RGBSpace/HSL.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 8 of 14] Compiling Data.Colour.RGBSpace.HSV ( Data/Colour/RGBSpace/HSV.hs, dist/dist-sandbox-4e7c043e/build/Data/Colour/RGBSpace/HSV.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 9 of 14] Compiling Data.Colour.SRGB.Linear ( Data/Colour/SRGB/Linear.hs, dist/dist-sandbox-4e7c043e/build/Data/Colour/SRGB/Linear.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[10 of 14] Compiling Data.Colour.RGBSpace ( Data/Colour/RGBSpace.hs, dist/dist-sandbox-4e7c043e/build/Data/Colour/RGBSpace.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[11 of 14] Compiling Data.Colour.SRGB ( Data/Colour/SRGB.hs, dist/dist-sandbox-4e7c043e/build/Data/Colour/SRGB.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[12 of 14] Compiling Data.Colour      ( Data/Colour.hs, dist/dist-sandbox-4e7c043e/build/Data/Colour.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[13 of 14] Compiling Data.Colour.Names ( Data/Colour/Names.hs, dist/dist-sandbox-4e7c043e/build/Data/Colour/Names.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[14 of 14] Compiling Data.Colour.CIE  ( Data/Colour/CIE.hs, dist/dist-sandbox-4e7c043e/build/Data/Colour/CIE.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for colour-2.3.4..
+Running Haddock on library for colour-2.3.4..
+Haddock coverage:
+ 100% ( 21 / 21) in 'Data.Colour.CIE.Illuminant'
+  86% (  6 /  7) in 'Data.Colour.RGBSpace.HSL'
+  Missing documentation for:
+    Module header
+  86% (  6 /  7) in 'Data.Colour.RGBSpace.HSV'
+  Missing documentation for:
+    Module header
+ 100% (  6 /  6) in 'Data.Colour.SRGB.Linear'
+  83% ( 20 / 24) in 'Data.Colour.RGBSpace'
+  Missing documentation for:
+    primaries (Data/Colour/RGB.hs:55)
+    whitePoint (Data/Colour/RGB.hs:56)
+    gamut (Data/Colour/RGBSpace.hs:125)
+    transferFunction (Data/Colour/RGBSpace.hs:126)
+ 100% ( 14 / 14) in 'Data.Colour.SRGB'
+  85% ( 17 / 20) in 'Data.Colour'
+  Missing documentation for:
+    black (Data/Colour/Internal.hs:54)
+    AffineSpace (Data/Colour/Internal.hs:113)
+    ColourOps (Data/Colour/Internal.hs:150)
+   1% (  1 /149) in 'Data.Colour.Names'
+  Missing documentation for:
+    readColourName (Data/Colour/Names.hs:188)
+    aliceblue (Data/Colour/Names.hs:339)
+    antiquewhite (Data/Colour/Names.hs:342)
+    aqua (Data/Colour/Names.hs:345)
+    aquamarine (Data/Colour/Names.hs:348)
+    azure (Data/Colour/Names.hs:351)
+    beige (Data/Colour/Names.hs:354)
+    bisque (Data/Colour/Names.hs:357)
+    black (Data/Colour/Internal.hs:54)
+    blanchedalmond (Data/Colour/Names.hs:362)
+    blue (Data/Colour/Names.hs:365)
+    blueviolet (Data/Colour/Names.hs:368)
+    brown (Data/Colour/Names.hs:371)
+    burlywood (Data/Colour/Names.hs:374)
+    cadetblue (Data/Colour/Names.hs:377)
+    chartreuse (Data/Colour/Names.hs:380)
+    chocolate (Data/Colour/Names.hs:383)
+    coral (Data/Colour/Names.hs:386)
+    cornflowerblue (Data/Colour/Names.hs:389)
+    cornsilk (Data/Colour/Names.hs:392)
+    crimson (Data/Colour/Names.hs:395)
+    cyan (Data/Colour/Names.hs:398)
+    darkblue (Data/Colour/Names.hs:401)
+    darkcyan (Data/Colour/Names.hs:404)
+    darkgoldenrod (Data/Colour/Names.hs:407)
+    darkgray (Data/Colour/Names.hs:410)
+    darkgreen (Data/Colour/Names.hs:413)
+    darkgrey (Data/Colour/Names.hs:416)
+    darkkhaki (Data/Colour/Names.hs:419)
+    darkmagenta (Data/Colour/Names.hs:422)
+    darkolivegreen (Data/Colour/Names.hs:425)
+    darkorange (Data/Colour/Names.hs:428)
+    darkorchid (Data/Colour/Names.hs:431)
+    darkred (Data/Colour/Names.hs:434)
+    darksalmon (Data/Colour/Names.hs:437)
+    darkseagreen (Data/Colour/Names.hs:440)
+    darkslateblue (Data/Colour/Names.hs:443)
+    darkslategray (Data/Colour/Names.hs:446)
+    darkslategrey (Data/Colour/Names.hs:449)
+    darkturquoise (Data/Colour/Names.hs:452)
+    darkviolet (Data/Colour/Names.hs:455)
+    deeppink (Data/Colour/Names.hs:458)
+    deepskyblue (Data/Colour/Names.hs:461)
+    dimgray (Data/Colour/Names.hs:464)
+    dimgrey (Data/Colour/Names.hs:467)
+    dodgerblue (Data/Colour/Names.hs:470)
+    firebrick (Data/Colour/Names.hs:473)
+    floralwhite (Data/Colour/Names.hs:476)
+    forestgreen (Data/Colour/Names.hs:479)
+    fuchsia (Data/Colour/Names.hs:482)
+    gainsboro (Data/Colour/Names.hs:485)
+    ghostwhite (Data/Colour/Names.hs:488)
+    gold (Data/Colour/Names.hs:491)
+    goldenrod (Data/Colour/Names.hs:494)
+    gray (Data/Colour/Names.hs:497)
+    grey (Data/Colour/Names.hs:500)
+    green (Data/Colour/Names.hs:503)
+    greenyellow (Data/Colour/Names.hs:506)
+    honeydew (Data/Colour/Names.hs:509)
+    hotpink (Data/Colour/Names.hs:512)
+    indianred (Data/Colour/Names.hs:515)
+    indigo (Data/Colour/Names.hs:518)
+    ivory (Data/Colour/Names.hs:521)
+    khaki (Data/Colour/Names.hs:524)
+    lavender (Data/Colour/Names.hs:527)
+    lavenderblush (Data/Colour/Names.hs:530)
+    lawngreen (Data/Colour/Names.hs:533)
+    lemonchiffon (Data/Colour/Names.hs:536)
+    lightblue (Data/Colour/Names.hs:539)
+    lightcoral (Data/Colour/Names.hs:542)
+    lightcyan (Data/Colour/Names.hs:545)
+    lightgoldenrodyellow (Data/Colour/Names.hs:548)
+    lightgray (Data/Colour/Names.hs:551)
+    lightgreen (Data/Colour/Names.hs:554)
+    lightgrey (Data/Colour/Names.hs:557)
+    lightpink (Data/Colour/Names.hs:560)
+    lightsalmon (Data/Colour/Names.hs:563)
+    lightseagreen (Data/Colour/Names.hs:566)
+    lightskyblue (Data/Colour/Names.hs:569)
+    lightslategray (Data/Colour/Names.hs:572)
+    lightslategrey (Data/Colour/Names.hs:575)
+    lightsteelblue (Data/Colour/Names.hs:578)
+    lightyellow (Data/Colour/Names.hs:581)
+    lime (Data/Colour/Names.hs:584)
+    limegreen (Data/Colour/Names.hs:587)
+    linen (Data/Colour/Names.hs:590)
+    magenta (Data/Colour/Names.hs:593)
+    maroon (Data/Colour/Names.hs:596)
+    mediumaquamarine (Data/Colour/Names.hs:599)
+    mediumblue (Data/Colour/Names.hs:602)
+    mediumorchid (Data/Colour/Names.hs:605)
+    mediumpurple (Data/Colour/Names.hs:608)
+    mediumseagreen (Data/Colour/Names.hs:611)
+    mediumslateblue (Data/Colour/Names.hs:614)
+    mediumspringgreen (Data/Colour/Names.hs:617)
+    mediumturquoise (Data/Colour/Names.hs:620)
+    mediumvioletred (Data/Colour/Names.hs:623)
+    midnightblue (Data/Colour/Names.hs:626)
+    mintcream (Data/Colour/Names.hs:629)
+    mistyrose (Data/Colour/Names.hs:632)
+    moccasin (Data/Colour/Names.hs:635)
+    navajowhite (Data/Colour/Names.hs:638)
+    navy (Data/Colour/Names.hs:641)
+    oldlace (Data/Colour/Names.hs:644)
+    olive (Data/Colour/Names.hs:647)
+    olivedrab (Data/Colour/Names.hs:650)
+    orange (Data/Colour/Names.hs:653)
+    orangered (Data/Colour/Names.hs:656)
+    orchid (Data/Colour/Names.hs:659)
+    palegoldenrod (Data/Colour/Names.hs:662)
+    palegreen (Data/Colour/Names.hs:665)
+    paleturquoise (Data/Colour/Names.hs:668)
+    palevioletred (Data/Colour/Names.hs:671)
+    papayawhip (Data/Colour/Names.hs:674)
+    peachpuff (Data/Colour/Names.hs:677)
+    peru (Data/Colour/Names.hs:680)
+    pink (Data/Colour/Names.hs:683)
+    plum (Data/Colour/Names.hs:686)
+    powderblue (Data/Colour/Names.hs:689)
+    purple (Data/Colour/Names.hs:692)
+    red (Data/Colour/Names.hs:695)
+    rosybrown (Data/Colour/Names.hs:698)
+    royalblue (Data/Colour/Names.hs:701)
+    saddlebrown (Data/Colour/Names.hs:704)
+    salmon (Data/Colour/Names.hs:707)
+    sandybrown (Data/Colour/Names.hs:710)
+    seagreen (Data/Colour/Names.hs:713)
+    seashell (Data/Colour/Names.hs:716)
+    sienna (Data/Colour/Names.hs:719)
+    silver (Data/Colour/Names.hs:722)
+    skyblue (Data/Colour/Names.hs:725)
+    slateblue (Data/Colour/Names.hs:728)
+    slategray (Data/Colour/Names.hs:731)
+    slategrey (Data/Colour/Names.hs:734)
+    snow (Data/Colour/Names.hs:737)
+    springgreen (Data/Colour/Names.hs:740)
+    steelblue (Data/Colour/Names.hs:743)
+    tan (Data/Colour/Names.hs:746)
+    teal (Data/Colour/Names.hs:749)
+    thistle (Data/Colour/Names.hs:752)
+    tomato (Data/Colour/Names.hs:755)
+    turquoise (Data/Colour/Names.hs:758)
+    violet (Data/Colour/Names.hs:761)
+    wheat (Data/Colour/Names.hs:764)
+    white (Data/Colour/Names.hs:767)
+    whitesmoke (Data/Colour/Names.hs:770)
+    yellow (Data/Colour/Names.hs:773)
+    yellowgreen (Data/Colour/Names.hs:776)
+  88% ( 15 / 17) in 'Data.Colour.CIE'
+  Missing documentation for:
+    toCIEXYZ (Data/Colour/CIE.hs:65)
+    Chromaticity (Data/Colour/CIE/Chromaticity.hs:25)
+Documentation created: dist/dist-sandbox-4e7c043e/doc/html/colour/index.html
+Installing library in /Users/Bo/Documents/KI/Functioneel_Programmeren/Game/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/colour-2.3.4-C3PVIHDZkyCIpOJGl3M0hE
+cabal: Leaving directory '/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/cabal-tmp-1023/colour-2.3.4'

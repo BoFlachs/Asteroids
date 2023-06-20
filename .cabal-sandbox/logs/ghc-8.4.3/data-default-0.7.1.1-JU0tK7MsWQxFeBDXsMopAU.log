@@ -1,0 +1,20 @@
+cabal: Entering directory '/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/cabal-tmp-1022/data-default-0.7.1.1'
+Configuring data-default-0.7.1.1...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for data-default-0.7.1.1..
+Building library for data-default-0.7.1.1..
+[1 of 1] Compiling Data.Default     ( Data/Default.hs, dist/dist-sandbox-4e7c043e/build/Data/Default.o )
+[1 of 1] Compiling Data.Default     ( Data/Default.hs, dist/dist-sandbox-4e7c043e/build/Data/Default.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for data-default-0.7.1.1..
+Running Haddock on library for data-default-0.7.1.1..
+Haddock coverage:
+  67% (  2 /  3) in 'Data.Default'
+  Missing documentation for:
+    Module header
+Documentation created:
+dist/dist-sandbox-4e7c043e/doc/html/data-default/index.html
+Installing library in /Users/Bo/Documents/KI/Functioneel_Programmeren/Game/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/data-default-0.7.1.1-JU0tK7MsWQxFeBDXsMopAU
+cabal: Leaving directory '/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/cabal-tmp-1022/data-default-0.7.1.1'

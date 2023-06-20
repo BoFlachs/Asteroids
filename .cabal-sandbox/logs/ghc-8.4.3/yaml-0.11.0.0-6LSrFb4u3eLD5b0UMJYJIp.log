@@ -1,0 +1,121 @@
+cabal: Entering directory '/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/cabal-tmp-1022/yaml-0.11.0.0'
+Configuring yaml-0.11.0.0...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for yaml-0.11.0.0..
+Building library for yaml-0.11.0.0..
+[ 1 of 10] Compiling Data.Yaml.Internal ( src/Data/Yaml/Internal.hs, dist/dist-sandbox-4e7c043e/build/Data/Yaml/Internal.o )
+[ 2 of 10] Compiling Data.Yaml.Include ( src/Data/Yaml/Include.hs, dist/dist-sandbox-4e7c043e/build/Data/Yaml/Include.o )
+[ 3 of 10] Compiling Data.Yaml.Builder ( src/Data/Yaml/Builder.hs, dist/dist-sandbox-4e7c043e/build/Data/Yaml/Builder.o )
+[ 4 of 10] Compiling Data.Yaml        ( src/Data/Yaml.hs, dist/dist-sandbox-4e7c043e/build/Data/Yaml.o )
+[ 5 of 10] Compiling Data.Yaml.Config ( src/Data/Yaml/Config.hs, dist/dist-sandbox-4e7c043e/build/Data/Yaml/Config.o )
+[ 6 of 10] Compiling Data.Yaml.Aeson  ( src/Data/Yaml/Aeson.hs, dist/dist-sandbox-4e7c043e/build/Data/Yaml/Aeson.o )
+[ 7 of 10] Compiling Data.Yaml.Parser ( src/Data/Yaml/Parser.hs, dist/dist-sandbox-4e7c043e/build/Data/Yaml/Parser.o )
+[ 8 of 10] Compiling Data.Yaml.Pretty ( src/Data/Yaml/Pretty.hs, dist/dist-sandbox-4e7c043e/build/Data/Yaml/Pretty.o )
+[ 9 of 10] Compiling Data.Yaml.TH     ( src/Data/Yaml/TH.hs, dist/dist-sandbox-4e7c043e/build/Data/Yaml/TH.o )
+[10 of 10] Compiling Paths_yaml       ( dist/dist-sandbox-4e7c043e/build/autogen/Paths_yaml.hs, dist/dist-sandbox-4e7c043e/build/Paths_yaml.o )
+[ 1 of 10] Compiling Data.Yaml.Internal ( src/Data/Yaml/Internal.hs, dist/dist-sandbox-4e7c043e/build/Data/Yaml/Internal.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 2 of 10] Compiling Data.Yaml.Include ( src/Data/Yaml/Include.hs, dist/dist-sandbox-4e7c043e/build/Data/Yaml/Include.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 3 of 10] Compiling Data.Yaml.Builder ( src/Data/Yaml/Builder.hs, dist/dist-sandbox-4e7c043e/build/Data/Yaml/Builder.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 4 of 10] Compiling Data.Yaml        ( src/Data/Yaml.hs, dist/dist-sandbox-4e7c043e/build/Data/Yaml.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 5 of 10] Compiling Data.Yaml.Config ( src/Data/Yaml/Config.hs, dist/dist-sandbox-4e7c043e/build/Data/Yaml/Config.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 6 of 10] Compiling Data.Yaml.Aeson  ( src/Data/Yaml/Aeson.hs, dist/dist-sandbox-4e7c043e/build/Data/Yaml/Aeson.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 7 of 10] Compiling Data.Yaml.Parser ( src/Data/Yaml/Parser.hs, dist/dist-sandbox-4e7c043e/build/Data/Yaml/Parser.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 8 of 10] Compiling Data.Yaml.Pretty ( src/Data/Yaml/Pretty.hs, dist/dist-sandbox-4e7c043e/build/Data/Yaml/Pretty.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 9 of 10] Compiling Data.Yaml.TH     ( src/Data/Yaml/TH.hs, dist/dist-sandbox-4e7c043e/build/Data/Yaml/TH.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[10 of 10] Compiling Paths_yaml       ( dist/dist-sandbox-4e7c043e/build/autogen/Paths_yaml.hs, dist/dist-sandbox-4e7c043e/build/Paths_yaml.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for yaml-0.11.0.0..
+Running Haddock on library for yaml-0.11.0.0..
+Haddock coverage:
+  20% (  2 / 10) in 'Data.Yaml.Internal'
+  Missing documentation for:
+    Module header
+    ParseException (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9340_0/ghc_9.hscpp:267)
+    Warning (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9340_0/ghc_9.hscpp:338)
+    parse (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9340_0/ghc_9.hscpp:359)
+    decodeHelper (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9340_0/ghc_9.hscpp:484)
+    decodeHelper_ (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9340_0/ghc_9.hscpp:499)
+    isNumeric (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9340_0/ghc_9.hscpp:519)
+    textToScientific (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9340_0/ghc_9.hscpp:401)
+  75% (  3 /  4) in 'Data.Yaml.Include'
+  Missing documentation for:
+    Module header
+  60% ( 18 / 30) in 'Data.Yaml.Builder'
+  Missing documentation for:
+    YamlBuilder (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9340_0/ghc_3.hscpp:277)
+    ToYaml (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9340_0/ghc_3.hscpp:279)
+    mapping (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9340_0/ghc_3.hscpp:302)
+    array (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9340_0/ghc_3.hscpp:318)
+    string (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9340_0/ghc_3.hscpp:341)
+    bool (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9340_0/ghc_3.hscpp:373)
+    null (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9340_0/ghc_3.hscpp:386)
+    scientific (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9340_0/ghc_3.hscpp:355)
+    number (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9340_0/ghc_3.hscpp:364)
+    toByteString (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9340_0/ghc_3.hscpp:406)
+    writeYamlFile (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9340_0/ghc_3.hscpp:414)
+    .= (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9340_0/ghc_3.hscpp:274)
+  86% ( 48 / 56) in 'Data.Yaml'
+  Missing documentation for:
+    decodeHelper (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9340_0/ghc_9.hscpp:484)
+    ParseException (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9340_0/ghc_9.hscpp:267)
+    YamlException
+    .=
+    parseMonad (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9340_0/ghc_1.hscpp:511)
+    decode (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9340_0/ghc_1.hscpp:447)
+    decodeFile (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9340_0/ghc_1.hscpp:455)
+    decodeEither (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9340_0/ghc_1.hscpp:480)
+ 100% ( 15 / 15) in 'Data.Yaml.Config'
+ 100% (  2 /  2) in 'Data.Yaml.Aeson'
+   6% (  1 / 18) in 'Data.Yaml.Parser'
+  Missing documentation for:
+    YamlParser (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9340_0/ghc_11.hscpp:243)
+    lookupAnchor (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9340_0/ghc_11.hscpp:275)
+    withAnchor (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9340_0/ghc_11.hscpp:278)
+    withMapping (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9340_0/ghc_11.hscpp:285)
+    withSequence (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9340_0/ghc_11.hscpp:290)
+    withText (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9340_0/ghc_11.hscpp:295)
+    typeMismatch (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9340_0/ghc_11.hscpp:300)
+    FromYaml (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9340_0/ghc_11.hscpp:315)
+    YamlValue (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9340_0/ghc_11.hscpp:332)
+    AnchorMap (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9340_0/ghc_11.hscpp:339)
+    RawDoc (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9340_0/ghc_11.hscpp:340)
+    parseRawDoc (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9340_0/ghc_11.hscpp:343)
+    .: (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9340_0/ghc_11.hscpp:349)
+    YamlParseException (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9340_0/ghc_11.hscpp:355)
+    sinkValue (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9340_0/ghc_11.hscpp:362)
+    sinkRawDoc (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9340_0/ghc_11.hscpp:409)
+    readYamlFile (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9340_0/ghc_11.hscpp:412)
+ 100% (  8 /  8) in 'Data.Yaml.Pretty'
+  88% ( 14 / 16) in 'Data.Yaml.TH'
+  Missing documentation for:
+    Module header
+    .=
+Warning: Data.Yaml.Internal: could not find link destinations for:
+    Parse
+Warning: Data.Yaml: could not find link destinations for:
+    Parse FromString fromString GToJSON gToJSON EncodeProduct WriteProduct ProductSize FromPairs fromPairs KeyValuePair pair SumToJSON' TwoElemArray ConsToJSON sumToJSON' withBoundedScientific
+Warning: Data.Yaml.TH: could not find link destinations for:
+    FromString fromString GToJSON gToJSON EncodeProduct WriteProduct ProductSize FromPairs fromPairs KeyValuePair pair SumToJSON' TwoElemArray ConsToJSON sumToJSON'
+Documentation created: dist/dist-sandbox-4e7c043e/doc/html/yaml/index.html
+Installing library in /Users/Bo/Documents/KI/Functioneel_Programmeren/Game/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/yaml-0.11.0.0-6LSrFb4u3eLD5b0UMJYJIp
+cabal: Leaving directory '/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/cabal-tmp-1022/yaml-0.11.0.0'

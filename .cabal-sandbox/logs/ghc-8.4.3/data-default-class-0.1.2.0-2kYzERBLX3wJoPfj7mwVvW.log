@@ -1,0 +1,22 @@
+cabal: Entering directory '/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/cabal-tmp-1021/data-default-class-0.1.2.0'
+Configuring data-default-class-0.1.2.0...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for data-default-class-0.1.2.0..
+Building library for data-default-class-0.1.2.0..
+[1 of 1] Compiling Data.Default.Class ( Data/Default/Class.hs, dist/dist-sandbox-4e7c043e/build/Data/Default/Class.o )
+[1 of 1] Compiling Data.Default.Class ( Data/Default/Class.hs, dist/dist-sandbox-4e7c043e/build/Data/Default/Class.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for data-default-class-0.1.2.0..
+Running Haddock on library for data-default-class-0.1.2.0..
+Haddock coverage:
+  67% (  2 /  3) in 'Data.Default.Class'
+  Missing documentation for:
+    Module header
+Warning: Data.Default.Class: could not find link destinations for:
+    GDefault
+Documentation created:
+dist/dist-sandbox-4e7c043e/doc/html/data-default-class/index.html
+Installing library in /Users/Bo/Documents/KI/Functioneel_Programmeren/Game/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/data-default-class-0.1.2.0-2kYzERBLX3wJoPfj7mwVvW
+cabal: Leaving directory '/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/cabal-tmp-1021/data-default-class-0.1.2.0'

@@ -1,0 +1,110 @@
+cabal: Entering directory '/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/cabal-tmp-1023/extra-1.6.13'
+Configuring extra-1.6.13...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for extra-1.6.13..
+Building library for extra-1.6.13..
+[ 1 of 19] Compiling Data.IORef.Extra ( src/Data/IORef/Extra.hs, dist/dist-sandbox-4e7c043e/build/Data/IORef/Extra.o )
+[ 2 of 19] Compiling Data.Tuple.Extra ( src/Data/Tuple/Extra.hs, dist/dist-sandbox-4e7c043e/build/Data/Tuple/Extra.o )
+[ 3 of 19] Compiling Data.Typeable.Extra ( src/Data/Typeable/Extra.hs, dist/dist-sandbox-4e7c043e/build/Data/Typeable/Extra.o )
+[ 4 of 19] Compiling Numeric.Extra    ( src/Numeric/Extra.hs, dist/dist-sandbox-4e7c043e/build/Numeric/Extra.o )
+[ 5 of 19] Compiling Partial          ( src/Partial.hs, dist/dist-sandbox-4e7c043e/build/Partial.o )
+[ 6 of 19] Compiling Data.List.Extra  ( src/Data/List/Extra.hs, dist/dist-sandbox-4e7c043e/build/Data/List/Extra.o )
+[ 7 of 19] Compiling Data.Version.Extra ( src/Data/Version/Extra.hs, dist/dist-sandbox-4e7c043e/build/Data/Version/Extra.o )
+[ 8 of 19] Compiling Data.Either.Extra ( src/Data/Either/Extra.hs, dist/dist-sandbox-4e7c043e/build/Data/Either/Extra.o )
+[ 9 of 19] Compiling Control.Exception.Extra ( src/Control/Exception/Extra.hs, dist/dist-sandbox-4e7c043e/build/Control/Exception/Extra.o )
+[10 of 19] Compiling Control.Monad.Extra ( src/Control/Monad/Extra.hs, dist/dist-sandbox-4e7c043e/build/Control/Monad/Extra.o )
+[11 of 19] Compiling Control.Concurrent.Extra ( src/Control/Concurrent/Extra.hs, dist/dist-sandbox-4e7c043e/build/Control/Concurrent/Extra.o )
+[12 of 19] Compiling System.Directory.Extra ( src/System/Directory/Extra.hs, dist/dist-sandbox-4e7c043e/build/System/Directory/Extra.o )
+[13 of 19] Compiling System.Environment.Extra ( src/System/Environment/Extra.hs, dist/dist-sandbox-4e7c043e/build/System/Environment/Extra.o )
+[14 of 19] Compiling System.IO.Extra  ( src/System/IO/Extra.hs, dist/dist-sandbox-4e7c043e/build/System/IO/Extra.o )
+[15 of 19] Compiling System.Info.Extra ( src/System/Info/Extra.hs, dist/dist-sandbox-4e7c043e/build/System/Info/Extra.o )
+[16 of 19] Compiling System.Process.Extra ( src/System/Process/Extra.hs, dist/dist-sandbox-4e7c043e/build/System/Process/Extra.o )
+[17 of 19] Compiling System.Time.Extra ( src/System/Time/Extra.hs, dist/dist-sandbox-4e7c043e/build/System/Time/Extra.o )
+[18 of 19] Compiling Text.Read.Extra  ( src/Text/Read/Extra.hs, dist/dist-sandbox-4e7c043e/build/Text/Read/Extra.o )
+[19 of 19] Compiling Extra            ( src/Extra.hs, dist/dist-sandbox-4e7c043e/build/Extra.o )
+[ 1 of 19] Compiling Data.IORef.Extra ( src/Data/IORef/Extra.hs, dist/dist-sandbox-4e7c043e/build/Data/IORef/Extra.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 2 of 19] Compiling Data.Tuple.Extra ( src/Data/Tuple/Extra.hs, dist/dist-sandbox-4e7c043e/build/Data/Tuple/Extra.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 3 of 19] Compiling Data.Typeable.Extra ( src/Data/Typeable/Extra.hs, dist/dist-sandbox-4e7c043e/build/Data/Typeable/Extra.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 4 of 19] Compiling Numeric.Extra    ( src/Numeric/Extra.hs, dist/dist-sandbox-4e7c043e/build/Numeric/Extra.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 5 of 19] Compiling Partial          ( src/Partial.hs, dist/dist-sandbox-4e7c043e/build/Partial.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 6 of 19] Compiling Data.List.Extra  ( src/Data/List/Extra.hs, dist/dist-sandbox-4e7c043e/build/Data/List/Extra.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 7 of 19] Compiling Data.Version.Extra ( src/Data/Version/Extra.hs, dist/dist-sandbox-4e7c043e/build/Data/Version/Extra.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 8 of 19] Compiling Data.Either.Extra ( src/Data/Either/Extra.hs, dist/dist-sandbox-4e7c043e/build/Data/Either/Extra.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 9 of 19] Compiling Control.Exception.Extra ( src/Control/Exception/Extra.hs, dist/dist-sandbox-4e7c043e/build/Control/Exception/Extra.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[10 of 19] Compiling Control.Monad.Extra ( src/Control/Monad/Extra.hs, dist/dist-sandbox-4e7c043e/build/Control/Monad/Extra.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[11 of 19] Compiling Control.Concurrent.Extra ( src/Control/Concurrent/Extra.hs, dist/dist-sandbox-4e7c043e/build/Control/Concurrent/Extra.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[12 of 19] Compiling System.Directory.Extra ( src/System/Directory/Extra.hs, dist/dist-sandbox-4e7c043e/build/System/Directory/Extra.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[13 of 19] Compiling System.Environment.Extra ( src/System/Environment/Extra.hs, dist/dist-sandbox-4e7c043e/build/System/Environment/Extra.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[14 of 19] Compiling System.IO.Extra  ( src/System/IO/Extra.hs, dist/dist-sandbox-4e7c043e/build/System/IO/Extra.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[15 of 19] Compiling System.Info.Extra ( src/System/Info/Extra.hs, dist/dist-sandbox-4e7c043e/build/System/Info/Extra.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[16 of 19] Compiling System.Process.Extra ( src/System/Process/Extra.hs, dist/dist-sandbox-4e7c043e/build/System/Process/Extra.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[17 of 19] Compiling System.Time.Extra ( src/System/Time/Extra.hs, dist/dist-sandbox-4e7c043e/build/System/Time/Extra.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[18 of 19] Compiling Text.Read.Extra  ( src/Text/Read/Extra.hs, dist/dist-sandbox-4e7c043e/build/Text/Read/Extra.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[19 of 19] Compiling Extra            ( src/Extra.hs, dist/dist-sandbox-4e7c043e/build/Extra.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for extra-1.6.13..
+Running Haddock on library for extra-1.6.13..
+Haddock coverage:
+ 100% (  7 /  7) in 'Data.IORef.Extra'
+ 100% ( 16 / 16) in 'Data.Tuple.Extra'
+ 100% (  5 /  5) in 'Data.Typeable.Extra'
+ 100% (  7 /  7) in 'Numeric.Extra'
+ 100% ( 72 / 72) in 'Data.List.Extra'
+ 100% (  4 /  4) in 'Data.Version.Extra'
+ 100% ( 11 / 11) in 'Data.Either.Extra'
+ 100% ( 21 / 21) in 'Control.Exception.Extra'
+ 100% ( 34 / 34) in 'Control.Monad.Extra'
+ 100% ( 27 / 27) in 'Control.Concurrent.Extra'
+ 100% (  8 /  8) in 'System.Directory.Extra'
+ 100% (  4 /  4) in 'System.Environment.Extra'
+ 100% ( 26 / 26) in 'System.IO.Extra'
+ 100% (  4 /  4) in 'System.Info.Extra'
+ 100% (  5 /  5) in 'System.Process.Extra'
+ 100% (  8 /  8) in 'System.Time.Extra'
+ 100% (  4 /  4) in 'Text.Read.Extra'
+ 100% (247 /247) in 'Extra'
+Warning: Data.Typeable.Extra: could not find link destinations for:
+    unsafeIndex unsafeRangeSize
+Warning: Extra: could not find link destinations for:
+    unsafeIndex unsafeRangeSize
+Documentation created: dist/dist-sandbox-4e7c043e/doc/html/extra/index.html
+Installing library in /Users/Bo/Documents/KI/Functioneel_Programmeren/Game/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/extra-1.6.13-KuENukr0H0F6XFWIjbKhXp
+cabal: Leaving directory '/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/cabal-tmp-1023/extra-1.6.13'

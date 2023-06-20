@@ -1,0 +1,94 @@
+cabal: Entering directory '/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/cabal-tmp-1022/resourcet-1.2.2'
+Configuring resourcet-1.2.2...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for resourcet-1.2.2..
+Building library for resourcet-1.2.2..
+[1 of 5] Compiling Data.Acquire.Internal ( Data/Acquire/Internal.hs, dist/dist-sandbox-4e7c043e/build/Data/Acquire/Internal.o )
+[2 of 5] Compiling Control.Monad.Trans.Resource.Internal ( Control/Monad/Trans/Resource/Internal.hs, dist/dist-sandbox-4e7c043e/build/Control/Monad/Trans/Resource/Internal.o )
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc7617_0/ghc_3.hscpp:162:1: warning: [-Wdeprecations]
+    Module ‘Control.Monad.Trans.List’ is deprecated:
+      This transformer is invalid on most monads
+    |
+162 | import Control.Monad.Trans.List     ( ListT    )
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc7617_0/ghc_3.hscpp:369:46: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ListT’
+    (imported from Control.Monad.Trans.List):
+    Deprecated: "This transformer is invalid on most monads"
+    |
+369 | instance (MonadResource m) => MonadResource (ListT m) where liftResourceT = lift . liftResourceT
+    |                                              ^^^^^
+[3 of 5] Compiling Data.Acquire     ( Data/Acquire.hs, dist/dist-sandbox-4e7c043e/build/Data/Acquire.o )
+[4 of 5] Compiling Control.Monad.Trans.Resource ( Control/Monad/Trans/Resource.hs, dist/dist-sandbox-4e7c043e/build/Control/Monad/Trans/Resource.o )
+[5 of 5] Compiling UnliftIO.Resource ( UnliftIO/Resource.hs, dist/dist-sandbox-4e7c043e/build/UnliftIO/Resource.o )
+[1 of 5] Compiling Data.Acquire.Internal ( Data/Acquire/Internal.hs, dist/dist-sandbox-4e7c043e/build/Data/Acquire/Internal.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[2 of 5] Compiling Control.Monad.Trans.Resource.Internal ( Control/Monad/Trans/Resource/Internal.hs, dist/dist-sandbox-4e7c043e/build/Control/Monad/Trans/Resource/Internal.p_o )
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc7693_0/ghc_3.hscpp:162:1: warning: [-Wdeprecations]
+    Module ‘Control.Monad.Trans.List’ is deprecated:
+      This transformer is invalid on most monads
+    |
+162 | import Control.Monad.Trans.List     ( ListT    )
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc7693_0/ghc_3.hscpp:369:46: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ListT’
+    (imported from Control.Monad.Trans.List):
+    Deprecated: "This transformer is invalid on most monads"
+    |
+369 | instance (MonadResource m) => MonadResource (ListT m) where liftResourceT = lift . liftResourceT
+    |                                              ^^^^^
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[3 of 5] Compiling Data.Acquire     ( Data/Acquire.hs, dist/dist-sandbox-4e7c043e/build/Data/Acquire.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[4 of 5] Compiling Control.Monad.Trans.Resource ( Control/Monad/Trans/Resource.hs, dist/dist-sandbox-4e7c043e/build/Control/Monad/Trans/Resource.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[5 of 5] Compiling UnliftIO.Resource ( UnliftIO/Resource.hs, dist/dist-sandbox-4e7c043e/build/UnliftIO/Resource.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for resourcet-1.2.2..
+Running Haddock on library for resourcet-1.2.2..
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc7816_0/ghc_3.hscpp:162:1: warning: [-Wdeprecations]
+    Module ‘Control.Monad.Trans.List’ is deprecated:
+      This transformer is invalid on most monads
+    |
+162 | import Control.Monad.Trans.List     ( ListT    )
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc7816_0/ghc_3.hscpp:369:46: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ListT’
+    (imported from Control.Monad.Trans.List):
+    Deprecated: "This transformer is invalid on most monads"
+    |
+369 | instance (MonadResource m) => MonadResource (ListT m) where liftResourceT = lift . liftResourceT
+    |                                              ^^^^^
+Haddock coverage:
+  71% (  5 /  7) in 'Data.Acquire.Internal'
+  Missing documentation for:
+    Module header
+    Allocated (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc7816_0/ghc_7.hscpp:150)
+  64% (  9 / 14) in 'Control.Monad.Trans.Resource.Internal'
+  Missing documentation for:
+    Module header
+    ReleaseMap (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc7816_0/ghc_3.hscpp:215)
+    stateAlloc (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc7816_0/ghc_3.hscpp:383)
+    stateCleanup (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc7816_0/ghc_3.hscpp:391)
+    register' (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc7816_0/ghc_3.hscpp:409)
+ 100% ( 10 / 10) in 'Data.Acquire'
+ 100% ( 39 / 39) in 'Control.Monad.Trans.Resource'
+ 100% ( 12 / 12) in 'UnliftIO.Resource'
+Warning: Control.Monad.Trans.Resource.Internal: could not find link destinations for:
+    NextKey RefCount
+Documentation created:
+dist/dist-sandbox-4e7c043e/doc/html/resourcet/index.html
+Installing library in /Users/Bo/Documents/KI/Functioneel_Programmeren/Game/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/resourcet-1.2.2-A66lbRnNLBJBQs7HRjV0nD
+cabal: Leaving directory '/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/cabal-tmp-1022/resourcet-1.2.2'

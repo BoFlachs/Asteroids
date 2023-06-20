@@ -1,0 +1,1034 @@
+cabal: Entering directory '/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/cabal-tmp-1022/conduit-1.3.1'
+Configuring conduit-1.3.1...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for conduit-1.3.1..
+Building library for conduit-1.3.1..
+[ 1 of 14] Compiling Data.Conduit.Internal.Pipe ( src/Data/Conduit/Internal/Pipe.hs, dist/dist-sandbox-4e7c043e/build/Data/Conduit/Internal/Pipe.o )
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8135_0/ghc_9.hscpp:400:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: CI.await >>= maybe" may never fire
+      because ‘maybe’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘maybe’
+    |
+400 | {-# RULES "conduit: CI.await >>= maybe" forall x y. await >>= maybe x y = NeedInput y (const x) #-}
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8135_0/ghc_9.hscpp:409:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: awaitE >>= either" may never fire
+      because ‘either’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘either’
+    |
+409 | {-# RULES "conduit: awaitE >>= either" forall x y. awaitE >>= either x y = NeedInput y x #-}
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[ 2 of 14] Compiling Data.Conduit.Internal.Conduit ( src/Data/Conduit/Internal/Conduit.hs, dist/dist-sandbox-4e7c043e/build/Data/Conduit/Internal/Conduit.o )
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8135_0/ghc_11.hscpp:1026:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: await >>= maybe" may never fire
+      because ‘maybe’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘maybe’
+     |
+1026 | {-# RULES "conduit: await >>= maybe" forall x y. await >>= maybe x y = await' x y #-}
+     |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[ 3 of 14] Compiling Data.Conduit.Internal.Fusion ( src/Data/Conduit/Internal/Fusion.hs, dist/dist-sandbox-4e7c043e/build/Data/Conduit/Internal/Fusion.o )
+
+src/Data/Conduit/Internal/Fusion.hs:71:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: fuseStream (.|)" may never fire
+      because ‘.|’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘.|’
+   |
+71 | {-# RULES "conduit: fuseStream (.|)" forall left right.
+   |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:74:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: fuseStream (fuse)" may never fire
+      because ‘fuse’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘fuse’
+   |
+74 | {-# RULES "conduit: fuseStream (fuse)" forall left right.
+   |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:78:23: warning: [-Wdeprecations]
+    In the use of ‘=$=’ (imported from Data.Conduit.Internal.Conduit):
+    Deprecated: "Use .|"
+   |
+78 |         unstream left =$= unstream right = unstream (fuseStream left right)
+   |                       ^^^
+
+src/Data/Conduit/Internal/Fusion.hs:102:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: runStream (pure)" may never fire
+      because ‘runConduitPure’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘runConduitPure’
+    |
+102 | {-# RULES "conduit: runStream (pure)" forall stream.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:105:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: runStream (ResourceT)" may never fire
+      because ‘runConduitRes’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘runConduitRes’
+    |
+105 | {-# RULES "conduit: runStream (ResourceT)" forall stream.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:129:23: warning: [-Wdeprecations]
+    In the use of ‘$$’ (imported from Data.Conduit.Internal.Conduit):
+    Deprecated: "Use runConduit and .|"
+    |
+129 |         unstream left $$ unstream right = connectStream left right
+    |                       ^^
+
+src/Data/Conduit/Internal/Fusion.hs:154:23: warning: [-Wdeprecations]
+    In the use of ‘$$’ (imported from Data.Conduit.Internal.Conduit):
+    Deprecated: "Use runConduit and .|"
+    |
+154 |         unstream left $$ right = connectStream1 left right
+    |                       ^^
+
+src/Data/Conduit/Internal/Fusion.hs:157:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream1 (runConduit/.|)" may never fire
+      because ‘.|’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘.|’
+    |
+157 | {-# RULES "conduit: connectStream1 (runConduit/.|)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:161:35: warning: [-Wdeprecations]
+    In the use of ‘=$=’ (imported from Data.Conduit.Internal.Conduit):
+    Deprecated: "Use .|"
+    |
+161 |         runConduit (unstream left =$= right) = connectStream1 left right
+    |                                   ^^^
+
+src/Data/Conduit/Internal/Fusion.hs:163:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream1 (runConduit/fuse)" may never fire
+      because ‘fuse’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘fuse’
+    |
+163 | {-# RULES "conduit: connectStream1 (runConduit/fuse)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:167:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream1 (runConduitPure/.|)" may never fire
+      because ‘runConduitPure’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘runConduitPure’
+    |
+167 | {-# RULES "conduit: connectStream1 (runConduitPure/.|)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:167:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream1 (runConduitPure/.|)" may never fire
+      because ‘.|’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘.|’
+    |
+167 | {-# RULES "conduit: connectStream1 (runConduitPure/.|)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:170:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream1 (runConduitPure/=$=)" may never fire
+      because ‘runConduitPure’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘runConduitPure’
+    |
+170 | {-# RULES "conduit: connectStream1 (runConduitPure/=$=)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:171:39: warning: [-Wdeprecations]
+    In the use of ‘=$=’ (imported from Data.Conduit.Internal.Conduit):
+    Deprecated: "Use .|"
+    |
+171 |         runConduitPure (unstream left =$= right) = runIdentity (connectStream1 left right)
+    |                                       ^^^
+
+src/Data/Conduit/Internal/Fusion.hs:173:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream1 (runConduitPure/fuse)" may never fire
+      because ‘runConduitPure’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘runConduitPure’
+    |
+173 | {-# RULES "conduit: connectStream1 (runConduitPure/fuse)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:173:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream1 (runConduitPure/fuse)" may never fire
+      because ‘fuse’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘fuse’
+    |
+173 | {-# RULES "conduit: connectStream1 (runConduitPure/fuse)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:177:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream1 (runConduitRes/.|)" may never fire
+      because ‘runConduitRes’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘runConduitRes’
+    |
+177 | {-# RULES "conduit: connectStream1 (runConduitRes/.|)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:177:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream1 (runConduitRes/.|)" may never fire
+      because ‘.|’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘.|’
+    |
+177 | {-# RULES "conduit: connectStream1 (runConduitRes/.|)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:180:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream1 (runConduitRes/=$=)" may never fire
+      because ‘runConduitRes’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘runConduitRes’
+    |
+180 | {-# RULES "conduit: connectStream1 (runConduitRes/=$=)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:181:38: warning: [-Wdeprecations]
+    In the use of ‘=$=’ (imported from Data.Conduit.Internal.Conduit):
+    Deprecated: "Use .|"
+    |
+181 |         runConduitRes (unstream left =$= right) = runResourceT (connectStream1 left right)
+    |                                      ^^^
+
+src/Data/Conduit/Internal/Fusion.hs:183:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream1 (runConduitRes/fuse)" may never fire
+      because ‘runConduitRes’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘runConduitRes’
+    |
+183 | {-# RULES "conduit: connectStream1 (runConduitRes/fuse)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:183:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream1 (runConduitRes/fuse)" may never fire
+      because ‘fuse’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘fuse’
+    |
+183 | {-# RULES "conduit: connectStream1 (runConduitRes/fuse)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:214:14: warning: [-Wdeprecations]
+    In the use of ‘$$’ (imported from Data.Conduit.Internal.Conduit):
+    Deprecated: "Use runConduit and .|"
+    |
+214 |         left $$ unstream right = connectStream2 left right
+    |              ^^
+
+src/Data/Conduit/Internal/Fusion.hs:217:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream2 (runConduit/.|)" may never fire
+      because ‘.|’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘.|’
+    |
+217 | {-# RULES "conduit: connectStream2 (runConduit/.|)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:220:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream2 (runConduit/fuse)" may never fire
+      because ‘fuse’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘fuse’
+    |
+220 | {-# RULES "conduit: connectStream2 (runConduit/fuse)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:224:26: warning: [-Wdeprecations]
+    In the use of ‘=$=’ (imported from Data.Conduit.Internal.Conduit):
+    Deprecated: "Use .|"
+    |
+224 |         runConduit (left =$= unstream right) = connectStream2 left right
+    |                          ^^^
+
+src/Data/Conduit/Internal/Fusion.hs:227:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream2 (runConduitPure/.|)" may never fire
+      because ‘runConduitPure’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘runConduitPure’
+    |
+227 | {-# RULES "conduit: connectStream2 (runConduitPure/.|)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:227:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream2 (runConduitPure/.|)" may never fire
+      because ‘.|’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘.|’
+    |
+227 | {-# RULES "conduit: connectStream2 (runConduitPure/.|)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:230:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream2 (runConduitPure/fuse)" may never fire
+      because ‘runConduitPure’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘runConduitPure’
+    |
+230 | {-# RULES "conduit: connectStream2 (runConduitPure/fuse)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:230:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream2 (runConduitPure/fuse)" may never fire
+      because ‘fuse’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘fuse’
+    |
+230 | {-# RULES "conduit: connectStream2 (runConduitPure/fuse)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:233:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream2 (runConduitPure/=$=)" may never fire
+      because ‘runConduitPure’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘runConduitPure’
+    |
+233 | {-# RULES "conduit: connectStream2 (runConduitPure/=$=)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:234:30: warning: [-Wdeprecations]
+    In the use of ‘=$=’ (imported from Data.Conduit.Internal.Conduit):
+    Deprecated: "Use .|"
+    |
+234 |         runConduitPure (left =$= unstream right) = runIdentity (connectStream2 left right)
+    |                              ^^^
+
+src/Data/Conduit/Internal/Fusion.hs:237:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream2 (runConduitRes/.|)" may never fire
+      because ‘runConduitRes’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘runConduitRes’
+    |
+237 | {-# RULES "conduit: connectStream2 (runConduitRes/.|)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:237:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream2 (runConduitRes/.|)" may never fire
+      because ‘.|’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘.|’
+    |
+237 | {-# RULES "conduit: connectStream2 (runConduitRes/.|)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:240:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream2 (runConduitRes/fuse)" may never fire
+      because ‘runConduitRes’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘runConduitRes’
+    |
+240 | {-# RULES "conduit: connectStream2 (runConduitRes/fuse)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:240:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream2 (runConduitRes/fuse)" may never fire
+      because ‘fuse’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘fuse’
+    |
+240 | {-# RULES "conduit: connectStream2 (runConduitRes/fuse)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:243:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream2 (runConduitRes/=$=)" may never fire
+      because ‘runConduitRes’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘runConduitRes’
+    |
+243 | {-# RULES "conduit: connectStream2 (runConduitRes/=$=)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:244:29: warning: [-Wdeprecations]
+    In the use of ‘=$=’ (imported from Data.Conduit.Internal.Conduit):
+    Deprecated: "Use .|"
+    |
+244 |         runConduitRes (left =$= unstream right) = runResourceT (connectStream2 left right)
+    |                             ^^^
+[ 4 of 14] Compiling Data.Conduit.Internal.List.Stream ( src/Data/Conduit/Internal/List/Stream.hs, dist/dist-sandbox-4e7c043e/build/Data/Conduit/Internal/List/Stream.o )
+[ 5 of 14] Compiling Data.Conduit.Combinators.Stream ( src/Data/Conduit/Combinators/Stream.hs, dist/dist-sandbox-4e7c043e/build/Data/Conduit/Combinators/Stream.o )
+[ 6 of 14] Compiling Data.Conduit     ( src/Data/Conduit.hs, dist/dist-sandbox-4e7c043e/build/Data/Conduit.o )
+
+src/Data/Conduit.hs:104:1: warning: [-Wunused-imports]
+    The import of ‘Data.Functor.Identity’ is redundant
+      except perhaps to import instances from ‘Data.Functor.Identity’
+    To import instances alone, use: import Data.Functor.Identity()
+    |
+104 | import Data.Functor.Identity (Identity, runIdentity)
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+src/Data/Conduit.hs:105:1: warning: [-Wunused-imports]
+    The import of ‘Control.Monad.Trans.Resource’ is redundant
+      except perhaps to import instances from ‘Control.Monad.Trans.Resource’
+    To import instances alone, use: import Control.Monad.Trans.Resource()
+    |
+105 | import Control.Monad.Trans.Resource (ResourceT, runResourceT)
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+src/Data/Conduit.hs:106:1: warning: [-Wunused-imports]
+    The import of ‘Control.Monad.IO.Unlift’ is redundant
+      except perhaps to import instances from ‘Control.Monad.IO.Unlift’
+    To import instances alone, use: import Control.Monad.IO.Unlift()
+    |
+106 | import Control.Monad.IO.Unlift (MonadUnliftIO)
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[ 7 of 14] Compiling Data.Conduit.Internal ( src/Data/Conduit/Internal.hs, dist/dist-sandbox-4e7c043e/build/Data/Conduit/Internal.o )
+[ 8 of 14] Compiling Data.Conduit.Lift ( src/Data/Conduit/Lift.hs, dist/dist-sandbox-4e7c043e/build/Data/Conduit/Lift.o )
+[ 9 of 14] Compiling Data.Conduit.List ( src/Data/Conduit/List.hs, dist/dist-sandbox-4e7c043e/build/Data/Conduit/List.o )
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8135_0/ghc_3.hscpp:507:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: $$ fold" may never fire
+      because ‘.|’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘.|’
+    |
+507 | {-# RULES "conduit: $$ fold" forall src f b. runConduit (src .| fold f b) = connectFold src f b #-}
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8135_0/ghc_3.hscpp:523:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: $$ foldM" may never fire
+      because ‘.|’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘.|’
+    |
+523 | {-# RULES "conduit: $$ foldM" forall src f b. runConduit (src .| foldM f b) = connectFoldM src f b #-}
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8135_0/ghc_3.hscpp:566:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connect to mapM_" may never fire
+      because ‘.|’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘.|’
+    |
+566 | {-# RULES "conduit: connect to mapM_" [2] forall f src. runConduit (src .| mapM_ f) = srcMapM_ src f #-}
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8135_0/ghc_3.hscpp:1000:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: source/filter fusion .|" may never fire
+      because ‘.|’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘.|’
+     |
+1000 | {-# RULES "conduit: source/filter fusion .|" forall f src. src .| filter f = filterFuseRight src f #-}
+     |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8135_0/ghc_3.hscpp:1024:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connect to sinkNull" may never fire
+      because ‘.|’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘.|’
+     |
+1024 | {-# RULES "conduit: connect to sinkNull" forall src. runConduit (src .| sinkNull) = srcSinkNull src #-}
+     |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[10 of 14] Compiling Data.Streaming.FileRead ( src/Data/Streaming/FileRead.hs, dist/dist-sandbox-4e7c043e/build/Data/Streaming/FileRead.o )
+[11 of 14] Compiling Data.Streaming.Filesystem ( src/Data/Streaming/Filesystem.hs, dist/dist-sandbox-4e7c043e/build/Data/Streaming/Filesystem.o )
+[12 of 14] Compiling Data.Conduit.Combinators ( src/Data/Conduit/Combinators.hs, dist/dist-sandbox-4e7c043e/build/Data/Conduit/Combinators.o )
+[13 of 14] Compiling Data.Conduit.Combinators.Unqualified ( src/Data/Conduit/Combinators/Unqualified.hs, dist/dist-sandbox-4e7c043e/build/Data/Conduit/Combinators/Unqualified.o )
+[14 of 14] Compiling Conduit          ( src/Conduit.hs, dist/dist-sandbox-4e7c043e/build/Conduit.o )
+[ 1 of 14] Compiling Data.Conduit.Internal.Pipe ( src/Data/Conduit/Internal/Pipe.hs, dist/dist-sandbox-4e7c043e/build/Data/Conduit/Internal/Pipe.p_o )
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8237_0/ghc_9.hscpp:400:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: CI.await >>= maybe" may never fire
+      because ‘maybe’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘maybe’
+    |
+400 | {-# RULES "conduit: CI.await >>= maybe" forall x y. await >>= maybe x y = NeedInput y (const x) #-}
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8237_0/ghc_9.hscpp:409:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: awaitE >>= either" may never fire
+      because ‘either’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘either’
+    |
+409 | {-# RULES "conduit: awaitE >>= either" forall x y. awaitE >>= either x y = NeedInput y x #-}
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 2 of 14] Compiling Data.Conduit.Internal.Conduit ( src/Data/Conduit/Internal/Conduit.hs, dist/dist-sandbox-4e7c043e/build/Data/Conduit/Internal/Conduit.p_o )
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8237_0/ghc_11.hscpp:1026:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: await >>= maybe" may never fire
+      because ‘maybe’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘maybe’
+     |
+1026 | {-# RULES "conduit: await >>= maybe" forall x y. await >>= maybe x y = await' x y #-}
+     |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 3 of 14] Compiling Data.Conduit.Internal.Fusion ( src/Data/Conduit/Internal/Fusion.hs, dist/dist-sandbox-4e7c043e/build/Data/Conduit/Internal/Fusion.p_o )
+
+src/Data/Conduit/Internal/Fusion.hs:71:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: fuseStream (.|)" may never fire
+      because ‘.|’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘.|’
+   |
+71 | {-# RULES "conduit: fuseStream (.|)" forall left right.
+   |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:74:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: fuseStream (fuse)" may never fire
+      because ‘fuse’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘fuse’
+   |
+74 | {-# RULES "conduit: fuseStream (fuse)" forall left right.
+   |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:78:23: warning: [-Wdeprecations]
+    In the use of ‘=$=’ (imported from Data.Conduit.Internal.Conduit):
+    Deprecated: "Use .|"
+   |
+78 |         unstream left =$= unstream right = unstream (fuseStream left right)
+   |                       ^^^
+
+src/Data/Conduit/Internal/Fusion.hs:102:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: runStream (pure)" may never fire
+      because ‘runConduitPure’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘runConduitPure’
+    |
+102 | {-# RULES "conduit: runStream (pure)" forall stream.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:105:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: runStream (ResourceT)" may never fire
+      because ‘runConduitRes’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘runConduitRes’
+    |
+105 | {-# RULES "conduit: runStream (ResourceT)" forall stream.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:129:23: warning: [-Wdeprecations]
+    In the use of ‘$$’ (imported from Data.Conduit.Internal.Conduit):
+    Deprecated: "Use runConduit and .|"
+    |
+129 |         unstream left $$ unstream right = connectStream left right
+    |                       ^^
+
+src/Data/Conduit/Internal/Fusion.hs:154:23: warning: [-Wdeprecations]
+    In the use of ‘$$’ (imported from Data.Conduit.Internal.Conduit):
+    Deprecated: "Use runConduit and .|"
+    |
+154 |         unstream left $$ right = connectStream1 left right
+    |                       ^^
+
+src/Data/Conduit/Internal/Fusion.hs:157:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream1 (runConduit/.|)" may never fire
+      because ‘.|’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘.|’
+    |
+157 | {-# RULES "conduit: connectStream1 (runConduit/.|)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:161:35: warning: [-Wdeprecations]
+    In the use of ‘=$=’ (imported from Data.Conduit.Internal.Conduit):
+    Deprecated: "Use .|"
+    |
+161 |         runConduit (unstream left =$= right) = connectStream1 left right
+    |                                   ^^^
+
+src/Data/Conduit/Internal/Fusion.hs:163:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream1 (runConduit/fuse)" may never fire
+      because ‘fuse’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘fuse’
+    |
+163 | {-# RULES "conduit: connectStream1 (runConduit/fuse)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:167:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream1 (runConduitPure/.|)" may never fire
+      because ‘runConduitPure’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘runConduitPure’
+    |
+167 | {-# RULES "conduit: connectStream1 (runConduitPure/.|)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:167:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream1 (runConduitPure/.|)" may never fire
+      because ‘.|’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘.|’
+    |
+167 | {-# RULES "conduit: connectStream1 (runConduitPure/.|)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:170:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream1 (runConduitPure/=$=)" may never fire
+      because ‘runConduitPure’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘runConduitPure’
+    |
+170 | {-# RULES "conduit: connectStream1 (runConduitPure/=$=)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:171:39: warning: [-Wdeprecations]
+    In the use of ‘=$=’ (imported from Data.Conduit.Internal.Conduit):
+    Deprecated: "Use .|"
+    |
+171 |         runConduitPure (unstream left =$= right) = runIdentity (connectStream1 left right)
+    |                                       ^^^
+
+src/Data/Conduit/Internal/Fusion.hs:173:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream1 (runConduitPure/fuse)" may never fire
+      because ‘runConduitPure’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘runConduitPure’
+    |
+173 | {-# RULES "conduit: connectStream1 (runConduitPure/fuse)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:173:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream1 (runConduitPure/fuse)" may never fire
+      because ‘fuse’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘fuse’
+    |
+173 | {-# RULES "conduit: connectStream1 (runConduitPure/fuse)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:177:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream1 (runConduitRes/.|)" may never fire
+      because ‘runConduitRes’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘runConduitRes’
+    |
+177 | {-# RULES "conduit: connectStream1 (runConduitRes/.|)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:177:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream1 (runConduitRes/.|)" may never fire
+      because ‘.|’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘.|’
+    |
+177 | {-# RULES "conduit: connectStream1 (runConduitRes/.|)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:180:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream1 (runConduitRes/=$=)" may never fire
+      because ‘runConduitRes’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘runConduitRes’
+    |
+180 | {-# RULES "conduit: connectStream1 (runConduitRes/=$=)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:181:38: warning: [-Wdeprecations]
+    In the use of ‘=$=’ (imported from Data.Conduit.Internal.Conduit):
+    Deprecated: "Use .|"
+    |
+181 |         runConduitRes (unstream left =$= right) = runResourceT (connectStream1 left right)
+    |                                      ^^^
+
+src/Data/Conduit/Internal/Fusion.hs:183:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream1 (runConduitRes/fuse)" may never fire
+      because ‘runConduitRes’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘runConduitRes’
+    |
+183 | {-# RULES "conduit: connectStream1 (runConduitRes/fuse)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:183:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream1 (runConduitRes/fuse)" may never fire
+      because ‘fuse’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘fuse’
+    |
+183 | {-# RULES "conduit: connectStream1 (runConduitRes/fuse)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:214:14: warning: [-Wdeprecations]
+    In the use of ‘$$’ (imported from Data.Conduit.Internal.Conduit):
+    Deprecated: "Use runConduit and .|"
+    |
+214 |         left $$ unstream right = connectStream2 left right
+    |              ^^
+
+src/Data/Conduit/Internal/Fusion.hs:217:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream2 (runConduit/.|)" may never fire
+      because ‘.|’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘.|’
+    |
+217 | {-# RULES "conduit: connectStream2 (runConduit/.|)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:220:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream2 (runConduit/fuse)" may never fire
+      because ‘fuse’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘fuse’
+    |
+220 | {-# RULES "conduit: connectStream2 (runConduit/fuse)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:224:26: warning: [-Wdeprecations]
+    In the use of ‘=$=’ (imported from Data.Conduit.Internal.Conduit):
+    Deprecated: "Use .|"
+    |
+224 |         runConduit (left =$= unstream right) = connectStream2 left right
+    |                          ^^^
+
+src/Data/Conduit/Internal/Fusion.hs:227:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream2 (runConduitPure/.|)" may never fire
+      because ‘runConduitPure’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘runConduitPure’
+    |
+227 | {-# RULES "conduit: connectStream2 (runConduitPure/.|)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:227:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream2 (runConduitPure/.|)" may never fire
+      because ‘.|’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘.|’
+    |
+227 | {-# RULES "conduit: connectStream2 (runConduitPure/.|)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:230:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream2 (runConduitPure/fuse)" may never fire
+      because ‘runConduitPure’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘runConduitPure’
+    |
+230 | {-# RULES "conduit: connectStream2 (runConduitPure/fuse)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:230:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream2 (runConduitPure/fuse)" may never fire
+      because ‘fuse’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘fuse’
+    |
+230 | {-# RULES "conduit: connectStream2 (runConduitPure/fuse)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:233:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream2 (runConduitPure/=$=)" may never fire
+      because ‘runConduitPure’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘runConduitPure’
+    |
+233 | {-# RULES "conduit: connectStream2 (runConduitPure/=$=)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:234:30: warning: [-Wdeprecations]
+    In the use of ‘=$=’ (imported from Data.Conduit.Internal.Conduit):
+    Deprecated: "Use .|"
+    |
+234 |         runConduitPure (left =$= unstream right) = runIdentity (connectStream2 left right)
+    |                              ^^^
+
+src/Data/Conduit/Internal/Fusion.hs:237:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream2 (runConduitRes/.|)" may never fire
+      because ‘runConduitRes’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘runConduitRes’
+    |
+237 | {-# RULES "conduit: connectStream2 (runConduitRes/.|)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:237:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream2 (runConduitRes/.|)" may never fire
+      because ‘.|’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘.|’
+    |
+237 | {-# RULES "conduit: connectStream2 (runConduitRes/.|)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:240:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream2 (runConduitRes/fuse)" may never fire
+      because ‘runConduitRes’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘runConduitRes’
+    |
+240 | {-# RULES "conduit: connectStream2 (runConduitRes/fuse)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:240:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream2 (runConduitRes/fuse)" may never fire
+      because ‘fuse’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘fuse’
+    |
+240 | {-# RULES "conduit: connectStream2 (runConduitRes/fuse)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:243:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connectStream2 (runConduitRes/=$=)" may never fire
+      because ‘runConduitRes’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘runConduitRes’
+    |
+243 | {-# RULES "conduit: connectStream2 (runConduitRes/=$=)" forall left right.
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+src/Data/Conduit/Internal/Fusion.hs:244:29: warning: [-Wdeprecations]
+    In the use of ‘=$=’ (imported from Data.Conduit.Internal.Conduit):
+    Deprecated: "Use .|"
+    |
+244 |         runConduitRes (left =$= unstream right) = runResourceT (connectStream2 left right)
+    |                             ^^^
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 4 of 14] Compiling Data.Conduit.Internal.List.Stream ( src/Data/Conduit/Internal/List/Stream.hs, dist/dist-sandbox-4e7c043e/build/Data/Conduit/Internal/List/Stream.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 5 of 14] Compiling Data.Conduit.Combinators.Stream ( src/Data/Conduit/Combinators/Stream.hs, dist/dist-sandbox-4e7c043e/build/Data/Conduit/Combinators/Stream.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 6 of 14] Compiling Data.Conduit     ( src/Data/Conduit.hs, dist/dist-sandbox-4e7c043e/build/Data/Conduit.p_o )
+
+src/Data/Conduit.hs:104:1: warning: [-Wunused-imports]
+    The import of ‘Data.Functor.Identity’ is redundant
+      except perhaps to import instances from ‘Data.Functor.Identity’
+    To import instances alone, use: import Data.Functor.Identity()
+    |
+104 | import Data.Functor.Identity (Identity, runIdentity)
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+src/Data/Conduit.hs:105:1: warning: [-Wunused-imports]
+    The import of ‘Control.Monad.Trans.Resource’ is redundant
+      except perhaps to import instances from ‘Control.Monad.Trans.Resource’
+    To import instances alone, use: import Control.Monad.Trans.Resource()
+    |
+105 | import Control.Monad.Trans.Resource (ResourceT, runResourceT)
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+src/Data/Conduit.hs:106:1: warning: [-Wunused-imports]
+    The import of ‘Control.Monad.IO.Unlift’ is redundant
+      except perhaps to import instances from ‘Control.Monad.IO.Unlift’
+    To import instances alone, use: import Control.Monad.IO.Unlift()
+    |
+106 | import Control.Monad.IO.Unlift (MonadUnliftIO)
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 7 of 14] Compiling Data.Conduit.Internal ( src/Data/Conduit/Internal.hs, dist/dist-sandbox-4e7c043e/build/Data/Conduit/Internal.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 8 of 14] Compiling Data.Conduit.Lift ( src/Data/Conduit/Lift.hs, dist/dist-sandbox-4e7c043e/build/Data/Conduit/Lift.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 9 of 14] Compiling Data.Conduit.List ( src/Data/Conduit/List.hs, dist/dist-sandbox-4e7c043e/build/Data/Conduit/List.p_o )
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8237_0/ghc_3.hscpp:507:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: $$ fold" may never fire
+      because ‘.|’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘.|’
+    |
+507 | {-# RULES "conduit: $$ fold" forall src f b. runConduit (src .| fold f b) = connectFold src f b #-}
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8237_0/ghc_3.hscpp:523:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: $$ foldM" may never fire
+      because ‘.|’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘.|’
+    |
+523 | {-# RULES "conduit: $$ foldM" forall src f b. runConduit (src .| foldM f b) = connectFoldM src f b #-}
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8237_0/ghc_3.hscpp:566:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connect to mapM_" may never fire
+      because ‘.|’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘.|’
+    |
+566 | {-# RULES "conduit: connect to mapM_" [2] forall f src. runConduit (src .| mapM_ f) = srcMapM_ src f #-}
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8237_0/ghc_3.hscpp:1000:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: source/filter fusion .|" may never fire
+      because ‘.|’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘.|’
+     |
+1000 | {-# RULES "conduit: source/filter fusion .|" forall f src. src .| filter f = filterFuseRight src f #-}
+     |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8237_0/ghc_3.hscpp:1024:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: connect to sinkNull" may never fire
+      because ‘.|’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘.|’
+     |
+1024 | {-# RULES "conduit: connect to sinkNull" forall src. runConduit (src .| sinkNull) = srcSinkNull src #-}
+     |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[10 of 14] Compiling Data.Streaming.FileRead ( src/Data/Streaming/FileRead.hs, dist/dist-sandbox-4e7c043e/build/Data/Streaming/FileRead.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[11 of 14] Compiling Data.Streaming.Filesystem ( src/Data/Streaming/Filesystem.hs, dist/dist-sandbox-4e7c043e/build/Data/Streaming/Filesystem.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[12 of 14] Compiling Data.Conduit.Combinators ( src/Data/Conduit/Combinators.hs, dist/dist-sandbox-4e7c043e/build/Data/Conduit/Combinators.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[13 of 14] Compiling Data.Conduit.Combinators.Unqualified ( src/Data/Conduit/Combinators/Unqualified.hs, dist/dist-sandbox-4e7c043e/build/Data/Conduit/Combinators/Unqualified.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[14 of 14] Compiling Conduit          ( src/Conduit.hs, dist/dist-sandbox-4e7c043e/build/Conduit.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for conduit-1.3.1..
+Running Haddock on library for conduit-1.3.1..
+
+src/Data/Conduit/Internal/Fusion.hs:78:23: warning: [-Wdeprecations]
+    In the use of ‘=$=’ (imported from Data.Conduit.Internal.Conduit):
+    Deprecated: "Use .|"
+   |
+78 |         unstream left =$= unstream right = unstream (fuseStream left right)
+   |                       ^^^
+
+src/Data/Conduit/Internal/Fusion.hs:129:23: warning: [-Wdeprecations]
+    In the use of ‘$$’ (imported from Data.Conduit.Internal.Conduit):
+    Deprecated: "Use runConduit and .|"
+    |
+129 |         unstream left $$ unstream right = connectStream left right
+    |                       ^^
+
+src/Data/Conduit/Internal/Fusion.hs:154:23: warning: [-Wdeprecations]
+    In the use of ‘$$’ (imported from Data.Conduit.Internal.Conduit):
+    Deprecated: "Use runConduit and .|"
+    |
+154 |         unstream left $$ right = connectStream1 left right
+    |                       ^^
+
+src/Data/Conduit/Internal/Fusion.hs:161:35: warning: [-Wdeprecations]
+    In the use of ‘=$=’ (imported from Data.Conduit.Internal.Conduit):
+    Deprecated: "Use .|"
+    |
+161 |         runConduit (unstream left =$= right) = connectStream1 left right
+    |                                   ^^^
+
+src/Data/Conduit/Internal/Fusion.hs:171:39: warning: [-Wdeprecations]
+    In the use of ‘=$=’ (imported from Data.Conduit.Internal.Conduit):
+    Deprecated: "Use .|"
+    |
+171 |         runConduitPure (unstream left =$= right) = runIdentity (connectStream1 left right)
+    |                                       ^^^
+
+src/Data/Conduit/Internal/Fusion.hs:181:38: warning: [-Wdeprecations]
+    In the use of ‘=$=’ (imported from Data.Conduit.Internal.Conduit):
+    Deprecated: "Use .|"
+    |
+181 |         runConduitRes (unstream left =$= right) = runResourceT (connectStream1 left right)
+    |                                      ^^^
+
+src/Data/Conduit/Internal/Fusion.hs:214:14: warning: [-Wdeprecations]
+    In the use of ‘$$’ (imported from Data.Conduit.Internal.Conduit):
+    Deprecated: "Use runConduit and .|"
+    |
+214 |         left $$ unstream right = connectStream2 left right
+    |              ^^
+
+src/Data/Conduit/Internal/Fusion.hs:224:26: warning: [-Wdeprecations]
+    In the use of ‘=$=’ (imported from Data.Conduit.Internal.Conduit):
+    Deprecated: "Use .|"
+    |
+224 |         runConduit (left =$= unstream right) = connectStream2 left right
+    |                          ^^^
+
+src/Data/Conduit/Internal/Fusion.hs:234:30: warning: [-Wdeprecations]
+    In the use of ‘=$=’ (imported from Data.Conduit.Internal.Conduit):
+    Deprecated: "Use .|"
+    |
+234 |         runConduitPure (left =$= unstream right) = runIdentity (connectStream2 left right)
+    |                              ^^^
+
+src/Data/Conduit/Internal/Fusion.hs:244:29: warning: [-Wdeprecations]
+    In the use of ‘=$=’ (imported from Data.Conduit.Internal.Conduit):
+    Deprecated: "Use .|"
+    |
+244 |         runConduitRes (left =$= unstream right) = runResourceT (connectStream2 left right)
+    |                             ^^^
+
+src/Data/Conduit.hs:104:1: warning: [-Wunused-imports]
+    The import of ‘Data.Functor.Identity’ is redundant
+      except perhaps to import instances from ‘Data.Functor.Identity’
+    To import instances alone, use: import Data.Functor.Identity()
+    |
+104 | import Data.Functor.Identity (Identity, runIdentity)
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+src/Data/Conduit.hs:105:1: warning: [-Wunused-imports]
+    The import of ‘Control.Monad.Trans.Resource’ is redundant
+      except perhaps to import instances from ‘Control.Monad.Trans.Resource’
+    To import instances alone, use: import Control.Monad.Trans.Resource()
+    |
+105 | import Control.Monad.Trans.Resource (ResourceT, runResourceT)
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+src/Data/Conduit.hs:106:1: warning: [-Wunused-imports]
+    The import of ‘Control.Monad.IO.Unlift’ is redundant
+      except perhaps to import instances from ‘Control.Monad.IO.Unlift’
+    To import instances alone, use: import Control.Monad.IO.Unlift()
+    |
+106 | import Control.Monad.IO.Unlift (MonadUnliftIO)
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Haddock coverage:
+  19% (  3 / 16) in 'Data.Conduit.Internal.Fusion'
+  Missing documentation for:
+    Module header
+    Stream (src/Data/Conduit/Internal/Fusion.hs:39)
+    ConduitWithStream (src/Data/Conduit/Internal/Fusion.hs:43)
+    StreamConduitT (src/Data/Conduit/Internal/Fusion.hs:47)
+    StreamConduit (src/Data/Conduit/Internal/Fusion.hs:49)
+    StreamSource (src/Data/Conduit/Internal/Fusion.hs:51)
+    StreamProducer (src/Data/Conduit/Internal/Fusion.hs:53)
+    StreamSink (src/Data/Conduit/Internal/Fusion.hs:55)
+    StreamConsumer (src/Data/Conduit/Internal/Fusion.hs:57)
+    streamConduit (src/Data/Conduit/Internal/Fusion.hs:247)
+    streamSource (src/Data/Conduit/Internal/Fusion.hs:253)
+    streamSourcePure (src/Data/Conduit/Internal/Fusion.hs:271)
+    unstream (src/Data/Conduit/Internal/Fusion.hs:59)
+   0% (  0 / 41) in 'Data.Conduit.Internal.List.Stream'
+  Missing documentation for:
+    Module header
+    unfoldS (src/Data/Conduit/Internal/List/Stream.hs:13)
+    unfoldEitherS (src/Data/Conduit/Internal/List/Stream.hs:26)
+    unfoldMS (src/Data/Conduit/Internal/List/Stream.hs:39)
+    unfoldEitherMS (src/Data/Conduit/Internal/List/Stream.hs:53)
+    sourceListS (src/Data/Conduit/Internal/List/Stream.hs:66)
+    enumFromToS (src/Data/Conduit/Internal/List/Stream.hs:74)
+    enumFromToS_int (src/Data/Conduit/Internal/List/Stream.hs:86)
+    iterateS (src/Data/Conduit/Internal/List/Stream.hs:100)
+    replicateS (src/Data/Conduit/Internal/List/Stream.hs:109)
+    replicateMS (src/Data/Conduit/Internal/List/Stream.hs:118)
+    foldS (src/Data/Conduit/Internal/List/Stream.hs:127)
+    foldMS (src/Data/Conduit/Internal/List/Stream.hs:139)
+    mapM_S (src/Data/Conduit/Internal/List/Stream.hs:153)
+    dropS (src/Data/Conduit/Internal/List/Stream.hs:167)
+    takeS (src/Data/Conduit/Internal/List/Stream.hs:182)
+    headS (src/Data/Conduit/Internal/List/Stream.hs:197)
+    mapS (src/Data/Conduit/Internal/List/Stream.hs:209)
+    mapMS (src/Data/Conduit/Internal/List/Stream.hs:221)
+    iterMS (src/Data/Conduit/Internal/List/Stream.hs:233)
+    mapMaybeS (src/Data/Conduit/Internal/List/Stream.hs:245)
+    mapMaybeMS (src/Data/Conduit/Internal/List/Stream.hs:260)
+    catMaybesS (src/Data/Conduit/Internal/List/Stream.hs:276)
+    concatS (src/Data/Conduit/Internal/List/Stream.hs:289)
+    concatMapS (src/Data/Conduit/Internal/List/Stream.hs:302)
+    concatMapMS (src/Data/Conduit/Internal/List/Stream.hs:315)
+    concatMapAccumS (src/Data/Conduit/Internal/List/Stream.hs:330)
+    mapAccumS (src/Data/Conduit/Internal/List/Stream.hs:345)
+    mapAccumMS (src/Data/Conduit/Internal/List/Stream.hs:359)
+    concatMapAccumMS (src/Data/Conduit/Internal/List/Stream.hs:373)
+    mapFoldableS (src/Data/Conduit/Internal/List/Stream.hs:388)
+    mapFoldableMS (src/Data/Conduit/Internal/List/Stream.hs:401)
+    consumeS (src/Data/Conduit/Internal/List/Stream.hs:416)
+    groupByS (src/Data/Conduit/Internal/List/Stream.hs:428)
+    groupOn1S (src/Data/Conduit/Internal/List/Stream.hs:432)
+    GroupByState (src/Data/Conduit/Internal/List/Stream.hs:436)
+    groupBy1S (src/Data/Conduit/Internal/List/Stream.hs:441)
+    isolateS (src/Data/Conduit/Internal/List/Stream.hs:462)
+    filterS (src/Data/Conduit/Internal/List/Stream.hs:475)
+    sinkNullS (src/Data/Conduit/Internal/List/Stream.hs:488)
+    sourceNullS (src/Data/Conduit/Internal/List/Stream.hs:500)
+  11% (  3 / 27) in 'Data.Conduit.Combinators.Stream'
+  Missing documentation for:
+    yieldManyS (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8564_0/ghc_5.hscpp:253)
+    repeatMS (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8564_0/ghc_5.hscpp:263)
+    repeatWhileMS (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8564_0/ghc_5.hscpp:272)
+    foldl1S (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8564_0/ghc_5.hscpp:286)
+    allS (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8564_0/ghc_5.hscpp:300)
+    anyS (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8564_0/ghc_5.hscpp:306)
+    sinkLazyS (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8564_0/ghc_5.hscpp:315)
+    sinkVectorS (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8564_0/ghc_5.hscpp:320)
+    sinkVectorNS (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8564_0/ghc_5.hscpp:345)
+    sinkLazyBuilderS (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8564_0/ghc_5.hscpp:366)
+    lastS (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8564_0/ghc_5.hscpp:370)
+    lastES (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8564_0/ghc_5.hscpp:383)
+    findS (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8564_0/ghc_5.hscpp:397)
+    concatMapS (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8564_0/ghc_5.hscpp:413)
+    concatMapMS (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8564_0/ghc_5.hscpp:428)
+    concatS (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8564_0/ghc_5.hscpp:445)
+    scanlS (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8564_0/ghc_5.hscpp:454)
+    scanlMS (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8564_0/ghc_5.hscpp:469)
+    mapAccumWhileS (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8564_0/ghc_5.hscpp:484)
+    mapAccumWhileMS (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8564_0/ghc_5.hscpp:499)
+    intersperseS (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8564_0/ghc_5.hscpp:521)
+    slidingWindowS (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8564_0/ghc_5.hscpp:547)
+    filterMS (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8564_0/ghc_5.hscpp:576)
+    splitOnUnboundedES (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8564_0/ghc_5.hscpp:603)
+  97% ( 77 / 79) in 'Data.Conduit'
+  Missing documentation for:
+    sealConduitT (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8564_0/ghc_11.hscpp:477)
+    unsealConduitT (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8564_0/ghc_11.hscpp:480)
+  91% ( 85 / 93) in 'Data.Conduit.Internal'
+  Missing documentation for:
+    Module header
+    yieldM (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8564_0/ghc_9.hscpp:433)
+    enumFromTo (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8564_0/ghc_9.hscpp:651)
+    sealConduitT (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8564_0/ghc_11.hscpp:477)
+    unsealConduitT (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8564_0/ghc_11.hscpp:480)
+    sourceToPipe (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8564_0/ghc_11.hscpp:512)
+    sinkToPipe (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8564_0/ghc_11.hscpp:522)
+    conduitToPipe (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8564_0/ghc_11.hscpp:532)
+ 100% ( 42 / 42) in 'Data.Conduit.Lift'
+ 100% ( 55 / 55) in 'Data.Conduit.List'
+ 100% (166 /166) in 'Data.Conduit.Combinators'
+ 100% (186 /186) in 'Conduit'
+Warning: Data.Conduit: could not find link destinations for:
+    unsafeIndex unsafeRangeSize
+Warning: Data.Conduit.Combinators: could not find link destinations for:
+    Buffer unsafeFreezeBuffer
+Warning: Conduit: could not find link destinations for:
+    Buffer unsafeIndex unsafeRangeSize
+Documentation created: dist/dist-sandbox-4e7c043e/doc/html/conduit/index.html
+Installing library in /Users/Bo/Documents/KI/Functioneel_Programmeren/Game/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/conduit-1.3.1-DCWm41Xuxq9DlVElvfFArM
+cabal: Leaving directory '/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/cabal-tmp-1022/conduit-1.3.1'

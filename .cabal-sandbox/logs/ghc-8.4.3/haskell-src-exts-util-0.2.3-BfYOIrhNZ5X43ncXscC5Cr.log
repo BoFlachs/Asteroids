@@ -1,0 +1,42 @@
+cabal: Entering directory '/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/cabal-tmp-1021/haskell-src-exts-util-0.2.3'
+Configuring haskell-src-exts-util-0.2.3...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for haskell-src-exts-util-0.2.3..
+Building library for haskell-src-exts-util-0.2.3..
+[1 of 5] Compiling Language.Haskell.Exts.FreeVars ( src/Language/Haskell/Exts/FreeVars.hs, dist/dist-sandbox-4e7c043e/build/Language/Haskell/Exts/FreeVars.o )
+[2 of 5] Compiling Language.Haskell.Exts.Util.Internal ( src/Language/Haskell/Exts/Util/Internal.hs, dist/dist-sandbox-4e7c043e/build/Language/Haskell/Exts/Util/Internal.o )
+[3 of 5] Compiling Language.Haskell.Exts.Bracket ( src/Language/Haskell/Exts/Bracket.hs, dist/dist-sandbox-4e7c043e/build/Language/Haskell/Exts/Bracket.o )
+[4 of 5] Compiling Language.Haskell.Exts.Util ( src/Language/Haskell/Exts/Util.hs, dist/dist-sandbox-4e7c043e/build/Language/Haskell/Exts/Util.o )
+[5 of 5] Compiling Paths_haskell_src_exts_util ( dist/dist-sandbox-4e7c043e/build/autogen/Paths_haskell_src_exts_util.hs, dist/dist-sandbox-4e7c043e/build/Paths_haskell_src_exts_util.o )
+[1 of 5] Compiling Language.Haskell.Exts.FreeVars ( src/Language/Haskell/Exts/FreeVars.hs, dist/dist-sandbox-4e7c043e/build/Language/Haskell/Exts/FreeVars.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[2 of 5] Compiling Language.Haskell.Exts.Util.Internal ( src/Language/Haskell/Exts/Util/Internal.hs, dist/dist-sandbox-4e7c043e/build/Language/Haskell/Exts/Util/Internal.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[3 of 5] Compiling Language.Haskell.Exts.Bracket ( src/Language/Haskell/Exts/Bracket.hs, dist/dist-sandbox-4e7c043e/build/Language/Haskell/Exts/Bracket.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[4 of 5] Compiling Language.Haskell.Exts.Util ( src/Language/Haskell/Exts/Util.hs, dist/dist-sandbox-4e7c043e/build/Language/Haskell/Exts/Util.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[5 of 5] Compiling Paths_haskell_src_exts_util ( dist/dist-sandbox-4e7c043e/build/autogen/Paths_haskell_src_exts_util.hs, dist/dist-sandbox-4e7c043e/build/Paths_haskell_src_exts_util.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for haskell-src-exts-util-0.2.3..
+Running Haddock on library for haskell-src-exts-util-0.2.3..
+Haddock coverage:
+  36% (  4 / 11) in 'Language.Haskell.Exts.Util'
+  Missing documentation for:
+    Module header
+    FreeVars (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9575_0/ghc_1.hscpp:170)
+    Vars (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9575_0/ghc_1.hscpp:154)
+    AllVars (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9575_0/ghc_1.hscpp:166)
+    Brackets (src/Language/Haskell/Exts/Bracket.hs:26)
+    transformBracket (src/Language/Haskell/Exts/Bracket.hs:189)
+    appsBracket (src/Language/Haskell/Exts/Bracket.hs:202)
+Documentation created:
+dist/dist-sandbox-4e7c043e/doc/html/haskell-src-exts-util/index.html
+Installing library in /Users/Bo/Documents/KI/Functioneel_Programmeren/Game/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/haskell-src-exts-util-0.2.3-BfYOIrhNZ5X43ncXscC5Cr
+cabal: Leaving directory '/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/cabal-tmp-1021/haskell-src-exts-util-0.2.3'

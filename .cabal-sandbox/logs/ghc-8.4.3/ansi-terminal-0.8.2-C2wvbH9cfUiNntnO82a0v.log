@@ -1,0 +1,103 @@
+cabal: Entering directory '/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/cabal-tmp-1024/ansi-terminal-0.8.2'
+Configuring ansi-terminal-0.8.2...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for ansi-terminal-0.8.2..
+Building library for ansi-terminal-0.8.2..
+[1 of 4] Compiling System.Console.ANSI.Types ( src/System/Console/ANSI/Types.hs, dist/dist-sandbox-4e7c043e/build/System/Console/ANSI/Types.o )
+[2 of 4] Compiling System.Console.ANSI.Codes ( src/System/Console/ANSI/Codes.hs, dist/dist-sandbox-4e7c043e/build/System/Console/ANSI/Codes.o )
+[3 of 4] Compiling System.Console.ANSI.Unix ( src/System/Console/ANSI/Unix.hs, dist/dist-sandbox-4e7c043e/build/System/Console/ANSI/Unix.o )
+[4 of 4] Compiling System.Console.ANSI ( src/System/Console/ANSI.hs, dist/dist-sandbox-4e7c043e/build/System/Console/ANSI.o )
+[1 of 4] Compiling System.Console.ANSI.Types ( src/System/Console/ANSI/Types.hs, dist/dist-sandbox-4e7c043e/build/System/Console/ANSI/Types.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[2 of 4] Compiling System.Console.ANSI.Codes ( src/System/Console/ANSI/Codes.hs, dist/dist-sandbox-4e7c043e/build/System/Console/ANSI/Codes.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[3 of 4] Compiling System.Console.ANSI.Unix ( src/System/Console/ANSI/Unix.hs, dist/dist-sandbox-4e7c043e/build/System/Console/ANSI/Unix.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[4 of 4] Compiling System.Console.ANSI ( src/System/Console/ANSI.hs, dist/dist-sandbox-4e7c043e/build/System/Console/ANSI.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for ansi-terminal-0.8.2..
+Running Haddock on library for ansi-terminal-0.8.2..
+Haddock coverage:
+ 100% (  8 /  8) in 'System.Console.ANSI.Types'
+  58% ( 23 / 40) in 'System.Console.ANSI.Codes'
+  Missing documentation for:
+    cursorUpCode (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_5.hscpp:198)
+    cursorDownCode (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_5.hscpp:198)
+    cursorForwardCode (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_5.hscpp:198)
+    cursorBackwardCode (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_5.hscpp:198)
+    cursorUpLineCode (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_5.hscpp:206)
+    cursorDownLineCode (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_5.hscpp:206)
+    clearFromCursorToScreenEndCode (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_5.hscpp:249)
+    clearFromCursorToScreenBeginningCode (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_5.hscpp:249)
+    clearScreenCode (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_5.hscpp:249)
+    clearFromCursorToLineEndCode (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_5.hscpp:251)
+    clearFromCursorToLineBeginningCode (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_5.hscpp:251)
+    clearLineCode (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_5.hscpp:251)
+    scrollPageUpCode (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_5.hscpp:261)
+    scrollPageDownCode (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_5.hscpp:261)
+    setSGRCode (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_5.hscpp:266)
+    hideCursorCode (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_5.hscpp:273)
+    showCursorCode (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_5.hscpp:273)
+  46% ( 42 / 92) in 'System.Console.ANSI'
+  Missing documentation for:
+    cursorUp (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_7.hscpp:238)
+    cursorDown (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_7.hscpp:238)
+    cursorForward (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_7.hscpp:238)
+    cursorBackward (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_7.hscpp:238)
+    hCursorUp (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_7.hscpp:234)
+    hCursorDown (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_7.hscpp:234)
+    hCursorForward (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_7.hscpp:234)
+    hCursorBackward (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_7.hscpp:234)
+    cursorUpCode (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_5.hscpp:198)
+    cursorDownCode (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_5.hscpp:198)
+    cursorForwardCode (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_5.hscpp:198)
+    cursorBackwardCode (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_5.hscpp:198)
+    cursorUpLine (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_7.hscpp:249)
+    cursorDownLine (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_7.hscpp:249)
+    hCursorUpLine (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_7.hscpp:246)
+    hCursorDownLine (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_7.hscpp:246)
+    cursorUpLineCode (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_5.hscpp:206)
+    cursorDownLineCode (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_5.hscpp:206)
+    hSetCursorColumn (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_7.hscpp:254)
+    hSetCursorPosition (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_7.hscpp:264)
+    hSaveCursor (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_7.hscpp:276)
+    hRestoreCursor (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_7.hscpp:276)
+    hReportCursorPosition (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_7.hscpp:276)
+    clearFromCursorToScreenEnd (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_7.hscpp:483)
+    clearFromCursorToScreenBeginning (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_7.hscpp:483)
+    clearScreen (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_7.hscpp:483)
+    hClearFromCursorToScreenEnd (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_7.hscpp:479)
+    hClearFromCursorToScreenBeginning (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_7.hscpp:479)
+    hClearScreen (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_7.hscpp:479)
+    clearFromCursorToScreenEndCode (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_5.hscpp:249)
+    clearFromCursorToScreenBeginningCode (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_5.hscpp:249)
+    clearScreenCode (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_5.hscpp:249)
+    clearFromCursorToLineEnd (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_7.hscpp:493)
+    clearFromCursorToLineBeginning (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_7.hscpp:493)
+    clearLine (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_7.hscpp:493)
+    hClearFromCursorToLineEnd (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_7.hscpp:489)
+    hClearFromCursorToLineBeginning (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_7.hscpp:489)
+    hClearLine (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_7.hscpp:489)
+    clearFromCursorToLineEndCode (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_5.hscpp:251)
+    clearFromCursorToLineBeginningCode (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_5.hscpp:251)
+    clearLineCode (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_5.hscpp:251)
+    scrollPageUpCode (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_5.hscpp:261)
+    scrollPageDownCode (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_5.hscpp:261)
+    setSGRCode (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_5.hscpp:266)
+    hideCursor (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_7.hscpp:318)
+    showCursor (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_7.hscpp:318)
+    hHideCursor (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_7.hscpp:316)
+    hShowCursor (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_7.hscpp:316)
+    hideCursorCode (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_5.hscpp:273)
+    showCursorCode (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc6965_0/ghc_5.hscpp:273)
+Warning: System.Console.ANSI.Types: could not find link destinations for:
+    unsafeIndex unsafeRangeSize
+Documentation created:
+dist/dist-sandbox-4e7c043e/doc/html/ansi-terminal/index.html
+Installing library in /Users/Bo/Documents/KI/Functioneel_Programmeren/Game/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/ansi-terminal-0.8.2-C2wvbH9cfUiNntnO82a0v
+cabal: Leaving directory '/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/cabal-tmp-1024/ansi-terminal-0.8.2'

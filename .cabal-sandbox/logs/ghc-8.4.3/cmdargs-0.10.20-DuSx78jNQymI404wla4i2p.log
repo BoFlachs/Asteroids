@@ -1,0 +1,124 @@
+cabal: Entering directory '/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/cabal-tmp-1024/cmdargs-0.10.20'
+Configuring cmdargs-0.10.20...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for cmdargs-0.10.20..
+Building library for cmdargs-0.10.20..
+[ 1 of 25] Compiling Data.Generics.Any ( Data/Generics/Any.hs, dist/dist-sandbox-4e7c043e/build/Data/Generics/Any.o )
+[ 2 of 25] Compiling Data.Generics.Any.Prelude ( Data/Generics/Any/Prelude.hs, dist/dist-sandbox-4e7c043e/build/Data/Generics/Any/Prelude.o )
+[ 3 of 25] Compiling System.Console.CmdArgs.Annotate ( System/Console/CmdArgs/Annotate.hs, dist/dist-sandbox-4e7c043e/build/System/Console/CmdArgs/Annotate.o )
+[ 4 of 25] Compiling System.Console.CmdArgs.Default ( System/Console/CmdArgs/Default.hs, dist/dist-sandbox-4e7c043e/build/System/Console/CmdArgs/Default.o )
+[ 5 of 25] Compiling System.Console.CmdArgs.Explicit.ExpandArgsAt ( System/Console/CmdArgs/Explicit/ExpandArgsAt.hs, dist/dist-sandbox-4e7c043e/build/System/Console/CmdArgs/Explicit/ExpandArgsAt.o )
+[ 6 of 25] Compiling System.Console.CmdArgs.Explicit.SplitJoin ( System/Console/CmdArgs/Explicit/SplitJoin.hs, dist/dist-sandbox-4e7c043e/build/System/Console/CmdArgs/Explicit/SplitJoin.o )
+[ 7 of 25] Compiling System.Console.CmdArgs.Explicit.Type ( System/Console/CmdArgs/Explicit/Type.hs, dist/dist-sandbox-4e7c043e/build/System/Console/CmdArgs/Explicit/Type.o )
+[ 8 of 25] Compiling System.Console.CmdArgs.Explicit.Process ( System/Console/CmdArgs/Explicit/Process.hs, dist/dist-sandbox-4e7c043e/build/System/Console/CmdArgs/Explicit/Process.o )
+[ 9 of 25] Compiling System.Console.CmdArgs.Explicit.Complete ( System/Console/CmdArgs/Explicit/Complete.hs, dist/dist-sandbox-4e7c043e/build/System/Console/CmdArgs/Explicit/Complete.o )
+[10 of 25] Compiling System.Console.CmdArgs.Helper ( System/Console/CmdArgs/Helper.hs, dist/dist-sandbox-4e7c043e/build/System/Console/CmdArgs/Helper.o )
+[11 of 25] Compiling System.Console.CmdArgs.Implicit.Ann ( System/Console/CmdArgs/Implicit/Ann.hs, dist/dist-sandbox-4e7c043e/build/System/Console/CmdArgs/Implicit/Ann.o )
+[12 of 25] Compiling System.Console.CmdArgs.Implicit.UI ( System/Console/CmdArgs/Implicit/UI.hs, dist/dist-sandbox-4e7c043e/build/System/Console/CmdArgs/Implicit/UI.o )
+[13 of 25] Compiling System.Console.CmdArgs.Text ( System/Console/CmdArgs/Text.hs, dist/dist-sandbox-4e7c043e/build/System/Console/CmdArgs/Text.o )
+[14 of 25] Compiling System.Console.CmdArgs.Explicit.Help ( System/Console/CmdArgs/Explicit/Help.hs, dist/dist-sandbox-4e7c043e/build/System/Console/CmdArgs/Explicit/Help.o )
+[15 of 25] Compiling System.Console.CmdArgs.Verbosity ( System/Console/CmdArgs/Verbosity.hs, dist/dist-sandbox-4e7c043e/build/System/Console/CmdArgs/Verbosity.o )
+[16 of 25] Compiling System.Console.CmdArgs.Implicit.Type ( System/Console/CmdArgs/Implicit/Type.hs, dist/dist-sandbox-4e7c043e/build/System/Console/CmdArgs/Implicit/Type.o )
+[17 of 25] Compiling System.Console.CmdArgs.Explicit ( System/Console/CmdArgs/Explicit.hs, dist/dist-sandbox-4e7c043e/build/System/Console/CmdArgs/Explicit.o )
+[18 of 25] Compiling System.Console.CmdArgs.Implicit.Reader ( System/Console/CmdArgs/Implicit/Reader.hs, dist/dist-sandbox-4e7c043e/build/System/Console/CmdArgs/Implicit/Reader.o )
+[19 of 25] Compiling System.Console.CmdArgs.Implicit.Local ( System/Console/CmdArgs/Implicit/Local.hs, dist/dist-sandbox-4e7c043e/build/System/Console/CmdArgs/Implicit/Local.o )
+[20 of 25] Compiling System.Console.CmdArgs.Implicit.Reform ( System/Console/CmdArgs/Implicit/Reform.hs, dist/dist-sandbox-4e7c043e/build/System/Console/CmdArgs/Implicit/Reform.o )
+[21 of 25] Compiling System.Console.CmdArgs.Implicit.Global ( System/Console/CmdArgs/Implicit/Global.hs, dist/dist-sandbox-4e7c043e/build/System/Console/CmdArgs/Implicit/Global.o )
+[22 of 25] Compiling System.Console.CmdArgs.Implicit ( System/Console/CmdArgs/Implicit.hs, dist/dist-sandbox-4e7c043e/build/System/Console/CmdArgs/Implicit.o )
+[23 of 25] Compiling System.Console.CmdArgs.Quote ( System/Console/CmdArgs/Quote.hs, dist/dist-sandbox-4e7c043e/build/System/Console/CmdArgs/Quote.o )
+[24 of 25] Compiling System.Console.CmdArgs ( System/Console/CmdArgs.hs, dist/dist-sandbox-4e7c043e/build/System/Console/CmdArgs.o )
+[25 of 25] Compiling System.Console.CmdArgs.GetOpt ( System/Console/CmdArgs/GetOpt.hs, dist/dist-sandbox-4e7c043e/build/System/Console/CmdArgs/GetOpt.o )
+[ 1 of 25] Compiling Data.Generics.Any ( Data/Generics/Any.hs, dist/dist-sandbox-4e7c043e/build/Data/Generics/Any.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 2 of 25] Compiling Data.Generics.Any.Prelude ( Data/Generics/Any/Prelude.hs, dist/dist-sandbox-4e7c043e/build/Data/Generics/Any/Prelude.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 3 of 25] Compiling System.Console.CmdArgs.Annotate ( System/Console/CmdArgs/Annotate.hs, dist/dist-sandbox-4e7c043e/build/System/Console/CmdArgs/Annotate.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 4 of 25] Compiling System.Console.CmdArgs.Default ( System/Console/CmdArgs/Default.hs, dist/dist-sandbox-4e7c043e/build/System/Console/CmdArgs/Default.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 5 of 25] Compiling System.Console.CmdArgs.Explicit.ExpandArgsAt ( System/Console/CmdArgs/Explicit/ExpandArgsAt.hs, dist/dist-sandbox-4e7c043e/build/System/Console/CmdArgs/Explicit/ExpandArgsAt.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 6 of 25] Compiling System.Console.CmdArgs.Explicit.SplitJoin ( System/Console/CmdArgs/Explicit/SplitJoin.hs, dist/dist-sandbox-4e7c043e/build/System/Console/CmdArgs/Explicit/SplitJoin.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 7 of 25] Compiling System.Console.CmdArgs.Explicit.Type ( System/Console/CmdArgs/Explicit/Type.hs, dist/dist-sandbox-4e7c043e/build/System/Console/CmdArgs/Explicit/Type.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 8 of 25] Compiling System.Console.CmdArgs.Explicit.Process ( System/Console/CmdArgs/Explicit/Process.hs, dist/dist-sandbox-4e7c043e/build/System/Console/CmdArgs/Explicit/Process.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 9 of 25] Compiling System.Console.CmdArgs.Explicit.Complete ( System/Console/CmdArgs/Explicit/Complete.hs, dist/dist-sandbox-4e7c043e/build/System/Console/CmdArgs/Explicit/Complete.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[10 of 25] Compiling System.Console.CmdArgs.Helper ( System/Console/CmdArgs/Helper.hs, dist/dist-sandbox-4e7c043e/build/System/Console/CmdArgs/Helper.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[11 of 25] Compiling System.Console.CmdArgs.Implicit.Ann ( System/Console/CmdArgs/Implicit/Ann.hs, dist/dist-sandbox-4e7c043e/build/System/Console/CmdArgs/Implicit/Ann.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[12 of 25] Compiling System.Console.CmdArgs.Implicit.UI ( System/Console/CmdArgs/Implicit/UI.hs, dist/dist-sandbox-4e7c043e/build/System/Console/CmdArgs/Implicit/UI.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[13 of 25] Compiling System.Console.CmdArgs.Text ( System/Console/CmdArgs/Text.hs, dist/dist-sandbox-4e7c043e/build/System/Console/CmdArgs/Text.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[14 of 25] Compiling System.Console.CmdArgs.Explicit.Help ( System/Console/CmdArgs/Explicit/Help.hs, dist/dist-sandbox-4e7c043e/build/System/Console/CmdArgs/Explicit/Help.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[15 of 25] Compiling System.Console.CmdArgs.Verbosity ( System/Console/CmdArgs/Verbosity.hs, dist/dist-sandbox-4e7c043e/build/System/Console/CmdArgs/Verbosity.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[16 of 25] Compiling System.Console.CmdArgs.Implicit.Type ( System/Console/CmdArgs/Implicit/Type.hs, dist/dist-sandbox-4e7c043e/build/System/Console/CmdArgs/Implicit/Type.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[17 of 25] Compiling System.Console.CmdArgs.Explicit ( System/Console/CmdArgs/Explicit.hs, dist/dist-sandbox-4e7c043e/build/System/Console/CmdArgs/Explicit.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[18 of 25] Compiling System.Console.CmdArgs.Implicit.Reader ( System/Console/CmdArgs/Implicit/Reader.hs, dist/dist-sandbox-4e7c043e/build/System/Console/CmdArgs/Implicit/Reader.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[19 of 25] Compiling System.Console.CmdArgs.Implicit.Local ( System/Console/CmdArgs/Implicit/Local.hs, dist/dist-sandbox-4e7c043e/build/System/Console/CmdArgs/Implicit/Local.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[20 of 25] Compiling System.Console.CmdArgs.Implicit.Reform ( System/Console/CmdArgs/Implicit/Reform.hs, dist/dist-sandbox-4e7c043e/build/System/Console/CmdArgs/Implicit/Reform.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[21 of 25] Compiling System.Console.CmdArgs.Implicit.Global ( System/Console/CmdArgs/Implicit/Global.hs, dist/dist-sandbox-4e7c043e/build/System/Console/CmdArgs/Implicit/Global.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[22 of 25] Compiling System.Console.CmdArgs.Implicit ( System/Console/CmdArgs/Implicit.hs, dist/dist-sandbox-4e7c043e/build/System/Console/CmdArgs/Implicit.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[23 of 25] Compiling System.Console.CmdArgs.Quote ( System/Console/CmdArgs/Quote.hs, dist/dist-sandbox-4e7c043e/build/System/Console/CmdArgs/Quote.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[24 of 25] Compiling System.Console.CmdArgs ( System/Console/CmdArgs.hs, dist/dist-sandbox-4e7c043e/build/System/Console/CmdArgs.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[25 of 25] Compiling System.Console.CmdArgs.GetOpt ( System/Console/CmdArgs/GetOpt.hs, dist/dist-sandbox-4e7c043e/build/System/Console/CmdArgs/GetOpt.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for cmdargs-0.10.20..
+Running Haddock on library for cmdargs-0.10.20..
+Haddock coverage:
+ 100% ( 17 / 17) in 'System.Console.CmdArgs.Annotate'
+ 100% (  2 /  2) in 'System.Console.CmdArgs.Default'
+ 100% (  8 /  8) in 'System.Console.CmdArgs.Helper'
+ 100% (  5 /  5) in 'System.Console.CmdArgs.Text'
+ 100% (  8 /  8) in 'System.Console.CmdArgs.Verbosity'
+ 100% ( 48 / 48) in 'System.Console.CmdArgs.Explicit'
+ 100% ( 50 / 50) in 'System.Console.CmdArgs.Implicit'
+ 100% (  9 /  9) in 'System.Console.CmdArgs.Quote'
+ 100% (  2 /  2) in 'System.Console.CmdArgs'
+ 100% (  8 /  8) in 'System.Console.CmdArgs.GetOpt'
+Warning: System.Console.CmdArgs.Implicit: could not find link destinations for:
+    CmdArgsPrivate typeRep#
+Documentation created: dist/dist-sandbox-4e7c043e/doc/html/cmdargs/index.html
+Installing library in /Users/Bo/Documents/KI/Functioneel_Programmeren/Game/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/cmdargs-0.10.20-DuSx78jNQymI404wla4i2p
+cabal: Leaving directory '/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/cabal-tmp-1024/cmdargs-0.10.20'

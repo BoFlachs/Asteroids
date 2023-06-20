@@ -1,0 +1,56 @@
+cabal: Entering directory '/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/cabal-tmp-1022/libyaml-0.1.0.0'
+Configuring libyaml-0.1.0.0...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for libyaml-0.1.0.0..
+Building library for libyaml-0.1.0.0..
+[1 of 2] Compiling Paths_libyaml    ( dist/dist-sandbox-4e7c043e/build/autogen/Paths_libyaml.hs, dist/dist-sandbox-4e7c043e/build/Paths_libyaml.o )
+[2 of 2] Compiling Text.Libyaml     ( src/Text/Libyaml.hs, dist/dist-sandbox-4e7c043e/build/Text/Libyaml.o )
+[1 of 2] Compiling Paths_libyaml    ( dist/dist-sandbox-4e7c043e/build/autogen/Paths_libyaml.hs, dist/dist-sandbox-4e7c043e/build/Paths_libyaml.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[2 of 2] Compiling Text.Libyaml     ( src/Text/Libyaml.hs, dist/dist-sandbox-4e7c043e/build/Text/Libyaml.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for libyaml-0.1.0.0..
+Running Haddock on library for libyaml-0.1.0.0..
+Haddock coverage:
+  72% ( 18 / 25) in 'Text.Libyaml'
+  Missing documentation for:
+    Event (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8891_0/ghc_1.hscpp:162)
+    Tag (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8891_0/ghc_1.hscpp:207)
+    AnchorName (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8891_0/ghc_1.hscpp:219)
+    Anchor (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8891_0/ghc_1.hscpp:220)
+    encode (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8891_0/ghc_1.hscpp:781)
+    encodeFile (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8891_0/ghc_1.hscpp:802)
+    YamlException (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8891_0/ghc_1.hscpp:862)
+Documentation created: dist/dist-sandbox-4e7c043e/doc/html/libyaml/index.html
+Installing library in /Users/Bo/Documents/KI/Functioneel_Programmeren/Game/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/libyaml-0.1.0.0-AEGpOvyy4GF7eVtR6YyCcb
+cabal: Leaving directory '/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/cabal-tmp-1022/libyaml-0.1.0.0'

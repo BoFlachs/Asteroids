@@ -1,0 +1,197 @@
+cabal: Entering directory '/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/cabal-tmp-1022/mono-traversable-1.0.9.0'
+Configuring mono-traversable-1.0.9.0...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for mono-traversable-1.0.9.0..
+Building library for mono-traversable-1.0.9.0..
+[1 of 6] Compiling Data.MonoTraversable ( src/Data/MonoTraversable.hs, dist/dist-sandbox-4e7c043e/build/Data/MonoTraversable.o )
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc7873_0/ghc_3.hscpp:218:1: warning: [-Wdeprecations]
+    Module ‘Control.Monad.Trans.List’ is deprecated:
+      This transformer is invalid on most monads
+    |
+218 | import Control.Monad.Trans.List (ListT)
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc7873_0/ghc_3.hscpp:274:24: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ListT’
+    (imported from Control.Monad.Trans.List):
+    Deprecated: "This transformer is invalid on most monads"
+    |
+274 | type instance Element (ListT m a) = a
+    |                        ^^^^^
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc7873_0/ghc_3.hscpp:334:36: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ListT’
+    (imported from Control.Monad.Trans.List):
+    Deprecated: "This transformer is invalid on most monads"
+    |
+334 | instance Functor m => MonoFunctor (ListT m a)
+    |                                    ^^^^^
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc7873_0/ghc_3.hscpp:917:40: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ListT’
+    (imported from Control.Monad.Trans.List):
+    Deprecated: "This transformer is invalid on most monads"
+    |
+917 | instance F.Foldable f => MonoFoldable (ListT f a)
+    |                                        ^^^^^
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc7873_0/ghc_3.hscpp:1195:44: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ListT’
+    (imported from Control.Monad.Trans.List):
+    Deprecated: "This transformer is invalid on most monads"
+     |
+1195 | instance Traversable f => MonoTraversable (ListT f a)
+     |                                            ^^^^^
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc7873_0/ghc_3.hscpp:1285:40: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ListT’
+    (imported from Control.Monad.Trans.List):
+    Deprecated: "This transformer is invalid on most monads"
+     |
+1285 | instance Applicative m => MonoPointed (ListT m a)
+     |                                        ^^^^^
+[2 of 6] Compiling Data.Containers  ( src/Data/Containers.hs, dist/dist-sandbox-4e7c043e/build/Data/Containers.o )
+[3 of 6] Compiling Data.MonoTraversable.Unprefixed ( src/Data/MonoTraversable/Unprefixed.hs, dist/dist-sandbox-4e7c043e/build/Data/MonoTraversable/Unprefixed.o )
+[4 of 6] Compiling Data.Sequences   ( src/Data/Sequences.hs, dist/dist-sandbox-4e7c043e/build/Data/Sequences.o )
+[5 of 6] Compiling Data.NonNull     ( src/Data/NonNull.hs, dist/dist-sandbox-4e7c043e/build/Data/NonNull.o )
+[6 of 6] Compiling Paths_mono_traversable ( dist/dist-sandbox-4e7c043e/build/autogen/Paths_mono_traversable.hs, dist/dist-sandbox-4e7c043e/build/Paths_mono_traversable.o )
+[1 of 6] Compiling Data.MonoTraversable ( src/Data/MonoTraversable.hs, dist/dist-sandbox-4e7c043e/build/Data/MonoTraversable.p_o )
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc7955_0/ghc_3.hscpp:218:1: warning: [-Wdeprecations]
+    Module ‘Control.Monad.Trans.List’ is deprecated:
+      This transformer is invalid on most monads
+    |
+218 | import Control.Monad.Trans.List (ListT)
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc7955_0/ghc_3.hscpp:274:24: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ListT’
+    (imported from Control.Monad.Trans.List):
+    Deprecated: "This transformer is invalid on most monads"
+    |
+274 | type instance Element (ListT m a) = a
+    |                        ^^^^^
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc7955_0/ghc_3.hscpp:334:36: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ListT’
+    (imported from Control.Monad.Trans.List):
+    Deprecated: "This transformer is invalid on most monads"
+    |
+334 | instance Functor m => MonoFunctor (ListT m a)
+    |                                    ^^^^^
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc7955_0/ghc_3.hscpp:917:40: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ListT’
+    (imported from Control.Monad.Trans.List):
+    Deprecated: "This transformer is invalid on most monads"
+    |
+917 | instance F.Foldable f => MonoFoldable (ListT f a)
+    |                                        ^^^^^
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc7955_0/ghc_3.hscpp:1195:44: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ListT’
+    (imported from Control.Monad.Trans.List):
+    Deprecated: "This transformer is invalid on most monads"
+     |
+1195 | instance Traversable f => MonoTraversable (ListT f a)
+     |                                            ^^^^^
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc7955_0/ghc_3.hscpp:1285:40: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ListT’
+    (imported from Control.Monad.Trans.List):
+    Deprecated: "This transformer is invalid on most monads"
+     |
+1285 | instance Applicative m => MonoPointed (ListT m a)
+     |                                        ^^^^^
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[2 of 6] Compiling Data.Containers  ( src/Data/Containers.hs, dist/dist-sandbox-4e7c043e/build/Data/Containers.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[3 of 6] Compiling Data.MonoTraversable.Unprefixed ( src/Data/MonoTraversable/Unprefixed.hs, dist/dist-sandbox-4e7c043e/build/Data/MonoTraversable/Unprefixed.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[4 of 6] Compiling Data.Sequences   ( src/Data/Sequences.hs, dist/dist-sandbox-4e7c043e/build/Data/Sequences.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[5 of 6] Compiling Data.NonNull     ( src/Data/NonNull.hs, dist/dist-sandbox-4e7c043e/build/Data/NonNull.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[6 of 6] Compiling Paths_mono_traversable ( dist/dist-sandbox-4e7c043e/build/autogen/Paths_mono_traversable.hs, dist/dist-sandbox-4e7c043e/build/Paths_mono_traversable.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for mono-traversable-1.0.9.0..
+Running Haddock on library for mono-traversable-1.0.9.0..
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8081_0/ghc_3.hscpp:218:1: warning: [-Wdeprecations]
+    Module ‘Control.Monad.Trans.List’ is deprecated:
+      This transformer is invalid on most monads
+    |
+218 | import Control.Monad.Trans.List (ListT)
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8081_0/ghc_3.hscpp:274:24: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ListT’
+    (imported from Control.Monad.Trans.List):
+    Deprecated: "This transformer is invalid on most monads"
+    |
+274 | type instance Element (ListT m a) = a
+    |                        ^^^^^
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8081_0/ghc_3.hscpp:334:36: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ListT’
+    (imported from Control.Monad.Trans.List):
+    Deprecated: "This transformer is invalid on most monads"
+    |
+334 | instance Functor m => MonoFunctor (ListT m a)
+    |                                    ^^^^^
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8081_0/ghc_3.hscpp:917:40: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ListT’
+    (imported from Control.Monad.Trans.List):
+    Deprecated: "This transformer is invalid on most monads"
+    |
+917 | instance F.Foldable f => MonoFoldable (ListT f a)
+    |                                        ^^^^^
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8081_0/ghc_3.hscpp:1195:44: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ListT’
+    (imported from Control.Monad.Trans.List):
+    Deprecated: "This transformer is invalid on most monads"
+     |
+1195 | instance Traversable f => MonoTraversable (ListT f a)
+     |                                            ^^^^^
+
+/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8081_0/ghc_3.hscpp:1285:40: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ListT’
+    (imported from Control.Monad.Trans.List):
+    Deprecated: "This transformer is invalid on most monads"
+     |
+1285 | instance Applicative m => MonoPointed (ListT m a)
+     |                                        ^^^^^
+Haddock coverage:
+  94% ( 31 / 33) in 'Data.MonoTraversable'
+  Missing documentation for:
+    replaceElemStrictText (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8081_0/ghc_3.hscpp:361)
+    replaceElemLazyText (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc8081_0/ghc_3.hscpp:364)
+ 100% (  8 /  8) in 'Data.Containers'
+ 100% ( 32 / 32) in 'Data.MonoTraversable.Unprefixed'
+  80% ( 40 / 50) in 'Data.Sequences'
+  Missing documentation for:
+    splitElemStrictBS (src/Data/Sequences.hs:1385)
+    stripPrefixStrictBS (src/Data/Sequences.hs:1390)
+    stripSuffixStrictBS (src/Data/Sequences.hs:1395)
+    splitSeqLazyBS (src/Data/Sequences.hs:1407)
+    stripPrefixLazyBS (src/Data/Sequences.hs:1412)
+    stripSuffixLazyBS (src/Data/Sequences.hs:1417)
+    splitSeqStrictText (src/Data/Sequences.hs:1431)
+    replaceSeqStrictText (src/Data/Sequences.hs:1436)
+    splitSeqLazyText (src/Data/Sequences.hs:1450)
+    replaceSeqLazyText (src/Data/Sequences.hs:1455)
+ 100% ( 29 / 29) in 'Data.NonNull'
+Documentation created:
+dist/dist-sandbox-4e7c043e/doc/html/mono-traversable/index.html
+Installing library in /Users/Bo/Documents/KI/Functioneel_Programmeren/Game/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/mono-traversable-1.0.9.0-EEI2ywC0nVDFTPoIV6bUdi
+cabal: Leaving directory '/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/cabal-tmp-1022/mono-traversable-1.0.9.0'

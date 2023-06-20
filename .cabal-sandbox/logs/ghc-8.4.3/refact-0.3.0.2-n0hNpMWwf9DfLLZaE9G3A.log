@@ -1,0 +1,19 @@
+cabal: Entering directory '/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/cabal-tmp-1022/refact-0.3.0.2'
+Configuring refact-0.3.0.2...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for refact-0.3.0.2..
+Building library for refact-0.3.0.2..
+[1 of 1] Compiling Refact.Types     ( src/Refact/Types.hs, dist/dist-sandbox-4e7c043e/build/Refact/Types.o )
+[1 of 1] Compiling Refact.Types     ( src/Refact/Types.hs, dist/dist-sandbox-4e7c043e/build/Refact/Types.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for refact-0.3.0.2..
+Running Haddock on library for refact-0.3.0.2..
+Haddock coverage:
+  75% (  3 /  4) in 'Refact.Types'
+  Missing documentation for:
+    Module header
+Documentation created: dist/dist-sandbox-4e7c043e/doc/html/refact/index.html
+Installing library in /Users/Bo/Documents/KI/Functioneel_Programmeren/Game/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/refact-0.3.0.2-n0hNpMWwf9DfLLZaE9G3A
+cabal: Leaving directory '/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/cabal-tmp-1022/refact-0.3.0.2'

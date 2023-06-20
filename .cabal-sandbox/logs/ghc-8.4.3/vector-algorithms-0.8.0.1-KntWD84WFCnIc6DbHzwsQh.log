@@ -1,0 +1,66 @@
+cabal: Entering directory '/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/cabal-tmp-1022/vector-algorithms-0.8.0.1'
+Configuring vector-algorithms-0.8.0.1...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for vector-algorithms-0.8.0.1..
+Building library for vector-algorithms-0.8.0.1..
+[ 1 of 10] Compiling Data.Vector.Algorithms.Common ( src/Data/Vector/Algorithms/Common.hs, dist/dist-sandbox-4e7c043e/build/Data/Vector/Algorithms/Common.o )
+[ 2 of 10] Compiling Data.Vector.Algorithms.Optimal ( src/Data/Vector/Algorithms/Optimal.hs, dist/dist-sandbox-4e7c043e/build/Data/Vector/Algorithms/Optimal.o )
+[ 3 of 10] Compiling Data.Vector.Algorithms.Insertion ( src/Data/Vector/Algorithms/Insertion.hs, dist/dist-sandbox-4e7c043e/build/Data/Vector/Algorithms/Insertion.o )
+[ 4 of 10] Compiling Data.Vector.Algorithms.Merge ( src/Data/Vector/Algorithms/Merge.hs, dist/dist-sandbox-4e7c043e/build/Data/Vector/Algorithms/Merge.o )
+[ 5 of 10] Compiling Data.Vector.Algorithms.AmericanFlag ( src/Data/Vector/Algorithms/AmericanFlag.hs, dist/dist-sandbox-4e7c043e/build/Data/Vector/Algorithms/AmericanFlag.o )
+[ 6 of 10] Compiling Data.Vector.Algorithms.Heap ( src/Data/Vector/Algorithms/Heap.hs, dist/dist-sandbox-4e7c043e/build/Data/Vector/Algorithms/Heap.o )
+[ 7 of 10] Compiling Data.Vector.Algorithms.Intro ( src/Data/Vector/Algorithms/Intro.hs, dist/dist-sandbox-4e7c043e/build/Data/Vector/Algorithms/Intro.o )
+[ 8 of 10] Compiling Data.Vector.Algorithms.Radix ( src/Data/Vector/Algorithms/Radix.hs, dist/dist-sandbox-4e7c043e/build/Data/Vector/Algorithms/Radix.o )
+[ 9 of 10] Compiling Data.Vector.Algorithms.Search ( src/Data/Vector/Algorithms/Search.hs, dist/dist-sandbox-4e7c043e/build/Data/Vector/Algorithms/Search.o )
+[10 of 10] Compiling Data.Vector.Algorithms.Tim ( src/Data/Vector/Algorithms/Tim.hs, dist/dist-sandbox-4e7c043e/build/Data/Vector/Algorithms/Tim.o )
+[ 1 of 10] Compiling Data.Vector.Algorithms.Common ( src/Data/Vector/Algorithms/Common.hs, dist/dist-sandbox-4e7c043e/build/Data/Vector/Algorithms/Common.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 2 of 10] Compiling Data.Vector.Algorithms.Optimal ( src/Data/Vector/Algorithms/Optimal.hs, dist/dist-sandbox-4e7c043e/build/Data/Vector/Algorithms/Optimal.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 3 of 10] Compiling Data.Vector.Algorithms.Insertion ( src/Data/Vector/Algorithms/Insertion.hs, dist/dist-sandbox-4e7c043e/build/Data/Vector/Algorithms/Insertion.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 4 of 10] Compiling Data.Vector.Algorithms.Merge ( src/Data/Vector/Algorithms/Merge.hs, dist/dist-sandbox-4e7c043e/build/Data/Vector/Algorithms/Merge.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 5 of 10] Compiling Data.Vector.Algorithms.AmericanFlag ( src/Data/Vector/Algorithms/AmericanFlag.hs, dist/dist-sandbox-4e7c043e/build/Data/Vector/Algorithms/AmericanFlag.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 6 of 10] Compiling Data.Vector.Algorithms.Heap ( src/Data/Vector/Algorithms/Heap.hs, dist/dist-sandbox-4e7c043e/build/Data/Vector/Algorithms/Heap.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 7 of 10] Compiling Data.Vector.Algorithms.Intro ( src/Data/Vector/Algorithms/Intro.hs, dist/dist-sandbox-4e7c043e/build/Data/Vector/Algorithms/Intro.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 8 of 10] Compiling Data.Vector.Algorithms.Radix ( src/Data/Vector/Algorithms/Radix.hs, dist/dist-sandbox-4e7c043e/build/Data/Vector/Algorithms/Radix.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 9 of 10] Compiling Data.Vector.Algorithms.Search ( src/Data/Vector/Algorithms/Search.hs, dist/dist-sandbox-4e7c043e/build/Data/Vector/Algorithms/Search.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[10 of 10] Compiling Data.Vector.Algorithms.Tim ( src/Data/Vector/Algorithms/Tim.hs, dist/dist-sandbox-4e7c043e/build/Data/Vector/Algorithms/Tim.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for vector-algorithms-0.8.0.1..
+Running Haddock on library for vector-algorithms-0.8.0.1..
+Haddock coverage:
+ 100% (  8 /  8) in 'Data.Vector.Algorithms.Optimal'
+ 100% (  6 /  6) in 'Data.Vector.Algorithms.Insertion'
+ 100% (  4 /  4) in 'Data.Vector.Algorithms.Merge'
+ 100% (  4 /  4) in 'Data.Vector.Algorithms.AmericanFlag'
+ 100% ( 20 / 20) in 'Data.Vector.Algorithms.Heap'
+ 100% ( 14 / 14) in 'Data.Vector.Algorithms.Intro'
+  75% (  3 /  4) in 'Data.Vector.Algorithms.Radix'
+  Missing documentation for:
+    Radix (src/Data/Vector/Algorithms/Radix.hs:58)
+ 100% ( 17 / 17) in 'Data.Vector.Algorithms.Search'
+ 100% (  3 /  3) in 'Data.Vector.Algorithms.Tim'
+Warning: Data.Vector.Algorithms.Tim: could not find link destinations for:
+    mergeHi mergeLo
+Documentation created:
+dist/dist-sandbox-4e7c043e/doc/html/vector-algorithms/index.html
+Installing library in /Users/Bo/Documents/KI/Functioneel_Programmeren/Game/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/vector-algorithms-0.8.0.1-KntWD84WFCnIc6DbHzwsQh
+cabal: Leaving directory '/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/cabal-tmp-1022/vector-algorithms-0.8.0.1'

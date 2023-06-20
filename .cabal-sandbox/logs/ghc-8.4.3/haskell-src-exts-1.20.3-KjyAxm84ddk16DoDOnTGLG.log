@@ -1,0 +1,644 @@
+cabal: Entering directory '/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/cabal-tmp-1021/haskell-src-exts-1.20.3'
+Configuring haskell-src-exts-1.20.3...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for haskell-src-exts-1.20.3..
+Building library for haskell-src-exts-1.20.3..
+[ 1 of 18] Compiling Language.Haskell.Exts.Extension ( src/Language/Haskell/Exts/Extension.hs, dist/dist-sandbox-4e7c043e/build/Language/Haskell/Exts/Extension.o )
+[ 2 of 18] Compiling Language.Haskell.Exts.ExtScheme ( src/Language/Haskell/Exts/ExtScheme.hs, dist/dist-sandbox-4e7c043e/build/Language/Haskell/Exts/ExtScheme.o )
+[ 3 of 18] Compiling Language.Haskell.Exts.SrcLoc ( src/Language/Haskell/Exts/SrcLoc.hs, dist/dist-sandbox-4e7c043e/build/Language/Haskell/Exts/SrcLoc.o )
+[ 4 of 18] Compiling Language.Haskell.Exts.Syntax ( src/Language/Haskell/Exts/Syntax.hs, dist/dist-sandbox-4e7c043e/build/Language/Haskell/Exts/Syntax.o )
+[ 5 of 18] Compiling Language.Haskell.Exts.ParseSyntax ( src/Language/Haskell/Exts/ParseSyntax.hs, dist/dist-sandbox-4e7c043e/build/Language/Haskell/Exts/ParseSyntax.o )
+[ 6 of 18] Compiling Language.Haskell.Exts.Pretty ( src/Language/Haskell/Exts/Pretty.hs, dist/dist-sandbox-4e7c043e/build/Language/Haskell/Exts/Pretty.o )
+[ 7 of 18] Compiling Language.Haskell.Exts.Fixity ( src/Language/Haskell/Exts/Fixity.hs, dist/dist-sandbox-4e7c043e/build/Language/Haskell/Exts/Fixity.o )
+[ 8 of 18] Compiling Language.Haskell.Exts.Comments ( src/Language/Haskell/Exts/Comments.hs, dist/dist-sandbox-4e7c043e/build/Language/Haskell/Exts/Comments.o )
+[ 9 of 18] Compiling Language.Haskell.Exts.ParseMonad ( src/Language/Haskell/Exts/ParseMonad.hs, dist/dist-sandbox-4e7c043e/build/Language/Haskell/Exts/ParseMonad.o )
+[10 of 18] Compiling Language.Haskell.Exts.ParseUtils ( src/Language/Haskell/Exts/ParseUtils.hs, dist/dist-sandbox-4e7c043e/build/Language/Haskell/Exts/ParseUtils.o )
+[11 of 18] Compiling Language.Haskell.Exts.InternalLexer ( src/Language/Haskell/Exts/InternalLexer.hs, dist/dist-sandbox-4e7c043e/build/Language/Haskell/Exts/InternalLexer.o )
+[12 of 18] Compiling Language.Haskell.Exts.Lexer ( src/Language/Haskell/Exts/Lexer.hs, dist/dist-sandbox-4e7c043e/build/Language/Haskell/Exts/Lexer.o )
+[13 of 18] Compiling Language.Haskell.Exts.InternalParser ( dist/dist-sandbox-4e7c043e/build/Language/Haskell/Exts/InternalParser.hs, dist/dist-sandbox-4e7c043e/build/Language/Haskell/Exts/InternalParser.o )
+[14 of 18] Compiling Language.Haskell.Exts.Parser ( src/Language/Haskell/Exts/Parser.hs, dist/dist-sandbox-4e7c043e/build/Language/Haskell/Exts/Parser.o )
+[15 of 18] Compiling Language.Haskell.Exts.ExactPrint ( src/Language/Haskell/Exts/ExactPrint.hs, dist/dist-sandbox-4e7c043e/build/Language/Haskell/Exts/ExactPrint.o )
+[16 of 18] Compiling Language.Haskell.Exts.Build ( src/Language/Haskell/Exts/Build.hs, dist/dist-sandbox-4e7c043e/build/Language/Haskell/Exts/Build.o )
+[17 of 18] Compiling Language.Preprocessor.Unlit ( src/Language/Preprocessor/Unlit.hs, dist/dist-sandbox-4e7c043e/build/Language/Preprocessor/Unlit.o )
+
+src/Language/Preprocessor/Unlit.hs:17:25: warning: [-Wname-shadowing]
+    This binding for ‘x’ shadows the existing binding
+      bound at src/Language/Preprocessor/Unlit.hs:14:17
+   |
+17 |          allProg (('\\':x):xs) |  "end{code}"`isPrefixOf`x = Blank : classify xs
+   |                         ^
+
+src/Language/Preprocessor/Unlit.hs:17:28: warning: [-Wname-shadowing]
+    This binding for ‘xs’ shadows the existing binding
+      bound at src/Language/Preprocessor/Unlit.hs:14:20
+   |
+17 |          allProg (('\\':x):xs) |  "end{code}"`isPrefixOf`x = Blank : classify xs
+   |                            ^^
+
+src/Language/Preprocessor/Unlit.hs:18:19: warning: [-Wname-shadowing]
+    This binding for ‘x’ shadows the existing binding
+      bound at src/Language/Preprocessor/Unlit.hs:14:17
+   |
+18 |          allProg (x:xs) = Program x:allProg xs
+   |                   ^
+
+src/Language/Preprocessor/Unlit.hs:18:21: warning: [-Wname-shadowing]
+    This binding for ‘xs’ shadows the existing binding
+      bound at src/Language/Preprocessor/Unlit.hs:14:20
+   |
+18 |          allProg (x:xs) = Program x:allProg xs
+   |                     ^^
+
+src/Language/Preprocessor/Unlit.hs:27:11: warning: [-Wunused-matches]
+    Defined but not used: ‘x’
+   |
+27 | classify (x:xs)                 = Comment:classify xs
+   |           ^
+
+src/Language/Preprocessor/Unlit.hs:46:17: warning: [-Wunused-matches]
+    Defined but not used: ‘y’
+   |
+46 | adjacent file n y@(Program _) (x@Comment      :xs) = error (message file n "program" "comment")
+   |                 ^
+
+src/Language/Preprocessor/Unlit.hs:46:32: warning: [-Wunused-matches]
+    Defined but not used: ‘x’
+   |
+46 | adjacent file n y@(Program _) (x@Comment      :xs) = error (message file n "program" "comment")
+   |                                ^
+
+src/Language/Preprocessor/Unlit.hs:46:48: warning: [-Wunused-matches]
+    Defined but not used: ‘xs’
+   |
+46 | adjacent file n y@(Program _) (x@Comment      :xs) = error (message file n "program" "comment")
+   |                                                ^^
+
+src/Language/Preprocessor/Unlit.hs:47:10: warning: [-Wunused-matches]
+    Defined but not used: ‘file’
+   |
+47 | adjacent file n y@(Program _) (x@(Include i f):xs) = x: adjacent f    i     y xs
+   |          ^^^^
+
+src/Language/Preprocessor/Unlit.hs:47:15: warning: [-Wunused-matches]
+    Defined but not used: ‘n’
+   |
+47 | adjacent file n y@(Program _) (x@(Include i f):xs) = x: adjacent f    i     y xs
+   |               ^
+
+src/Language/Preprocessor/Unlit.hs:49:17: warning: [-Wunused-matches]
+    Defined but not used: ‘y’
+   |
+49 | adjacent file n y@Comment     (x@(Program _)  :xs) = error (message file n "comment" "program")
+   |                 ^
+
+src/Language/Preprocessor/Unlit.hs:49:32: warning: [-Wunused-matches]
+    Defined but not used: ‘x’
+   |
+49 | adjacent file n y@Comment     (x@(Program _)  :xs) = error (message file n "comment" "program")
+   |                                ^
+
+src/Language/Preprocessor/Unlit.hs:49:48: warning: [-Wunused-matches]
+    Defined but not used: ‘xs’
+   |
+49 | adjacent file n y@Comment     (x@(Program _)  :xs) = error (message file n "comment" "program")
+   |                                                ^^
+
+src/Language/Preprocessor/Unlit.hs:50:10: warning: [-Wunused-matches]
+    Defined but not used: ‘file’
+   |
+50 | adjacent file n y@Comment     (x@(Include i f):xs) = x: adjacent f    i     y xs
+   |          ^^^^
+
+src/Language/Preprocessor/Unlit.hs:50:15: warning: [-Wunused-matches]
+    Defined but not used: ‘n’
+   |
+50 | adjacent file n y@Comment     (x@(Include i f):xs) = x: adjacent f    i     y xs
+   |               ^
+
+src/Language/Preprocessor/Unlit.hs:52:10: warning: [-Wunused-matches]
+    Defined but not used: ‘file’
+   |
+52 | adjacent file n y@Blank       (x@(Include i f):xs) = x: adjacent f    i     y xs
+   |          ^^^^
+
+src/Language/Preprocessor/Unlit.hs:52:15: warning: [-Wunused-matches]
+    Defined but not used: ‘n’
+   |
+52 | adjacent file n y@Blank       (x@(Include i f):xs) = x: adjacent f    i     y xs
+   |               ^
+
+src/Language/Preprocessor/Unlit.hs:54:34: warning: [-Wunused-matches]
+    Defined but not used: ‘next’
+   |
+54 | adjacent file n _             (x@next         :xs) = x: adjacent file (n+1) x xs
+   |                                  ^^^^
+
+src/Language/Preprocessor/Unlit.hs:55:10: warning: [-Wunused-matches]
+    Defined but not used: ‘file’
+   |
+55 | adjacent file n _             []                   = []
+   |          ^^^^
+
+src/Language/Preprocessor/Unlit.hs:55:15: warning: [-Wunused-matches]
+    Defined but not used: ‘n’
+   |
+55 | adjacent file n _             []                   = []
+   |               ^
+
+src/Language/Preprocessor/Unlit.hs:69:22: warning: [-Wname-shadowing]
+    This binding for ‘s’ shadows the existing binding
+      bound at src/Language/Preprocessor/Unlit.hs:66:9
+   |
+69 |   lines' ('\^M':'\n':s) acc = acc [] : lines' s id      -- DOS
+   |                      ^
+
+src/Language/Preprocessor/Unlit.hs:70:17: warning: [-Wname-shadowing]
+    This binding for ‘s’ shadows the existing binding
+      bound at src/Language/Preprocessor/Unlit.hs:66:9
+   |
+70 |   lines' ('\^M':s)      acc = acc [] : lines' s id      -- MacOS
+   |                 ^
+
+src/Language/Preprocessor/Unlit.hs:71:16: warning: [-Wname-shadowing]
+    This binding for ‘s’ shadows the existing binding
+      bound at src/Language/Preprocessor/Unlit.hs:66:9
+   |
+71 |   lines' ('\n':s)       acc = acc [] : lines' s id      -- Unix
+   |                ^
+
+src/Language/Preprocessor/Unlit.hs:72:13: warning: [-Wname-shadowing]
+    This binding for ‘s’ shadows the existing binding
+      bound at src/Language/Preprocessor/Unlit.hs:66:9
+   |
+72 |   lines' (c:s)          acc = lines' s (acc . (c:))
+   |             ^
+[18 of 18] Compiling Language.Haskell.Exts ( src/Language/Haskell/Exts.hs, dist/dist-sandbox-4e7c043e/build/Language/Haskell/Exts.o )
+[ 1 of 18] Compiling Language.Haskell.Exts.Extension ( src/Language/Haskell/Exts/Extension.hs, dist/dist-sandbox-4e7c043e/build/Language/Haskell/Exts/Extension.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 2 of 18] Compiling Language.Haskell.Exts.ExtScheme ( src/Language/Haskell/Exts/ExtScheme.hs, dist/dist-sandbox-4e7c043e/build/Language/Haskell/Exts/ExtScheme.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 3 of 18] Compiling Language.Haskell.Exts.SrcLoc ( src/Language/Haskell/Exts/SrcLoc.hs, dist/dist-sandbox-4e7c043e/build/Language/Haskell/Exts/SrcLoc.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 4 of 18] Compiling Language.Haskell.Exts.Syntax ( src/Language/Haskell/Exts/Syntax.hs, dist/dist-sandbox-4e7c043e/build/Language/Haskell/Exts/Syntax.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 5 of 18] Compiling Language.Haskell.Exts.ParseSyntax ( src/Language/Haskell/Exts/ParseSyntax.hs, dist/dist-sandbox-4e7c043e/build/Language/Haskell/Exts/ParseSyntax.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 6 of 18] Compiling Language.Haskell.Exts.Pretty ( src/Language/Haskell/Exts/Pretty.hs, dist/dist-sandbox-4e7c043e/build/Language/Haskell/Exts/Pretty.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 7 of 18] Compiling Language.Haskell.Exts.Fixity ( src/Language/Haskell/Exts/Fixity.hs, dist/dist-sandbox-4e7c043e/build/Language/Haskell/Exts/Fixity.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 8 of 18] Compiling Language.Haskell.Exts.Comments ( src/Language/Haskell/Exts/Comments.hs, dist/dist-sandbox-4e7c043e/build/Language/Haskell/Exts/Comments.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 9 of 18] Compiling Language.Haskell.Exts.ParseMonad ( src/Language/Haskell/Exts/ParseMonad.hs, dist/dist-sandbox-4e7c043e/build/Language/Haskell/Exts/ParseMonad.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[10 of 18] Compiling Language.Haskell.Exts.ParseUtils ( src/Language/Haskell/Exts/ParseUtils.hs, dist/dist-sandbox-4e7c043e/build/Language/Haskell/Exts/ParseUtils.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[11 of 18] Compiling Language.Haskell.Exts.InternalLexer ( src/Language/Haskell/Exts/InternalLexer.hs, dist/dist-sandbox-4e7c043e/build/Language/Haskell/Exts/InternalLexer.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[12 of 18] Compiling Language.Haskell.Exts.Lexer ( src/Language/Haskell/Exts/Lexer.hs, dist/dist-sandbox-4e7c043e/build/Language/Haskell/Exts/Lexer.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[13 of 18] Compiling Language.Haskell.Exts.InternalParser ( dist/dist-sandbox-4e7c043e/build/Language/Haskell/Exts/InternalParser.hs, dist/dist-sandbox-4e7c043e/build/Language/Haskell/Exts/InternalParser.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[14 of 18] Compiling Language.Haskell.Exts.Parser ( src/Language/Haskell/Exts/Parser.hs, dist/dist-sandbox-4e7c043e/build/Language/Haskell/Exts/Parser.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[15 of 18] Compiling Language.Haskell.Exts.ExactPrint ( src/Language/Haskell/Exts/ExactPrint.hs, dist/dist-sandbox-4e7c043e/build/Language/Haskell/Exts/ExactPrint.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[16 of 18] Compiling Language.Haskell.Exts.Build ( src/Language/Haskell/Exts/Build.hs, dist/dist-sandbox-4e7c043e/build/Language/Haskell/Exts/Build.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[17 of 18] Compiling Language.Preprocessor.Unlit ( src/Language/Preprocessor/Unlit.hs, dist/dist-sandbox-4e7c043e/build/Language/Preprocessor/Unlit.p_o )
+
+src/Language/Preprocessor/Unlit.hs:17:25: warning: [-Wname-shadowing]
+    This binding for ‘x’ shadows the existing binding
+      bound at src/Language/Preprocessor/Unlit.hs:14:17
+   |
+17 |          allProg (('\\':x):xs) |  "end{code}"`isPrefixOf`x = Blank : classify xs
+   |                         ^
+
+src/Language/Preprocessor/Unlit.hs:17:28: warning: [-Wname-shadowing]
+    This binding for ‘xs’ shadows the existing binding
+      bound at src/Language/Preprocessor/Unlit.hs:14:20
+   |
+17 |          allProg (('\\':x):xs) |  "end{code}"`isPrefixOf`x = Blank : classify xs
+   |                            ^^
+
+src/Language/Preprocessor/Unlit.hs:18:19: warning: [-Wname-shadowing]
+    This binding for ‘x’ shadows the existing binding
+      bound at src/Language/Preprocessor/Unlit.hs:14:17
+   |
+18 |          allProg (x:xs) = Program x:allProg xs
+   |                   ^
+
+src/Language/Preprocessor/Unlit.hs:18:21: warning: [-Wname-shadowing]
+    This binding for ‘xs’ shadows the existing binding
+      bound at src/Language/Preprocessor/Unlit.hs:14:20
+   |
+18 |          allProg (x:xs) = Program x:allProg xs
+   |                     ^^
+
+src/Language/Preprocessor/Unlit.hs:27:11: warning: [-Wunused-matches]
+    Defined but not used: ‘x’
+   |
+27 | classify (x:xs)                 = Comment:classify xs
+   |           ^
+
+src/Language/Preprocessor/Unlit.hs:46:17: warning: [-Wunused-matches]
+    Defined but not used: ‘y’
+   |
+46 | adjacent file n y@(Program _) (x@Comment      :xs) = error (message file n "program" "comment")
+   |                 ^
+
+src/Language/Preprocessor/Unlit.hs:46:32: warning: [-Wunused-matches]
+    Defined but not used: ‘x’
+   |
+46 | adjacent file n y@(Program _) (x@Comment      :xs) = error (message file n "program" "comment")
+   |                                ^
+
+src/Language/Preprocessor/Unlit.hs:46:48: warning: [-Wunused-matches]
+    Defined but not used: ‘xs’
+   |
+46 | adjacent file n y@(Program _) (x@Comment      :xs) = error (message file n "program" "comment")
+   |                                                ^^
+
+src/Language/Preprocessor/Unlit.hs:47:10: warning: [-Wunused-matches]
+    Defined but not used: ‘file’
+   |
+47 | adjacent file n y@(Program _) (x@(Include i f):xs) = x: adjacent f    i     y xs
+   |          ^^^^
+
+src/Language/Preprocessor/Unlit.hs:47:15: warning: [-Wunused-matches]
+    Defined but not used: ‘n’
+   |
+47 | adjacent file n y@(Program _) (x@(Include i f):xs) = x: adjacent f    i     y xs
+   |               ^
+
+src/Language/Preprocessor/Unlit.hs:49:17: warning: [-Wunused-matches]
+    Defined but not used: ‘y’
+   |
+49 | adjacent file n y@Comment     (x@(Program _)  :xs) = error (message file n "comment" "program")
+   |                 ^
+
+src/Language/Preprocessor/Unlit.hs:49:32: warning: [-Wunused-matches]
+    Defined but not used: ‘x’
+   |
+49 | adjacent file n y@Comment     (x@(Program _)  :xs) = error (message file n "comment" "program")
+   |                                ^
+
+src/Language/Preprocessor/Unlit.hs:49:48: warning: [-Wunused-matches]
+    Defined but not used: ‘xs’
+   |
+49 | adjacent file n y@Comment     (x@(Program _)  :xs) = error (message file n "comment" "program")
+   |                                                ^^
+
+src/Language/Preprocessor/Unlit.hs:50:10: warning: [-Wunused-matches]
+    Defined but not used: ‘file’
+   |
+50 | adjacent file n y@Comment     (x@(Include i f):xs) = x: adjacent f    i     y xs
+   |          ^^^^
+
+src/Language/Preprocessor/Unlit.hs:50:15: warning: [-Wunused-matches]
+    Defined but not used: ‘n’
+   |
+50 | adjacent file n y@Comment     (x@(Include i f):xs) = x: adjacent f    i     y xs
+   |               ^
+
+src/Language/Preprocessor/Unlit.hs:52:10: warning: [-Wunused-matches]
+    Defined but not used: ‘file’
+   |
+52 | adjacent file n y@Blank       (x@(Include i f):xs) = x: adjacent f    i     y xs
+   |          ^^^^
+
+src/Language/Preprocessor/Unlit.hs:52:15: warning: [-Wunused-matches]
+    Defined but not used: ‘n’
+   |
+52 | adjacent file n y@Blank       (x@(Include i f):xs) = x: adjacent f    i     y xs
+   |               ^
+
+src/Language/Preprocessor/Unlit.hs:54:34: warning: [-Wunused-matches]
+    Defined but not used: ‘next’
+   |
+54 | adjacent file n _             (x@next         :xs) = x: adjacent file (n+1) x xs
+   |                                  ^^^^
+
+src/Language/Preprocessor/Unlit.hs:55:10: warning: [-Wunused-matches]
+    Defined but not used: ‘file’
+   |
+55 | adjacent file n _             []                   = []
+   |          ^^^^
+
+src/Language/Preprocessor/Unlit.hs:55:15: warning: [-Wunused-matches]
+    Defined but not used: ‘n’
+   |
+55 | adjacent file n _             []                   = []
+   |               ^
+
+src/Language/Preprocessor/Unlit.hs:69:22: warning: [-Wname-shadowing]
+    This binding for ‘s’ shadows the existing binding
+      bound at src/Language/Preprocessor/Unlit.hs:66:9
+   |
+69 |   lines' ('\^M':'\n':s) acc = acc [] : lines' s id      -- DOS
+   |                      ^
+
+src/Language/Preprocessor/Unlit.hs:70:17: warning: [-Wname-shadowing]
+    This binding for ‘s’ shadows the existing binding
+      bound at src/Language/Preprocessor/Unlit.hs:66:9
+   |
+70 |   lines' ('\^M':s)      acc = acc [] : lines' s id      -- MacOS
+   |                 ^
+
+src/Language/Preprocessor/Unlit.hs:71:16: warning: [-Wname-shadowing]
+    This binding for ‘s’ shadows the existing binding
+      bound at src/Language/Preprocessor/Unlit.hs:66:9
+   |
+71 |   lines' ('\n':s)       acc = acc [] : lines' s id      -- Unix
+   |                ^
+
+src/Language/Preprocessor/Unlit.hs:72:13: warning: [-Wname-shadowing]
+    This binding for ‘s’ shadows the existing binding
+      bound at src/Language/Preprocessor/Unlit.hs:66:9
+   |
+72 |   lines' (c:s)          acc = lines' s (acc . (c:))
+   |             ^
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[18 of 18] Compiling Language.Haskell.Exts ( src/Language/Haskell/Exts.hs, dist/dist-sandbox-4e7c043e/build/Language/Haskell/Exts.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for haskell-src-exts-1.20.3..
+Running Haddock on library for haskell-src-exts-1.20.3..
+
+src/Language/Preprocessor/Unlit.hs:17:25: warning: [-Wname-shadowing]
+    This binding for ‘x’ shadows the existing binding
+      bound at src/Language/Preprocessor/Unlit.hs:14:17
+   |
+17 |          allProg (('\\':x):xs) |  "end{code}"`isPrefixOf`x = Blank : classify xs
+   |                         ^
+
+src/Language/Preprocessor/Unlit.hs:17:28: warning: [-Wname-shadowing]
+    This binding for ‘xs’ shadows the existing binding
+      bound at src/Language/Preprocessor/Unlit.hs:14:20
+   |
+17 |          allProg (('\\':x):xs) |  "end{code}"`isPrefixOf`x = Blank : classify xs
+   |                            ^^
+
+src/Language/Preprocessor/Unlit.hs:18:19: warning: [-Wname-shadowing]
+    This binding for ‘x’ shadows the existing binding
+      bound at src/Language/Preprocessor/Unlit.hs:14:17
+   |
+18 |          allProg (x:xs) = Program x:allProg xs
+   |                   ^
+
+src/Language/Preprocessor/Unlit.hs:18:21: warning: [-Wname-shadowing]
+    This binding for ‘xs’ shadows the existing binding
+      bound at src/Language/Preprocessor/Unlit.hs:14:20
+   |
+18 |          allProg (x:xs) = Program x:allProg xs
+   |                     ^^
+
+src/Language/Preprocessor/Unlit.hs:27:11: warning: [-Wunused-matches]
+    Defined but not used: ‘x’
+   |
+27 | classify (x:xs)                 = Comment:classify xs
+   |           ^
+
+src/Language/Preprocessor/Unlit.hs:46:17: warning: [-Wunused-matches]
+    Defined but not used: ‘y’
+   |
+46 | adjacent file n y@(Program _) (x@Comment      :xs) = error (message file n "program" "comment")
+   |                 ^
+
+src/Language/Preprocessor/Unlit.hs:46:32: warning: [-Wunused-matches]
+    Defined but not used: ‘x’
+   |
+46 | adjacent file n y@(Program _) (x@Comment      :xs) = error (message file n "program" "comment")
+   |                                ^
+
+src/Language/Preprocessor/Unlit.hs:46:48: warning: [-Wunused-matches]
+    Defined but not used: ‘xs’
+   |
+46 | adjacent file n y@(Program _) (x@Comment      :xs) = error (message file n "program" "comment")
+   |                                                ^^
+
+src/Language/Preprocessor/Unlit.hs:47:10: warning: [-Wunused-matches]
+    Defined but not used: ‘file’
+   |
+47 | adjacent file n y@(Program _) (x@(Include i f):xs) = x: adjacent f    i     y xs
+   |          ^^^^
+
+src/Language/Preprocessor/Unlit.hs:47:15: warning: [-Wunused-matches]
+    Defined but not used: ‘n’
+   |
+47 | adjacent file n y@(Program _) (x@(Include i f):xs) = x: adjacent f    i     y xs
+   |               ^
+
+src/Language/Preprocessor/Unlit.hs:49:17: warning: [-Wunused-matches]
+    Defined but not used: ‘y’
+   |
+49 | adjacent file n y@Comment     (x@(Program _)  :xs) = error (message file n "comment" "program")
+   |                 ^
+
+src/Language/Preprocessor/Unlit.hs:49:32: warning: [-Wunused-matches]
+    Defined but not used: ‘x’
+   |
+49 | adjacent file n y@Comment     (x@(Program _)  :xs) = error (message file n "comment" "program")
+   |                                ^
+
+src/Language/Preprocessor/Unlit.hs:49:48: warning: [-Wunused-matches]
+    Defined but not used: ‘xs’
+   |
+49 | adjacent file n y@Comment     (x@(Program _)  :xs) = error (message file n "comment" "program")
+   |                                                ^^
+
+src/Language/Preprocessor/Unlit.hs:50:10: warning: [-Wunused-matches]
+    Defined but not used: ‘file’
+   |
+50 | adjacent file n y@Comment     (x@(Include i f):xs) = x: adjacent f    i     y xs
+   |          ^^^^
+
+src/Language/Preprocessor/Unlit.hs:50:15: warning: [-Wunused-matches]
+    Defined but not used: ‘n’
+   |
+50 | adjacent file n y@Comment     (x@(Include i f):xs) = x: adjacent f    i     y xs
+   |               ^
+
+src/Language/Preprocessor/Unlit.hs:52:10: warning: [-Wunused-matches]
+    Defined but not used: ‘file’
+   |
+52 | adjacent file n y@Blank       (x@(Include i f):xs) = x: adjacent f    i     y xs
+   |          ^^^^
+
+src/Language/Preprocessor/Unlit.hs:52:15: warning: [-Wunused-matches]
+    Defined but not used: ‘n’
+   |
+52 | adjacent file n y@Blank       (x@(Include i f):xs) = x: adjacent f    i     y xs
+   |               ^
+
+src/Language/Preprocessor/Unlit.hs:54:34: warning: [-Wunused-matches]
+    Defined but not used: ‘next’
+   |
+54 | adjacent file n _             (x@next         :xs) = x: adjacent file (n+1) x xs
+   |                                  ^^^^
+
+src/Language/Preprocessor/Unlit.hs:55:10: warning: [-Wunused-matches]
+    Defined but not used: ‘file’
+   |
+55 | adjacent file n _             []                   = []
+   |          ^^^^
+
+src/Language/Preprocessor/Unlit.hs:55:15: warning: [-Wunused-matches]
+    Defined but not used: ‘n’
+   |
+55 | adjacent file n _             []                   = []
+   |               ^
+
+src/Language/Preprocessor/Unlit.hs:69:22: warning: [-Wname-shadowing]
+    This binding for ‘s’ shadows the existing binding
+      bound at src/Language/Preprocessor/Unlit.hs:66:9
+   |
+69 |   lines' ('\^M':'\n':s) acc = acc [] : lines' s id      -- DOS
+   |                      ^
+
+src/Language/Preprocessor/Unlit.hs:70:17: warning: [-Wname-shadowing]
+    This binding for ‘s’ shadows the existing binding
+      bound at src/Language/Preprocessor/Unlit.hs:66:9
+   |
+70 |   lines' ('\^M':s)      acc = acc [] : lines' s id      -- MacOS
+   |                 ^
+
+src/Language/Preprocessor/Unlit.hs:71:16: warning: [-Wname-shadowing]
+    This binding for ‘s’ shadows the existing binding
+      bound at src/Language/Preprocessor/Unlit.hs:66:9
+   |
+71 |   lines' ('\n':s)       acc = acc [] : lines' s id      -- Unix
+   |                ^
+
+src/Language/Preprocessor/Unlit.hs:72:13: warning: [-Wname-shadowing]
+    This binding for ‘s’ shadows the existing binding
+      bound at src/Language/Preprocessor/Unlit.hs:66:9
+   |
+72 |   lines' (c:s)          acc = lines' s (acc . (c:))
+   |             ^
+Haddock coverage:
+  65% ( 13 / 20) in 'Language.Haskell.Exts.Extension'
+  Missing documentation for:
+    Language (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_3.hscpp:178)
+    knownLanguages (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_3.hscpp:197)
+    classifyLanguage (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_3.hscpp:200)
+    prettyLanguage (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_3.hscpp:206)
+    KnownExtension (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_3.hscpp:227)
+    ghcDefault (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_3.hscpp:721)
+    toExtensionList (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_3.hscpp:800)
+  91% ( 21 / 23) in 'Language.Haskell.Exts.SrcLoc'
+  Missing documentation for:
+    noLoc (src/Language/Haskell/Exts/SrcLoc.hs:34)
+    spanSize (src/Language/Haskell/Exts/SrcLoc.hs:82)
+  66% ( 99 /150) in 'Language.Haskell.Exts.Syntax'
+  Missing documentation for:
+    PatternSynDirection (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:434)
+    ResultSig (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:477)
+    Unpackedness (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:690)
+    Role (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:461)
+    MaybePromotedName (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:739)
+    prelude_mod (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:1104)
+    main_mod (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:1104)
+    main_name (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:1108)
+    unit_con_name (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:1111)
+    tuple_con_name (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:1114)
+    list_cons_name (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:1117)
+    unboxed_singleton_con_name (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:1120)
+    unit_con (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:1123)
+    tuple_con (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:1126)
+    unboxed_singleton_con (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:1129)
+    as_name (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:1132)
+    qualified_name (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:1132)
+    hiding_name (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:1132)
+    minus_name (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:1132)
+    bang_name (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:1132)
+    dot_name (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:1132)
+    star_name (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:1132)
+    export_name (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:1144)
+    safe_name (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:1144)
+    unsafe_name (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:1144)
+    interruptible_name (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:1144)
+    threadsafe_name (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:1144)
+    stdcall_name (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:1144)
+    ccall_name (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:1144)
+    cplusplus_name (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:1144)
+    dotnet_name (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:1144)
+    jvm_name (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:1144)
+    js_name (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:1144)
+    javascript_name (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:1144)
+    capi_name (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:1144)
+    forall_name (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:1144)
+    family_name (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:1144)
+    role_name (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:1144)
+    hole_name (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:1141)
+    stock_name (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:1144)
+    anyclass_name (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:1144)
+    unit_tycon_name (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:1167)
+    fun_tycon_name (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:1167)
+    list_tycon_name (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:1167)
+    tuple_tycon_name (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:1173)
+    unboxed_singleton_tycon_name (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:1167)
+    unit_tycon (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:1176)
+    fun_tycon (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:1176)
+    list_tycon (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:1176)
+    tuple_tycon (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:1182)
+    unboxed_singleton_tycon (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_5.hscpp:1176)
+  94% ( 17 / 18) in 'Language.Haskell.Exts.Pretty'
+  Missing documentation for:
+    Indent (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_1.hscpp:150)
+  75% (  9 / 12) in 'Language.Haskell.Exts.Fixity'
+  Missing documentation for:
+    infix_ (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_7.hscpp:274)
+    infixl_ (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_7.hscpp:274)
+    infixr_ (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_7.hscpp:274)
+ 100% (  4 /  4) in 'Language.Haskell.Exts.Comments'
+  67% (  4 /  6) in 'Language.Haskell.Exts.Lexer'
+  Missing documentation for:
+    Token (src/Language/Haskell/Exts/InternalLexer.hs:37)
+    showToken (src/Language/Haskell/Exts/InternalLexer.hs:1289)
+  93% ( 42 / 45) in 'Language.Haskell.Exts.Parser'
+  Missing documentation for:
+    unListOf (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_11.hscpp:341)
+    PragmasAndModuleHead (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_11.hscpp:284)
+    ModuleHeadAndImports (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_11.hscpp:304)
+  67% (  2 /  3) in 'Language.Haskell.Exts.ExactPrint'
+  Missing documentation for:
+    ExactP (/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/ghc9432_0/ghc_9.hscpp:312)
+ 100% ( 49 / 49) in 'Language.Haskell.Exts.Build'
+  88% ( 23 / 26) in 'Language.Haskell.Exts'
+  Missing documentation for:
+    Token (src/Language/Haskell/Exts/InternalLexer.hs:37)
+    parseFileWithComments (src/Language/Haskell/Exts.hs:74)
+    parseFileContentsWithComments (src/Language/Haskell/Exts.hs:115)
+Warning: Language.Haskell.Exts.SrcLoc: could not find link destinations for:
+    pretty Doc prettyPrec parser P
+Warning: Language.Haskell.Exts.Syntax: could not find link destinations for:
+    exactP EP pretty Doc prettyPrec parser P
+Warning: Language.Haskell.Exts.Pretty: could not find link destinations for:
+    pretty Doc prettyPrec
+Warning: Language.Haskell.Exts.Parser: could not find link destinations for:
+    parser P
+Warning: Language.Haskell.Exts.ExactPrint: could not find link destinations for:
+    exactP EP
+Documentation created:
+dist/dist-sandbox-4e7c043e/doc/html/haskell-src-exts/index.html
+Installing library in /Users/Bo/Documents/KI/Functioneel_Programmeren/Game/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/haskell-src-exts-1.20.3-KjyAxm84ddk16DoDOnTGLG
+cabal: Leaving directory '/var/folders/dk/92m5_2xx6vl3q127drdvlt_40000gn/T/cabal-tmp-1021/haskell-src-exts-1.20.3'
